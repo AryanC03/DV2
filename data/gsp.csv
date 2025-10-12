@@ -1,0 +1,281 @@
+State,Year,GSP_ChainVolume,GSP_Indexed,GSPGrowthPercent
+New South Wales,1990,355417,69.83,
+New South Wales,1991,356997,70.15,0.44
+New South Wales,1992,357655,70.27,0.18
+New South Wales,1993,367696,72.25,2.81
+New South Wales,1994,381287,74.92,3.7
+New South Wales,1995,395289,77.67,3.67
+New South Wales,1996,410531,80.66,3.86
+New South Wales,1997,423993,83.31,3.28
+New South Wales,1998,439674,86.39,3.7
+New South Wales,1999,460885,90.56,4.82
+New South Wales,2000,481160,94.54,4.4
+New South Wales,2001,489472,96.17,1.73
+New South Wales,2002,498568,97.96,1.86
+New South Wales,2003,508940,100,2.08
+New South Wales,2004,522994,102.76,2.76
+New South Wales,2005,529990,104.14,1.34
+New South Wales,2006,536547,105.42,1.24
+New South Wales,2007,545684,107.22,1.7
+New South Wales,2008,556971,109.44,2.07
+New South Wales,2009,565021,111.02,1.45
+New South Wales,2010,573992,112.78,1.59
+New South Wales,2011,585563,115.06,2.02
+New South Wales,2012,599743,117.84,2.42
+New South Wales,2013,612934,120.43,2.2
+New South Wales,2014,627192,123.23,2.33
+New South Wales,2015,644357,126.61,2.74
+New South Wales,2016,668132,131.28,3.69
+New South Wales,2017,684947,134.58,2.52
+New South Wales,2018,700211,137.58,2.23
+New South Wales,2019,718307,141.14,2.58
+New South Wales,2020,713775,140.25,-0.63
+New South Wales,2021,729880,143.41,2.26
+New South Wales,2022,748036,146.98,2.49
+New South Wales,2023,779136,153.09,4.16
+New South Wales,2024,788608,154.95,1.22
+Victoria,1990,228653,68.05,
+Victoria,1991,222780,66.3,-2.57
+Victoria,1992,219638,65.36,-1.41
+Victoria,1993,230603,68.63,4.99
+Victoria,1994,238404,70.95,3.38
+Victoria,1995,245779,73.14,3.09
+Victoria,1996,254326,75.69,3.48
+Victoria,1997,265492,79.01,4.39
+Victoria,1998,281206,83.68,5.92
+Victoria,1999,299029,88.99,6.34
+Victoria,2000,309134,92,3.38
+Victoria,2001,315025,93.75,1.91
+Victoria,2002,327153,97.36,3.85
+Victoria,2003,336030,100,2.71
+Victoria,2004,348607,103.74,3.74
+Victoria,2005,363327,108.12,4.22
+Victoria,2006,371528,110.56,2.26
+Victoria,2007,382400,113.8,2.93
+Victoria,2008,396119,117.88,3.59
+Victoria,2009,403737,120.15,1.92
+Victoria,2010,407955,121.4,1.04
+Victoria,2011,419456,124.83,2.82
+Victoria,2012,429611,127.85,2.42
+Victoria,2013,433803,129.1,0.98
+Victoria,2014,443404,131.95,2.21
+Victoria,2015,455819,135.65,2.8
+Victoria,2016,471473,140.31,3.43
+Victoria,2017,489153,145.57,3.75
+Victoria,2018,505683,150.49,3.38
+Victoria,2019,521019,155.05,3.03
+Victoria,2020,519550,154.61,-0.28
+Victoria,2021,518478,154.3,-0.21
+Victoria,2022,553447,164.7,6.74
+Victoria,2023,572229,170.29,3.39
+Victoria,2024,580918,172.88,1.52
+Queensland,1990,152974,56.88,
+Queensland,1991,153137,56.94,0.11
+Queensland,1992,158414,58.91,3.45
+Queensland,1993,168346,62.6,6.27
+Queensland,1994,176747,65.72,4.99
+Queensland,1995,186979,69.53,5.79
+Queensland,1996,193240,71.86,3.35
+Queensland,1997,203578,75.7,5.35
+Queensland,1998,211776,78.75,4.03
+Queensland,1999,224303,83.41,5.92
+Queensland,2000,234763,87.3,4.66
+Queensland,2001,241747,89.89,2.97
+Queensland,2002,257096,95.6,6.35
+Queensland,2003,268924,100,4.6
+Queensland,2004,286854,106.67,6.67
+Queensland,2005,302144,112.35,5.33
+Queensland,2006,317737,118.15,5.16
+Queensland,2007,339118,126.1,6.73
+Queensland,2008,355192,132.08,4.74
+Queensland,2009,359964,133.85,1.34
+Queensland,2010,367445,136.64,2.08
+Queensland,2011,370579,137.8,0.85
+Queensland,2012,392179,145.83,5.83
+Queensland,2013,403356,149.99,2.85
+Queensland,2014,411357,152.96,1.98
+Queensland,2015,414813,154.25,0.84
+Queensland,2016,424670,157.91,2.38
+Queensland,2017,435819,162.06,2.63
+Queensland,2018,453132,168.5,3.97
+Queensland,2019,457358,170.07,0.93
+Queensland,2020,453184,168.52,-0.91
+Queensland,2021,465842,173.22,2.79
+Queensland,2022,491685,182.83,5.55
+Queensland,2023,505231,187.87,2.76
+Queensland,2024,515895,191.84,2.11
+South Australia,1990,66090,71.4,
+South Australia,1991,65854,71.15,-0.36
+South Australia,1992,64713,69.91,-1.73
+South Australia,1993,66454,71.79,2.69
+South Australia,1994,68280,73.77,2.75
+South Australia,1995,69250,74.81,1.42
+South Australia,1996,72041,77.83,4.03
+South Australia,1997,74801,80.81,3.83
+South Australia,1998,78921,85.26,5.51
+South Australia,1999,80558,87.03,2.07
+South Australia,2000,83414,90.12,3.55
+South Australia,2001,85930,92.83,3.02
+South Australia,2002,90172,97.42,4.94
+South Australia,2003,92563,100,2.65
+South Australia,2004,95609,103.29,3.29
+South Australia,2005,97625,105.47,2.11
+South Australia,2006,98964,106.92,1.37
+South Australia,2007,100762,108.86,1.82
+South Australia,2008,105443,113.91,4.65
+South Australia,2009,108325,117.03,2.73
+South Australia,2010,110626,119.51,2.12
+South Australia,2011,113021,122.1,2.16
+South Australia,2012,114202,123.38,1.04
+South Australia,2013,115052,124.3,0.74
+South Australia,2014,115486,124.76,0.38
+South Australia,2015,116776,126.16,1.12
+South Australia,2016,117424,126.86,0.55
+South Australia,2017,119600,129.21,1.85
+South Australia,2018,122261,132.08,2.22
+South Australia,2019,123719,133.66,1.19
+South Australia,2020,122756,132.62,-0.78
+South Australia,2021,128644,138.98,4.8
+South Australia,2022,135616,146.51,5.42
+South Australia,2023,140499,151.79,3.6
+South Australia,2024,142175,153.6,1.19
+Western Australia,1990,121208,58.02,
+Western Australia,1991,121935,58.37,0.6
+Western Australia,1992,125920,60.28,3.27
+Western Australia,1993,131741,63.06,4.62
+Western Australia,1994,140727,67.37,6.82
+Western Australia,1995,148579,71.12,5.58
+Western Australia,1996,157339,75.32,5.9
+Western Australia,1997,162770,77.92,3.45
+Western Australia,1998,171901,82.29,5.61
+Western Australia,1999,177118,84.79,3.03
+Western Australia,2000,184412,88.28,4.12
+Western Australia,2001,186155,89.11,0.95
+Western Australia,2002,198525,95.03,6.65
+Western Australia,2003,208899,100,5.23
+Western Australia,2004,224117,107.28,7.28
+Western Australia,2005,232454,111.28,3.72
+Western Australia,2006,243947,116.78,4.94
+Western Australia,2007,260124,124.52,6.63
+Western Australia,2008,273552,130.95,5.16
+Western Australia,2009,280022,134.05,2.37
+Western Australia,2010,296753,142.06,5.97
+Western Australia,2011,310631,148.7,4.68
+Western Australia,2012,336345,161.01,8.28
+Western Australia,2013,356612,170.71,6.03
+Western Australia,2014,377118,180.53,5.75
+Western Australia,2015,385677,184.62,2.27
+Western Australia,2016,389665,186.53,1.03
+Western Australia,2017,385613,184.59,-1.04
+Western Australia,2018,394086,188.65,2.2
+Western Australia,2019,400564,191.75,1.64
+Western Australia,2020,406019,194.36,1.36
+Western Australia,2021,419770,200.94,3.39
+Western Australia,2022,430325,206,2.51
+Western Australia,2023,446066,213.53,3.66
+Western Australia,2024,448207,214.56,0.48
+Tasmania,1990,18254,74.63,
+Tasmania,1991,18245,74.6,-0.05
+Tasmania,1992,18730,76.58,2.66
+Tasmania,1993,19319,78.99,3.14
+Tasmania,1994,19712,80.6,2.03
+Tasmania,1995,20238,82.75,2.67
+Tasmania,1996,20996,85.85,3.75
+Tasmania,1997,21340,87.25,1.64
+Tasmania,1998,22142,90.53,3.76
+Tasmania,1999,22645,92.59,2.27
+Tasmania,2000,22756,93.04,0.49
+Tasmania,2001,22541,92.16,-0.94
+Tasmania,2002,23719,96.98,5.23
+Tasmania,2003,24458,100,3.12
+Tasmania,2004,25727,105.19,5.19
+Tasmania,2005,26364,107.79,2.48
+Tasmania,2006,27461,112.28,4.16
+Tasmania,2007,28203,115.31,2.7
+Tasmania,2008,29397,120.19,4.23
+Tasmania,2009,30216,123.54,2.79
+Tasmania,2010,30516,124.77,0.99
+Tasmania,2011,31257,127.8,2.43
+Tasmania,2012,31892,130.39,2.03
+Tasmania,2013,31704,129.63,-0.59
+Tasmania,2014,32164,131.51,1.45
+Tasmania,2015,32499,132.88,1.04
+Tasmania,2016,33053,135.14,1.7
+Tasmania,2017,33425,136.66,1.13
+Tasmania,2018,34622,141.56,3.58
+Tasmania,2019,35939,146.94,3.8
+Tasmania,2020,36051,147.4,0.31
+Tasmania,2021,37629,153.85,4.38
+Tasmania,2022,39310,160.72,4.47
+Tasmania,2023,40067,163.82,1.93
+Tasmania,2024,40620,166.08,1.38
+Northern Territory,1990,12414,65.53,
+Northern Territory,1991,12753,67.32,2.73
+Northern Territory,1992,12372,65.31,-2.99
+Northern Territory,1993,12399,65.45,0.22
+Northern Territory,1994,12202,64.41,-1.59
+Northern Territory,1995,12820,67.68,5.06
+Northern Territory,1996,13852,73.12,8.05
+Northern Territory,1997,14147,74.68,2.13
+Northern Territory,1998,15109,79.76,6.8
+Northern Territory,1999,16833,88.86,11.41
+Northern Territory,2000,16642,87.85,-1.13
+Northern Territory,2001,17353,91.61,4.27
+Northern Territory,2002,18780,99.14,8.22
+Northern Territory,2003,18943,100,0.87
+Northern Territory,2004,19083,100.74,0.74
+Northern Territory,2005,19947,105.3,4.53
+Northern Territory,2006,21224,112.04,6.4
+Northern Territory,2007,23807,125.68,12.17
+Northern Territory,2008,24068,127.05,1.1
+Northern Territory,2009,26121,137.89,8.53
+Northern Territory,2010,26003,137.27,-0.45
+Northern Territory,2011,26592,140.38,2.27
+Northern Territory,2012,27595,145.67,3.77
+Northern Territory,2013,29523,155.85,6.99
+Northern Territory,2014,29903,157.86,1.29
+Northern Territory,2015,30326,160.09,1.41
+Northern Territory,2016,30923,163.24,1.97
+Northern Territory,2017,31367,165.59,1.44
+Northern Territory,2018,31951,168.67,1.86
+Northern Territory,2019,31638,167.02,-0.98
+Northern Territory,2020,33562,177.17,6.08
+Northern Territory,2021,33082,174.64,-1.43
+Northern Territory,2022,34863,184.04,5.38
+Northern Territory,2023,33059,174.52,-5.17
+Northern Territory,2024,34581,182.55,4.6
+Australian Capital Territory,1990,16139,64.77,
+Australian Capital Territory,1991,16541,66.38,2.49
+Australian Capital Territory,1992,16613,66.67,0.44
+Australian Capital Territory,1993,17252,69.24,3.85
+Australian Capital Territory,1994,17999,72.24,4.33
+Australian Capital Territory,1995,18688,75,3.83
+Australian Capital Territory,1996,18662,74.9,-0.14
+Australian Capital Territory,1997,19413,77.91,4.02
+Australian Capital Territory,1998,20147,80.86,3.78
+Australian Capital Territory,1999,21334,85.62,5.89
+Australian Capital Territory,2000,21859,87.73,2.46
+Australian Capital Territory,2001,22997,92.29,5.21
+Australian Capital Territory,2002,23822,95.61,3.59
+Australian Capital Territory,2003,24917,100,4.6
+Australian Capital Territory,2004,25717,103.21,3.21
+Australian Capital Territory,2005,26563,106.61,3.29
+Australian Capital Territory,2006,27248,109.36,2.58
+Australian Capital Territory,2007,28918,116.06,6.13
+Australian Capital Territory,2008,30259,121.44,4.64
+Australian Capital Territory,2009,31098,124.81,2.77
+Australian Capital Territory,2010,32518,130.51,4.57
+Australian Capital Territory,2011,33489,134.4,2.99
+Australian Capital Territory,2012,34928,140.18,4.3
+Australian Capital Territory,2013,36117,144.95,3.4
+Australian Capital Territory,2014,36228,145.39,0.31
+Australian Capital Territory,2015,37298,149.69,2.95
+Australian Capital Territory,2016,39084,156.86,4.79
+Australian Capital Territory,2017,40713,163.39,4.17
+Australian Capital Territory,2018,42387,170.11,4.11
+Australian Capital Territory,2019,44105,177.01,4.05
+Australian Capital Territory,2020,45839,183.97,3.93
+Australian Capital Territory,2021,47651,191.24,3.95
+Australian Capital Territory,2022,48916,196.32,2.65
+Australian Capital Territory,2023,51226,205.59,4.72
+Australian Capital Territory,2024,53253,213.72,3.96

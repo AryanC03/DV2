@@ -1,0 +1,209 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "autosize": {
+    "type": "fit-x",
+    "contains": "padding"
+  },
+  "width": "container",
+  "height": 600,
+  "title": "Major Disaster Events in Australia",
+  "params": [
+    {
+      "name": "Zoom",
+      "value": 750,
+      "bind": {
+        "input": "range",
+        "min": 400,
+        "max": 4000,
+        "step": 50
+      }
+    },
+    {
+      "name": "DisasterType",
+      "value": "All",
+      "bind": {
+        "input": "select",
+        "options": [
+          "All",
+          "Bushfire",
+          "Cyclone",
+          "Earthquake",
+          "Flood",
+          "Storm"
+        ]
+      }
+    },
+    {
+      "name": "centre_to",
+      "value": [133, -27],
+      "bind": {
+        "input": "select",
+        "options": [
+          [143, -37], 
+          [147, -31], 
+          [138, -34], 
+          [121, -25], 
+          [130, -20], 
+          [133, -27], 
+          [153, -28],
+          [149, -35], 
+          [146, -42]
+        ],
+        "labels": [
+          "Victoria",
+          "New South Wales",
+          "South Australia",
+          "Western Australia",
+          "Northern Territory",
+          "Australia",
+          "Queensland",
+          "ACT",
+          "Tasmania"
+        ],
+        "name": "Centre map to"
+      }
+    }
+  ],
+  "projection": {
+    "type": "mercator",
+    "center": {"expr": "centre_to"},
+    "scale": {
+      "expr": "Zoom"
+    }
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "data/au.json",
+        "format": {
+          "type": "topojson",
+          "feature": "au"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#cebbbb",
+        "stroke": "#000000",
+        "strokeWidth": 0.8
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/oceans.topojson",
+        "format": {
+          "type": "topojson",
+          "feature": "oceans"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "skyblue"
+      }
+    },
+    {
+      "data": {
+        "url": "data/disasters.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "Latitude": "number",
+            "Longitude": "number",
+            "Fatalities": "number",
+            "Injuries": "number",
+            "InsuredCostMillions": "number",
+            "Year": "number",
+            "Month": "number"
+          }
+        }
+      },
+      "transform": [
+        {
+          "calculate": "datum.Fatalities != null ? datum.Fatalities : (datum.Injuries != null ? datum.Injuries : (datum.InsuredCostMillions != null ? datum.InsuredCostMillions / 1000000 : 1))",
+          "as": "Impact"
+        },
+        {
+          "filter": "isValid(datum.Latitude) && isValid(datum.Longitude)"
+        },
+        {
+          "filter": "isValid(datum.Impact)"
+        },
+        {
+          "filter": "DisasterType == 'All' || datum.DisasterType == DisasterType"
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "opacity": 0.8,
+        "stroke": "#ffffff",
+        "strokeWidth": 0.5
+      },
+      "encoding": {
+        "longitude": {
+          "field": "Longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "Latitude",
+          "type": "quantitative"
+        },
+        "size": {
+          "field": "Impact",
+          "type": "quantitative",
+          "title": "Impact score",
+          "scale": {
+            "range": [
+              40,
+              400
+            ]
+          }
+        },
+        "color": {
+          "field": "DisasterType",
+          "type": "nominal",
+          "title": "Disaster type"
+        },
+        "tooltip": [
+          {
+            "field": "EventName",
+            "type": "nominal",
+            "title": "Event"
+          },
+          {
+            "field": "City",
+            "type": "nominal"
+          },
+          {
+            "field": "State",
+            "type": "nominal"
+          },
+          {
+            "field": "DisasterType",
+            "type": "nominal",
+            "title": "Type"
+          },
+          {
+            "field": "Year",
+            "type": "quantitative"
+          },
+          {
+            "field": "Month",
+            "type": "quantitative"
+          },
+          {
+            "field": "Fatalities",
+            "type": "quantitative"
+          },
+          {
+            "field": "Injuries",
+            "type": "quantitative"
+          },
+          {
+            "field": "InsuredCostMillions",
+            "type": "quantitative",
+            "title": "Insured cost (millions)"
+          }
+        ]
+      }
+    }
+  ]
+}

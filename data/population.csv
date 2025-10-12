@@ -1,0 +1,281 @@
+State,Year,Population
+Australian Capital Territory,1992,216084
+Australian Capital Territory,1993,221361
+Australian Capital Territory,1994,226251
+Australian Capital Territory,1995,229453
+Australian Capital Territory,1996,233391
+Australian Capital Territory,1997,237016
+Australian Capital Territory,1998,238330
+Australian Capital Territory,1999,240489
+Australian Capital Territory,2000,243690
+Australian Capital Territory,2001,247398
+Australian Capital Territory,2002,251727
+Australian Capital Territory,2003,255266
+Australian Capital Territory,2004,258621
+Australian Capital Territory,2005,261200
+Australian Capital Territory,2006,264408
+Australian Capital Territory,2007,268451
+Australian Capital Territory,2008,274699
+Australian Capital Territory,2009,280159
+Australian Capital Territory,2010,285491
+Australian Capital Territory,2011,291280
+Australian Capital Territory,2012,296405
+Australian Capital Territory,2013,303462
+Australian Capital Territory,2014,308193
+Australian Capital Territory,2015,312125
+Australian Capital Territory,2016,317182
+Australian Capital Territory,2017,322657
+Australian Capital Territory,2018,332103
+Australian Capital Territory,2019,341230
+Australian Capital Territory,2020,349545
+Australian Capital Territory,2021,356595
+Australian Capital Territory,2022,363648
+Australian Capital Territory,2023,372927
+Australian Capital Territory,2024,382924
+Australian Capital Territory,2025,389782
+Australian Capital Territory,2026,396404
+New South Wales,1992,4610428
+New South Wales,1993,4658013
+New South Wales,1994,4692246
+New South Wales,1995,4737918
+New South Wales,1996,4792831
+New South Wales,1997,4857986
+New South Wales,1998,4918846
+New South Wales,1999,4976193
+New South Wales,2000,5040162
+New South Wales,2001,5107731
+New South Wales,2002,5184065
+New South Wales,2003,5236619
+New South Wales,2004,5279587
+New South Wales,2005,5315985
+New South Wales,2006,5362654
+New South Wales,2007,5414936
+New South Wales,2008,5498935
+New South Wales,2009,5598650
+New South Wales,2010,5693797
+New South Wales,2011,5770899
+New South Wales,2012,5837344
+New South Wales,2013,5910860
+New South Wales,2014,5995337
+New South Wales,2015,6082615
+New South Wales,2016,6172896
+New South Wales,2017,6271212
+New South Wales,2018,6375430
+New South Wales,2019,6465134
+New South Wales,2020,6545584
+New South Wales,2021,6594290
+New South Wales,2022,6585389
+New South Wales,2023,6680588
+New South Wales,2024,6858203
+New South Wales,2025,6989743
+New South Wales,2026,7104399
+Northern Territory,1992,112962
+Northern Territory,1993,115259
+Northern Territory,1994,118356
+Northern Territory,1995,121026
+Northern Territory,1996,125176
+Northern Territory,1997,129287
+Northern Territory,1998,133627
+Northern Territory,1999,136555
+Northern Territory,2000,139668
+Northern Territory,2001,142669
+Northern Territory,2002,144679
+Northern Territory,2003,145572
+Northern Territory,2004,145419
+Northern Territory,2005,146717
+Northern Territory,2006,149945
+Northern Territory,2007,153295
+Northern Territory,2008,157575
+Northern Territory,2009,163105
+Northern Territory,2010,168116
+Northern Territory,2011,171485
+Northern Territory,2012,173165
+Northern Territory,2013,178025
+Northern Territory,2014,183055
+Northern Territory,2015,184565
+Northern Territory,2016,186362
+Northern Territory,2017,187465
+Northern Territory,2018,188805
+Northern Territory,2019,189084
+Northern Territory,2020,189059
+Northern Territory,2021,190203
+Northern Territory,2022,191509
+Northern Territory,2023,196077
+Northern Territory,2024,200605
+Northern Territory,2025,203656
+Northern Territory,2026,207087
+Queensland,1992,2276222
+Queensland,1993,2330049
+Queensland,1994,2391819
+Queensland,1995,2450351
+Queensland,1996,2509515
+Queensland,1997,2564932
+Queensland,1998,2611207
+Queensland,1999,2655593
+Queensland,2000,2699525
+Queensland,2001,2748819
+Queensland,2002,2803584
+Queensland,2003,2875728
+Queensland,2004,2953419
+Queensland,2005,3028588
+Queensland,2006,3105541
+Queensland,2007,3183999
+Queensland,2008,3270206
+Queensland,2009,3360672
+Queensland,2010,3448612
+Queensland,2011,3512434
+Queensland,2012,3573903
+Queensland,2013,3649739
+Queensland,2014,3717526
+Queensland,2015,3771900
+Queensland,2016,3820703
+Queensland,2017,3879272
+Queensland,2018,3948766
+Queensland,2019,4018174
+Queensland,2020,4091335
+Queensland,2021,4159520
+Queensland,2022,4214260
+Queensland,2023,4309823
+Queensland,2024,4447028
+Queensland,2025,4561240
+Queensland,2026,4663081
+South Australia,1992,1144381
+South Australia,1993,1152260
+South Australia,1994,1155886
+South Australia,1995,1160343
+South Australia,1996,1163125
+South Australia,1997,1168084
+South Australia,1998,1175796
+South Australia,1999,1184756
+South Australia,2000,1194255
+South Australia,2001,1203047
+South Australia,2002,1211348
+South Australia,2003,1220960
+South Australia,2004,1231042
+South Australia,2005,1240766
+South Australia,2006,1252755
+South Australia,2007,1266893
+South Australia,2008,1283411
+South Australia,2009,1300282
+South Australia,2010,1318747
+South Australia,2011,1334951
+South Australia,2012,1346496
+South Australia,2013,1360028
+South Australia,2014,1372239
+South Australia,2015,1384693
+South Australia,2016,1396043
+South Australia,2017,1405634
+South Australia,2018,1419850
+South Australia,2019,1436072
+South Australia,2020,1455533
+South Australia,2021,1475660
+South Australia,2022,1487670
+South Australia,2023,1511851
+South Australia,2024,1544091
+South Australia,2025,1568259
+South Australia,2026,1590689
+Tasmania,1992,358897
+Tasmania,1993,361921
+Tasmania,1994,364338
+Tasmania,1995,366207
+Tasmania,1996,367587
+Tasmania,1997,369300
+Tasmania,1998,370130
+Tasmania,1999,370698
+Tasmania,2000,371452
+Tasmania,2001,372855
+Tasmania,2002,374077
+Tasmania,2003,376168
+Tasmania,2004,381192
+Tasmania,2005,385989
+Tasmania,2006,389505
+Tasmania,2007,393081
+Tasmania,2008,397013
+Tasmania,2009,402046
+Tasmania,2010,407403
+Tasmania,2011,412221
+Tasmania,2012,415524
+Tasmania,2013,416555
+Tasmania,2014,417624
+Tasmania,2015,419622
+Tasmania,2016,421885
+Tasmania,2017,424762
+Tasmania,2018,433740
+Tasmania,2019,443684
+Tasmania,2020,453018
+Tasmania,2021,462323
+Tasmania,2022,471649
+Tasmania,2023,477239
+Tasmania,2024,479580
+Tasmania,2025,482036
+Tasmania,2026,484483
+Victoria,1992,3472997
+Victoria,1993,3498597
+Victoria,1994,3512481
+Victoria,1995,3526102
+Victoria,1996,3551127
+Victoria,1997,3588566
+Victoria,1998,3621885
+Victoria,1999,3658686
+Victoria,2000,3702869
+Victoria,2001,3752561
+Victoria,2002,3808585
+Victoria,2003,3860824
+Victoria,2004,3916564
+Victoria,2005,3969512
+Victoria,2006,4030305
+Victoria,2007,4099626
+Victoria,2008,4182694
+Victoria,2009,4275815
+Victoria,2010,4378212
+Victoria,2011,4454043
+Victoria,2012,4523747
+Victoria,2013,4617377
+Victoria,2014,4715920
+Victoria,2015,4813939
+Victoria,2016,4917887
+Victoria,2017,5036568
+Victoria,2018,5143736
+Victoria,2019,5247451
+Victoria,2020,5346929
+Victoria,2021,5401518
+Victoria,2022,5348190
+Victoria,2023,5427825
+Victoria,2024,5602354
+Victoria,2025,5740296
+Victoria,2026,5861280
+Western Australia,1992,1253422
+Western Australia,1993,1273372
+Western Australia,1994,1292607
+Western Australia,1995,1316687
+Western Australia,1996,1344250
+Western Australia,1997,1372658
+Western Australia,1998,1399720
+Western Australia,1999,1426282
+Western Australia,2000,1451535
+Western Australia,2001,1475364
+Western Australia,2002,1501774
+Western Australia,2003,1525002
+Western Australia,2004,1550285
+Western Australia,2005,1576664
+Western Australia,2006,1607102
+Western Australia,2007,1642554
+Western Australia,2008,1690148
+Western Australia,2009,1746912
+Western Australia,2010,1802700
+Western Australia,2011,1846526
+Western Australia,2012,1901034
+Western Australia,2013,1960580
+Western Australia,2014,2007358
+Western Australia,2015,2029962
+Western Australia,2016,2046624
+Western Australia,2017,2057920
+Western Australia,2018,2079897
+Western Australia,2019,2105539
+Western Australia,2020,2141574
+Western Australia,2021,2185799
+Western Australia,2022,2217330
+Western Australia,2023,2264817
+Western Australia,2024,2358226
+Western Australia,2025,2437245
+Western Australia,2026,2504050

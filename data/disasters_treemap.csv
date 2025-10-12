@@ -1,0 +1,39 @@
+id,parent,size,DisasterType,State
+All Disasters,,270,,
+Bushfire,All Disasters,67,Bushfire,
+Cyclone,All Disasters,44,Cyclone,
+Earthquake,All Disasters,6,Earthquake,
+Flood,All Disasters,83,Flood,
+Storm,All Disasters,70,Storm,
+Bushfire | Australian Capital Territory,Bushfire,8,Bushfire,Australian Capital Territory
+Bushfire | New South Wales,Bushfire,11,Bushfire,New South Wales
+Bushfire | Northern Territory,Bushfire,8,Bushfire,Northern Territory
+Bushfire | Queensland,Bushfire,2,Bushfire,Queensland
+Bushfire | South Australia,Bushfire,8,Bushfire,South Australia
+Bushfire | Tasmania,Bushfire,2,Bushfire,Tasmania
+Bushfire | Victoria,Bushfire,21,Bushfire,Victoria
+Bushfire | Western Australia,Bushfire,7,Bushfire,Western Australia
+Cyclone | New South Wales,Cyclone,5,Cyclone,New South Wales
+Cyclone | Northern Territory,Cyclone,6,Cyclone,Northern Territory
+Cyclone | Queensland,Cyclone,18,Cyclone,Queensland
+Cyclone | Unknown,Cyclone,1,Cyclone,Unknown
+Cyclone | Western Australia,Cyclone,14,Cyclone,Western Australia
+Earthquake | Australian Capital Territory,Earthquake,1,Earthquake,Australian Capital Territory
+Earthquake | Northern Territory,Earthquake,1,Earthquake,Northern Territory
+Earthquake | Victoria,Earthquake,1,Earthquake,Victoria
+Earthquake | Western Australia,Earthquake,3,Earthquake,Western Australia
+Flood | Australian Capital Territory,Flood,12,Flood,Australian Capital Territory
+Flood | New South Wales,Flood,22,Flood,New South Wales
+Flood | Northern Territory,Flood,8,Flood,Northern Territory
+Flood | Queensland,Flood,20,Flood,Queensland
+Flood | South Australia,Flood,3,Flood,South Australia
+Flood | Tasmania,Flood,3,Flood,Tasmania
+Flood | Victoria,Flood,10,Flood,Victoria
+Flood | Western Australia,Flood,5,Flood,Western Australia
+Storm | Australian Capital Territory,Storm,22,Storm,Australian Capital Territory
+Storm | New South Wales,Storm,21,Storm,New South Wales
+Storm | Northern Territory,Storm,5,Storm,Northern Territory
+Storm | Queensland,Storm,5,Storm,Queensland
+Storm | South Australia,Storm,3,Storm,South Australia
+Storm | Victoria,Storm,9,Storm,Victoria
+Storm | Western Australia,Storm,5,Storm,Western Australia

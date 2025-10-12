@@ -1,0 +1,210 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "Treemap of Australian disaster events by type and state.",
+  "width": 840,
+  "height": 560,
+  "padding": 5,
+  "autosize": "none",
+  "signals": [
+    {
+      "name": "selectedState",
+      "value": "Australia",
+      "bind": {
+        "input": "select",
+        "name": "Choose state",
+        "options": [
+          "Australia",
+          "Australian Capital Territory",
+          "New South Wales",
+          "Northern Territory",
+          "Queensland",
+          "South Australia",
+          "Tasmania",
+          "Victoria",
+          "Western Australia"
+        ]
+      }
+    }
+  ],
+  "data": [
+    {
+      "name": "tree",
+      "url": "data/disasters_treemap.csv",
+      "format": {
+        "type": "csv",
+        "parse": {"size": "number"}
+      },
+      "transform": [
+        {
+          "type": "formula",
+          "as": "categoryLabel",
+          "expr": "datum.DisasterType && length(trim(datum.DisasterType)) > 0 ? datum.DisasterType : (datum.id && indexof(datum.id, ' | ') >= 0 ? trim(substring(datum.id, 0, indexof(datum.id, ' | '))) : datum.id)"
+        },
+        {
+          "type": "formula",
+          "as": "stateLabel",
+          "expr": "datum.State && length(trim(datum.State)) > 0 ? datum.State : (datum.id && indexof(datum.id, ' | ') >= 0 ? trim(substring(datum.id, indexof(datum.id, ' | ') + 3)) : datum.id)"
+        },
+        {
+          "type": "filter",
+          "expr": "datum.parent === '' || datum.parent === 'All Disasters' || (selectedState !== 'Australia' && datum.State === selectedState)"
+        },
+        {
+          "type": "formula",
+          "as": "adjustedSize",
+          "expr": "datum.parent === '' ? null : datum.parent === 'All Disasters' ? (selectedState === 'Australia' ? datum.size : null) : datum.size"
+        },
+        {
+          "type": "stratify",
+          "key": "id",
+          "parentKey": "parent"
+        },
+        {
+          "type": "treemap",
+          "field": "adjustedSize",
+          "sort": {"field": "size", "order": "descending"},
+          "round": true,
+          "size": [{"signal": "width"}, {"signal": "height"}],
+          "method": "squarify",
+          "ratio": 1.3
+        }
+      ]
+    },
+    {
+      "name": "nodes",
+      "source": "tree",
+      "transform": [
+        {"type": "filter", "expr": "datum.children"},
+        {
+          "type": "formula",
+          "expr": "datum.name",
+          "as": "label"
+        }
+      ]
+    },
+    {
+      "name": "leaves",
+      "source": "tree",
+      "transform": [
+        {"type": "filter", "expr": "!datum.children"},
+        {
+          "type": "formula",
+          "expr": "datum.data && datum.data.categoryLabel ? datum.data.categoryLabel : (datum.name ? datum.name : 'Unknown')",
+          "as": "category"
+        },
+        {
+          "type": "formula",
+          "expr": "selectedState === 'Australia' ? 'Australia' : (datum.data && datum.data.stateLabel ? datum.data.stateLabel : (datum.name ? datum.name : 'Unknown'))",
+          "as": "state"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.data && isValid(datum.data.adjustedSize) ? datum.data.adjustedSize : (isValid(datum.value) ? datum.value : 0)",
+          "as": "count"
+        },
+        {
+          "type": "formula",
+          "expr": "(datum.x1 - datum.x0) * (datum.y1 - datum.y0)",
+          "as": "area"
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "leaves", "field": "category"},
+      "range": {"scheme": "tableau10"}
+    }
+  ],
+  "marks": [
+    {
+      "type": "rect",
+      "from": {"data": "nodes"},
+      "interactive": false,
+      "encode": {
+        "enter": {
+          "fill": {"value": "#f0f0f0"}
+        },
+        "update": {
+          "x": {"field": "x0"},
+          "y": {"field": "y0"},
+          "x2": {"field": "x1"},
+          "y2": {"field": "y1"},
+          "fillOpacity": {"signal": "datum.depth === 0 ? 0 : 0.25"}
+        }
+      }
+    },
+    {
+      "type": "rect",
+      "from": {"data": "leaves"},
+      "encode": {
+        "enter": {
+          "stroke": {"value": "#fff"},
+          "strokeWidth": {"value": 1}
+        },
+        "update": {
+          "x": {"field": "x0"},
+          "y": {"field": "y0"},
+          "x2": {"field": "x1"},
+          "y2": {"field": "y1"},
+          "fill": {"scale": "color", "field": "category"},
+          "fillOpacity": {"value": 0.95},
+          "tooltip": {
+            "signal": "{'Disaster type': datum.DisasterType, 'State': datum.state, 'Event count': datum.size}"
+          }
+        },
+        "hover": {
+          "stroke": {"value": "#000"},
+          "strokeWidth": {"value": 2},
+          "fillOpacity": {"value": 1}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {"data": "nodes"},
+      "interactive": false,
+      "encode": {
+        "enter": {
+          "font": {"value": "Helvetica Neue, Arial"},
+          "align": {"value": "center"},
+          "baseline": {"value": "middle"},
+          "fill": {"value": "#0b0b0b"},
+          "fontWeight": {"value": "bold"}
+        },
+        "update": {
+          "x": {"signal": "0.5 * (datum.x0 + datum.x1)"},
+          "y": {"signal": "0.5 * (datum.y0 + datum.y1)"},
+          "text": {
+            "signal": "datum.depth === 0 ? '' : datum.label"
+          },
+          "fillOpacity": {"signal": "datum.depth === 1 ? 1 : 0"},
+          "fontSize": {"value": 16}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {"data": "leaves"},
+      "encode": {
+        "enter": {
+          "align": {"value": "center"},
+          "baseline": {"value": "middle"},
+          "fill": {"value": "#111"},
+          "font": {"value": "Helvetica Neue, Arial"}
+        },
+        "update": {
+          "x": {"signal": "0.5 * (datum.x0 + datum.x1)"},
+          "y": {"signal": "0.5 * (datum.y0 + datum.y1)"},
+          "text": {
+            "signal": "datum.area > 2000 ? datum.category + ' (' + datum.count + ')' : ''"
+          },
+          "fontSize": {"value": 12},
+          "fillOpacity": {"value": 0.9}
+        }
+      }
+    }
+  ]
+}
