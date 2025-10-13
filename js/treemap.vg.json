@@ -1,5 +1,5 @@
 {
-  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "$schema": "https://vega.github.io/schema/vega/v6.json",
   "description": "Treemap of Australian disaster events by type and state.",
   "width": 840,
   "height": 560,
@@ -8,22 +8,7 @@
   "signals": [
     {
       "name": "selectedState",
-      "value": "Australia",
-      "bind": {
-        "input": "select",
-        "name": "Choose state",
-        "options": [
-          "Australia",
-          "Australian Capital Territory",
-          "New South Wales",
-          "Northern Territory",
-          "Queensland",
-          "South Australia",
-          "Tasmania",
-          "Victoria",
-          "Western Australia"
-        ]
-      }
+      "value": "Australia"
     }
   ],
   "data": [
@@ -38,12 +23,12 @@
         {
           "type": "formula",
           "as": "categoryLabel",
-          "expr": "datum.DisasterType && length(trim(datum.DisasterType)) > 0 ? datum.DisasterType : (datum.id && indexof(datum.id, ' | ') >= 0 ? trim(substring(datum.id, 0, indexof(datum.id, ' | '))) : datum.id)"
+          "expr": "datum.DisasterType"
         },
         {
           "type": "formula",
           "as": "stateLabel",
-          "expr": "datum.State && length(trim(datum.State)) > 0 ? datum.State : (datum.id && indexof(datum.id, ' | ') >= 0 ? trim(substring(datum.id, indexof(datum.id, ' | ') + 3)) : datum.id)"
+          "expr": "datum.State"
         },
         {
           "type": "filter",
@@ -89,23 +74,33 @@
         {"type": "filter", "expr": "!datum.children"},
         {
           "type": "formula",
-          "expr": "datum.data && datum.data.categoryLabel ? datum.data.categoryLabel : (datum.name ? datum.name : 'Unknown')",
+          "expr": "datum.categoryLabel",
           "as": "category"
         },
         {
           "type": "formula",
-          "expr": "selectedState === 'Australia' ? 'Australia' : (datum.data && datum.data.stateLabel ? datum.data.stateLabel : (datum.name ? datum.name : 'Unknown'))",
+          "expr": "selectedState === 'Australia' ? 'Australia' : (datum.stateLabel)",
           "as": "state"
         },
         {
           "type": "formula",
-          "expr": "datum.data && isValid(datum.data.adjustedSize) ? datum.data.adjustedSize : (isValid(datum.value) ? datum.value : 0)",
+          "expr": "datum.adjustedSize",
           "as": "count"
         },
         {
           "type": "formula",
           "expr": "(datum.x1 - datum.x0) * (datum.y1 - datum.y0)",
           "as": "area"
+        },
+        { 
+          "type": "formula", 
+          "expr": "datum.x1 - datum.x0", 
+          "as": "w" 
+        },
+        { 
+          "type": "formula", 
+          "expr": "datum.y1 - datum.y0", 
+          "as": "h" 
         }
       ]
     }
@@ -114,8 +109,20 @@
     {
       "name": "color",
       "type": "ordinal",
-      "domain": {"data": "leaves", "field": "category"},
-      "range": {"scheme": "tableau10"}
+      "domain": [
+        "Bushfire",
+        "Flood",
+        "Storm",
+        "Cyclone",
+        "Earthquake"
+      ],
+      "range": [
+        "#d95f02",
+        "#1f78b4",
+        "#2ca9b6",
+        "#6a3d9a",
+        "#8c510a"
+      ]
     }
   ],
   "marks": [
@@ -186,25 +193,24 @@
       }
     },
     {
-      "type": "text",
-      "from": {"data": "leaves"},
-      "encode": {
-        "enter": {
-          "align": {"value": "center"},
-          "baseline": {"value": "middle"},
-          "fill": {"value": "#111"},
-          "font": {"value": "Helvetica Neue, Arial"}
-        },
-        "update": {
-          "x": {"signal": "0.5 * (datum.x0 + datum.x1)"},
-          "y": {"signal": "0.5 * (datum.y0 + datum.y1)"},
-          "text": {
-            "signal": "datum.area > 2000 ? datum.category + ' (' + datum.count + ')' : ''"
-          },
-          "fontSize": {"value": 12},
-          "fillOpacity": {"value": 0.9}
-        }
-      }
+  "type": "text",
+  "from": {"data": "leaves"},
+  "encode": {
+    "enter": {
+      "align": {"value": "center"},
+      "baseline": {"value": "middle"},
+      "fill": {"value": "#111"},
+      "font": {"value": "Helvetica Neue, Arial"}
+    },
+    "update": {
+      "x": {"signal": "0.5 * (datum.x0 + datum.x1)"},
+      "y": {"signal": "0.5 * (datum.y0 + datum.y1)"},
+      "text": { "signal": "(datum.w > 80 && datum.h > 14) ? datum.category : ''" },
+      "fontSize": {"value": 12},
+      "fillOpacity": {"value": 0.9},
+      "limit": { "signal": "max(0, datum.w - 8)" }                 
     }
+  }
+}
   ]
 }

@@ -16,8 +16,9 @@ p {
 }
 
 main {
-  width: 100%;
+  max-width: 1200px;
   margin: 0;
+  padding: 1rem;
 }
 
 #symbol_map {
@@ -28,4 +29,78 @@ main {
 #symbol_map .vega-embed,
 #symbol_map .vega-embed > * {
   width: 100% !important;
+}
+
+.state-button-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0 16px;
+}
+
+.state-btn {
+  padding: 6px 12px;
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+  background-color: #ffffff;
+  font: 14px Arial, sans-serif;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.state-btn:hover {
+  border-color: #888888;
+}
+
+.state-btn.active {
+  background-color: #333333;
+  color: #ffffff;
+  border-color: #333333;
+}
+
+.state-btn:focus-visible {
+  outline: 2px solid #1f78b4;
+  outline-offset: 2px;
+}
+
+#map-wrap { position: relative; }
+#state-controls.overlay {
+  position: absolute; top: 12px; left: 12px; right: 12px;
+  display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+  background: rgba(255,255,255,0.85);
+  padding: 6px 8px; border-radius: 6px; backdrop-filter: blur(2px);
+  z-index: 10;
+}
+#state-controls input[type="radio"] { margin-right: 4px; }
+#state-controls label { margin-right: 10px; cursor: pointer; }
+
+.slider {
+  -webkit-appearance: none;
+  width: 88%;
+  height: 15px;
+  border-radius: 5px;  
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: #0430aa;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #0430aa;
+  cursor: pointer;
 }

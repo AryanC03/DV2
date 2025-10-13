@@ -1,10 +1,10 @@
 id,parent,size,DisasterType,State
-All Disasters,,270,,
-Bushfire,All Disasters,67,Bushfire,
-Cyclone,All Disasters,44,Cyclone,
-Earthquake,All Disasters,6,Earthquake,
-Flood,All Disasters,83,Flood,
-Storm,All Disasters,70,Storm,
+All Disasters,,270,,Australia
+Bushfire,All Disasters,67,Bushfire,Australia
+Cyclone,All Disasters,44,Cyclone,Australia
+Earthquake,All Disasters,6,Earthquake,Australia
+Flood,All Disasters,83,Flood,Australia
+Storm,All Disasters,70,Storm,Australia
 Bushfire | Australian Capital Territory,Bushfire,8,Bushfire,Australian Capital Territory
 Bushfire | New South Wales,Bushfire,11,Bushfire,New South Wales
 Bushfire | Northern Territory,Bushfire,8,Bushfire,Northern Territory

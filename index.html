@@ -20,8 +20,29 @@
       <p>The map draws on the latest disaster records. Drag the zoom slider or choose a disaster type to explore the
         data.</p>
     </div>
-    <!-- Container for the visualization -->
+    <div id="state-buttons" class="state-button-bar">
+      <button type="button" data-state="Australia" class="state-btn active">Australia</button>
+      <button type="button" data-state="Australian Capital Territory" class="state-btn">Australian Capital
+        Territory</button>
+      <button type="button" data-state="New South Wales" class="state-btn">New South Wales</button>
+      <button type="button" data-state="Northern Territory" class="state-btn">Northern Territory</button>
+      <button type="button" data-state="Queensland" class="state-btn">Queensland</button>
+      <button type="button" data-state="South Australia" class="state-btn">South Australia</button>
+      <button type="button" data-state="Tasmania" class="state-btn">Tasmania</button>
+      <button type="button" data-state="Victoria" class="state-btn">Victoria</button>
+      <button type="button" data-state="Western Australia" class="state-btn">Western Australia</button>
+    </div>
     <div id="symbol_map"></div>
+    <div id="zoom-disaster-buttons">
+      <input type="range" class="slider" min="400" max="4000" step="50" id="myRange">
+    </div>
+    <div class="state-text">
+      <p></p>
+
+    </div>
+
+
+
     <div>
       <h2>Treemap of Disasters by State</h2>
       <p>This treemap shows the number of disaster events in each state, grouped by disaster type.</p>
@@ -31,15 +52,107 @@
 
   <script type="text/javascript">
 
+    var zoomSlider = document.querySelector('.zoom-slider');
+    var zoomValue = document.getElementById('myRange');
+    zoomValue.value = 1000; // Default zoom level
+    zoomValue.addEventListener('input', function () {
+      if (symbolMapView) {
+        symbolMapView.signal('zoom_to', +zoomValue.value).runAsync();
+      }
+    });
+
+    var stateDescriptions = {
+      "Australia": "Australia has experienced a wide range of disasters, from widespread bushfires and severe floods to cyclones and storms, impacting various regions across the continent.",
+      "Australian Capital Territory": "The ACT is most notably affected by severe bushfires, such as the devastating 2003 and 2019-20 events, as well as significant storms.",
+      "New South Wales": "NSW frequently contends with major floods along its coastal rivers and severe bushfires, particularly in the Blue Mountains and coastal regions.",
+      "Northern Territory": "The Northern Territory's primary disaster risks include powerful cyclones in the tropical north and occasional flooding events.",
+      "Queensland": "Queensland is highly susceptible to tropical cyclones along its extensive coastline, as well as major riverine flooding, particularly in Brisbane and the surrounding areas.",
+      "South Australia": "South Australia's main disaster threats are large-scale bushfires in its forest and grassland areas and occasional severe storms.",
+      "Tasmania": "Tasmania faces significant risks from bushfires, especially during dry summer months, and has also experienced notable flooding.",
+      "Victoria": "Victoria is prone to some of Australia's most severe bushfires, like the Black Saturday fires, and also experiences significant flooding and storms.",
+      "Western Australia": "Western Australia regularly deals with tropical cyclones in the north, widespread bushfires in the south-west, and storm events."
+    };
+    
+    var stateButtons = document.querySelectorAll('#state-buttons .state-btn');
+    var stateCenters = {
+      "Australia": [133, -27],
+      "Australian Capital Territory": [149, -35],
+      "New South Wales": [147, -31],
+      "Northern Territory": [130, -20],
+      "Queensland": [153, -28],
+      "South Australia": [138, -34],
+      "Tasmania": [146, -42],
+      "Victoria": [143, -37],
+      "Western Australia": [121, -25]
+    };
+    var currentState = 'Australia';
+    var symbolMapView = null;
+    var treemapView = null;
+    var stateTextElement = document.querySelector('.state-text p');
+
+    function setActiveButton(value) {
+      stateButtons.forEach(function (btn) {
+        var isActive = btn.dataset.state === value;
+        btn.classList.toggle('active', isActive);
+      });
+    }
+
+    function applyStateToMap(value) {
+      if (!symbolMapView) {
+        return;
+      }
+      var centre = stateCenters[value] || stateCenters['Australia'];
+      symbolMapView.signal('StateFilter', value);
+      symbolMapView.signal('centre_to', centre);
+      symbolMapView.runAsync();
+    }
+
+    function updateStateFromUI(value) {
+      currentState = value;
+      setActiveButton(value);
+      if (treemapView) {
+        treemapView.signal('selectedState', value).runAsync();
+      }
+      applyStateToMap(value);
+
+      stateTextElement.textContent = stateDescriptions[value];
+    }
+
+    setActiveButton(currentState);
+
+    stateButtons.forEach(function (button) {
+      button.addEventListener('click', function () {
+        updateStateFromUI(button.dataset.state);
+      });
+    });
+
+    stateTextElement.textContent = stateDescriptions[currentState];
+
     var spec2 = "js/symbol_map.vg.json";
     vegaEmbed('#symbol_map', spec2).then(function (result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+      symbolMapView = result.view;
+      applyStateToMap(currentState);
     }).catch(console.error);
 
     var spec3 = "js/treemap.vg.json";
     vegaEmbed('#treemap', spec3).then(function (result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);  
+      treemapView = result.view;
+      treemapView.addSignalListener('selectedState', function (name, value) {
+        if (value !== currentState) {
+          currentState = value;
+          setActiveButton(value);
+          applyStateToMap(value);
+        }
+      });
+
+      if (treemapView.signal('selectedState') !== currentState) {
+        treemapView.signal('selectedState', currentState).runAsync();
+      }
+      setActiveButton(currentState);
+      applyStateToMap(currentState);
+    }).catch(console.error);
+
+    
 
   </script>
 

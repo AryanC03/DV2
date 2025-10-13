@@ -10,13 +10,7 @@
   "params": [
     {
       "name": "Zoom",
-      "value": 750,
-      "bind": {
-        "input": "range",
-        "min": 400,
-        "max": 4000,
-        "step": 50
-      }
+      "value": 750
     },
     {
       "name": "DisasterType",
@@ -35,33 +29,11 @@
     },
     {
       "name": "centre_to",
-      "value": [133, -27],
-      "bind": {
-        "input": "select",
-        "options": [
-          [143, -37], 
-          [147, -31], 
-          [138, -34], 
-          [121, -25], 
-          [130, -20], 
-          [133, -27], 
-          [153, -28],
-          [149, -35], 
-          [146, -42]
-        ],
-        "labels": [
-          "Victoria",
-          "New South Wales",
-          "South Australia",
-          "Western Australia",
-          "Northern Territory",
-          "Australia",
-          "Queensland",
-          "ACT",
-          "Tasmania"
-        ],
-        "name": "Centre map to"
-      }
+      "value": [133, -27]
+    },
+    {
+      "name": "StateFilter",
+      "value": "Australia"
     }
   ],
   "projection": {
@@ -129,6 +101,9 @@
         },
         {
           "filter": "DisasterType == 'All' || datum.DisasterType == DisasterType"
+        },
+        {
+          "filter": "StateFilter == 'Australia' || datum.State == StateFilter"
         }
       ],
       "mark": {
