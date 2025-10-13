@@ -17,8 +17,6 @@
   <main>
     <div>
       <h1>Major Disaster Events in Australia</h1>
-      <p>The map draws on the latest disaster records. Drag the zoom slider or choose a disaster type to explore the
-        data.</p>
     </div>
     <div id="state-buttons" class="state-button-bar">
       <button type="button" data-state="Australia" class="state-btn active">Australia</button>
@@ -32,21 +30,25 @@
       <button type="button" data-state="Victoria" class="state-btn">Victoria</button>
       <button type="button" data-state="Western Australia" class="state-btn">Western Australia</button>
     </div>
-    <div class="row">
-      <div id="symbol_map" class="column"></div>
-      <!-- <div id="treemap" class="column"></div> -->
+    <div class="row70">
+    <div id="symbol_map" class="column70"></div>
+    <div id="treemap" class="column70"></div>
     </div>
     <div id="zoom-disaster-buttons">
-      <input type="range" class="slider" min="900" max="5000" step="50" id="myRange">
+      <input type="range" class="slider" min="900" max="4000" step="50" id="myRange">
     </div>
     <div class="state-text">
       <p></p>
     </div>
+    <div class="row50">
+      <div id="bar_line_single" class="column50"></div>
+      <p>Text</p>
+    </div>
+
   </main>
 
   <script type="text/javascript">
 
-    var zoomSlider = document.querySelector('.zoom-slider');
     var zoomValue = document.getElementById('myRange');
     zoomValue.value = 1000; // Default zoom level
     zoomValue.addEventListener('input', function () {
@@ -55,18 +57,13 @@
       }
     });
 
-    var stateDescriptions = {
-      "Australia": "Australia has experienced a wide range of disasters, from widespread bushfires and severe floods to cyclones and storms, impacting various regions across the continent.",
-      "Australian Capital Territory": "The ACT is most notably affected by severe bushfires, such as the devastating 2003 and 2019-20 events, as well as significant storms.",
-      "New South Wales": "NSW frequently contends with major floods along its coastal rivers and severe bushfires, particularly in the Blue Mountains and coastal regions.",
-      "Northern Territory": "The Northern Territory's primary disaster risks include powerful cyclones in the tropical north and occasional flooding events.",
-      "Queensland": "Queensland is highly susceptible to tropical cyclones along its extensive coastline, as well as major riverine flooding, particularly in Brisbane and the surrounding areas.",
-      "South Australia": "South Australia's main disaster threats are large-scale bushfires in its forest and grassland areas and occasional severe storms.",
-      "Tasmania": "Tasmania faces significant risks from bushfires, especially during dry summer months, and has also experienced notable flooding.",
-      "Victoria": "Victoria is prone to some of Australia's most severe bushfires, like the Black Saturday fires, and also experiences significant flooding and storms.",
-      "Western Australia": "Western Australia regularly deals with tropical cyclones in the north, widespread bushfires in the south-west, and storm events."
-    };
-
+    var stateDescriptions = {};
+    fetch('data/descriptions.json').then(response => response.json()).then(data => {
+        stateDescriptions = data;
+        stateTextElement.textContent = stateDescriptions[currentState];
+      })
+      .catch(error => console.error('Error loading state descriptions:', error));
+    
     var stateButtons = document.querySelectorAll('#state-buttons .state-btn');
     var stateCenters = {
       "Australia": [133, -27],
@@ -79,9 +76,20 @@
       "Victoria": [143, -37],
       "Western Australia": [121, -25]
     };
+    var barLineSingleStates = [
+      "Australian Capital Territory",
+      "New South Wales",
+      "Northern Territory",
+      "Queensland",
+      "South Australia",
+      "Tasmania",
+      "Victoria",
+      "Western Australia"
+    ];
     var currentState = 'Australia';
     var symbolMapView = null;
     var treemapView = null;
+    var barLineSingleView = null;
     var stateTextElement = document.querySelector('.state-text p');
 
     function setActiveButton(value) {
@@ -107,6 +115,9 @@
       if (treemapView) {
         treemapView.signal('selectedState', value).runAsync();
       }
+      if (barLineSingleView && barLineSingleStates.includes(value)) {
+        barLineSingleView.signal('selectedState', value).runAsync();
+      }
       applyStateToMap(value);
 
       stateTextElement.textContent = stateDescriptions[value];
@@ -120,49 +131,50 @@
       });
     });
 
-    stateTextElement.textContent = stateDescriptions[currentState];
 
     var spec2 = "js/symbol_map.vg.json";
     vegaEmbed('#symbol_map', spec2).then(function (result) {
-      // Use one variable for the entire combined view
-      var chartView = result.view;
+      symbolMapView = result.view;
+      applyStateToMap(currentState);
+    }).catch(console.error);
 
-      // Make symbolMapView available to other functions
-      symbolMapView = chartView;
-
-      // Add a listener for clicks on the treemap part of the chart
-      chartView.addSignalListener('selectedState', function (name, value) {
-        // If the treemap selection changes, update the whole UI
-        if (value && value !== currentState) {
-          updateStateFromUI(value); // This function already handles everything
+    var spec3 = "js/treemap.vg.json";
+    vegaEmbed('#treemap', spec3).then(function (result) {
+      treemapView = result.view;
+      treemapView.addSignalListener('selectedState', function (name, value) {
+        if (value !== currentState) {
+          currentState = value;
+          setActiveButton(value);
+          applyStateToMap(value);
         }
       });
 
-      // Set the initial state for the map and treemap
+      if (treemapView.signal('selectedState') !== currentState) {
+        treemapView.signal('selectedState', currentState).runAsync();
+      }
+      setActiveButton(currentState);
       applyStateToMap(currentState);
-      chartView.signal('selectedState', currentState).runAsync();
-
     }).catch(console.error);
 
-    // var spec3 = "js/treemap.vg.json";
-    // vegaEmbed('#treemap', spec3).then(function (result) {
-    //   treemapView = result.view;
-    //   treemapView.addSignalListener('selectedState', function (name, value) {
-    //     if (value !== currentState) {
-    //       currentState = value;
-    //       setActiveButton(value);
-    //       applyStateToMap(value);
-    //     }
-    //   });
+    // var spec4 = "js/bar_line_multiples.vg.json";
+    // vegaEmbed('#bar_line_multiples', spec4).catch(console.error);
 
-    //   if (treemapView.signal('selectedState') !== currentState) {
-    //     treemapView.signal('selectedState', currentState).runAsync();
-    //   }
-    //   setActiveButton(currentState);
-    //   applyStateToMap(currentState);
-    // }).catch(console.error);
+    var spec5 = 'js/bar_line_single.vg.json';
+    vegaEmbed('#bar_line_single', spec5).then(function (result) {
+      barLineSingleView = result.view;
+      barLineSingleView.addSignalListener('selectedState', function (name, value) {
+        if (value !== currentState) {
+          currentState = value;
+          setActiveButton(value);
+          applyStateToMap(value);
+        }
+      });
+      if (barLineSingleStates.includes(currentState) && barLineSingleView.signal('selectedState') !== currentState) {
+        barLineSingleView.signal('selectedState', currentState).runAsync();
+      }
+    }).catch(console.error);
 
-
+    
 
   </script>
 

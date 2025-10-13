@@ -1,0 +1,713 @@
+﻿Event ,Zone,Region,Category,Start Date,End Date,Fatalities,Injured
+Bushfire - Black Thursday Victoria,Victoria,Melbourne,Bushfire,06/02/1851,07/02/1851,12,N/A
+Bushfire - Red Tuesday,Victoria,Melbourne,Bushfire,01/02/1898,02/02/1898,12,N/A
+Black Summer - New South Wales,New South Wales,New South Wales,Bushfire,1/7/2019,31/3/2020,26,N/A
+Black Summer - Queensland,Queensland,Queensland,Bushfire,1/9/2019,31/12/2019,N/A,N/A
+Black Summer - Victoria,Victoria,Victoria,Bushfire,1/11/2019,29/2/2020,5,N/A
+Black Summer - South Australia,South Australia,South Australia,Bushfire,1/11/2019,29/2/2020,4,N/A
+"Eastern Victorian bushfires, 2019",Victoria,East Victoria,Bushfire,1/3/2019,21/3/2019,N/A,N/A
+"Tasmanian bushfires, 2018-19",Tasmania,Tasmania,Bushfire,28/12/2018,1/3/2019,N/A,N/A
+"Tathra bushfire, 2018",New South Wales,Tathra,Bushfire,18/3/2018,21/3/2018,N/A,N/A
+"South-west complex fires, 2018",Victoria,South-west Victoria,Bushfire,17/3/2018,2/5/2018,N/A,N/A
+"Sir Ivan fire, 2017",New South Wales,Warrambungle Shire,Bushfire,11/2/2017,28/2/2017,N/A,N/A
+"Carwoola bushfire, 2017",New South wales,Carwoola,Bushfire,18/2/2017,19/2/2017,N/A,2
+"Llandilo bushfire, 2016",New South  Wales,Llandilo,Bushfire,4/11/2016,5/11/2016,N/A,N/A
+Waroona-Yarloop Fire,Western australia,"Waroona, Yarloop",Bushfire,5/1/2016,8/1/2016,2,N/A
+Wye River - Jamieson track / Great Ocean Road Bushfire,Victoria,Wye River,Bushfire,19/12/2015,21/1/2016,N/A,N/A
+"Pinery fire, 2015",South Australia,Pinery,Bushfire,25/11/2015,30/11/2015,2,N/A
+"Sampson Flat bushfire, 2015",South Australia,Sampson Flat,Bushfire,2/1/2015,8/1/2015,N/A,134
+"Bushfire – Perth Hills, Western Australia 2014",Western Australia,Perth,Bushfire,12/1/2014,14/1/2014,1,N/A
+Bushfire - Victoria,Victoria,Victoria,Bushfire,8/2/2014,14/2/2014,N/A,3
+Bushfire - Victoria,Victoria,"Stawell, Yea, Moondarra, Grampians, Kinglake and Anakie",Bushfire,1/1/2006,,4,6
+"Bushfire - Coonabarabran, 2013",New South Wales,Coonabarabran,Bushfire,7/1/2013,20/1/2013,A ,N/A
+"Bushfire - Hazelwood open cut mine fire, Morwell",victoria,Morwell,Bushfire,9/2/2014,25/3/2014,N/A,20
+"Dunalley and Tasmanian bushfires, 2013",Tasmania,"Dunalley, Forcett, Lake Repulse ",Bushfire,1/1/2013,14/1/2013,1,N/A
+Bushfire - Augusta - Margaret River,Western Australia,Bunbury,Bushfire,23/11/2011,6/12/2011,N/A,N/A
+Bushfire - Southern Queensland,Queensland,"Blackall , Charters Towers , Longreach , Townsville , Winton",Bushfire,1/8/2011,31/10/2011,N/A,N/A
+Bushfire - Perth Hill Bushfires,Western Australia,Perth,Bushfire,5/2/2011,7/2/2011,N/A,12
+"Bushfire - Black Saturday, Victoria",Victoria,"Cooma (VIC) , Mount Gambier (VIC) , Warrnambool (VIC) , Wilsons Promontory , Melbourne",Bushfire,7/2/2009,8/2/2009,173,414
+Bushfire - Boorabbin National Park,Western Australia,Kalgoorlie,Bushfire,28/12/2007,8/1/2008,3,N/A
+Bushfire - Great Divide Complex ,Victoria,"Cooma (VIC) , Melbourne",Bushfire,1/12/2006,7/2/2007,1,"1,400"
+Bushfire - Victoria,Victoria,"Mount Gambier (VIC) , Wilsons Promontory , Melbourne",Bushfire,31/12/2005,31/1/2006,4,6
+Bushfire - Eyre Peninsula,South Australia,Adelaide,Bushfire,10/1/2005,12/1/2005,9,110
+Bushfire - Canberra,Australian Capital Territory,Canberra (ACT),Bushfire,18/1/2003,19/1/2003,4,435
+"Bushfire - North-Eastern Victoria, Alpine Region",Victoria,Cooma (VIC),Bushfire,8/1/2003,19/3/2003,N/A,N/A
+Bushfire - Sydney,New South Wales,Sydney,Bushfire,9/10/2002,9/10/2002,N/A,N/A
+Bushfire - Black Christmas,"New South Wales , Australian Capital Territory","Dubbo , Sydney , Wollongong , Canberra (ACT)",Bushfire,24/12/2001,11/1/2002,N/A,N/A
+"Bushfire – Mt Ku-ring-gai, New South Wales 2000",New South Wales,Mt Ku-Ring-gai,Bushfire,8/6/2000,8/6/2000,4,3
+Bushfire - Linton (near Ballarat),Victoria,Melbourne,Bushfire,2/12/1998,2/12/1998,5,N/A
+"Bushfire - Sydney, Hunter, Pilliga",New South Wales,Sydney,Bushfire,20/11/1997,20/12/1997,4,N/A
+Bushfire - Kangaroo Island,South Australia,Kangaroo Island,Bushfire,6/12/2007,,1,N/A
+Bushfire - Dandenong Ranges and Mornington Peninsula,Victoria,"Wilsons Promontory , Melbourne",Bushfire,19/1/1997,21/1/1997,3,40
+Bushfire - East Coast,Queensland,Brisbane,Bushfire,27/9/1994,7/11/1994,N/A,9
+"Bushfire - North Coast, Hunter and Sydney",New South Wales,"Dubbo , Lismore (NSW) , Sydney",Bushfire,27/12/1993,16/1/1994,4,N/A
+Bushfire - Western Sydney and Central Coast,New South Wales,Sydney,Bushfire,16/10/1991,31/1/1992,2,N/A
+Bushfire - Cootamundra and Deniliquin Regions,New South Wales,"Canberra (NSW) , Swan Hill (NSW)",Bushfire,17/1/1987,20/1/1987,3,20
+Bushfire - Central Victoria and Alpine Fires,Victoria,"Cooma (VIC) , Mount Gambier (VIC) , Wilsons Promontory , Melbourne",Bushfire,14/1/1985,28/1/1985,3,N/A
+Bushfire - North-Western Regions ,New South Wales,Bourke,Bushfire,1/9/1984,1/2/1985,4,N/A
+Bushfire - Ash Wednesday,"Victoria , South Australia","Wilsons Promontory , Adelaide , Melbourne",Bushfire,16/2/1983,18/2/1983,75,"1,500"
+Bushfire - Sydney and Southern Regions,New South Wales,Sydney,Bushfire,1/1/1983,31/1/1983,3,N/A
+Bushfire - Sydney and Wollongong,New South Wales,"Sydney , Wollongong",Bushfire,3/11/1980,3/11/1980,5,N/A
+Bushfire - Mount Lofty Ranges,South Australia,Adelaide,Bushfire,20/2/1980,20/2/1980,N/A,N/A
+Bushfire - Sydney and Region,New South Wales,Sydney,Bushfire,1/12/1979,1/2/1980,5,N/A
+Bushfire - Western Districts and Streatham ,Victoria,Melbourne,Bushfire,12/2/1977,12/2/1977,4,N/A
+Bushfire - New South Wales 1974,New South Wales,"Bourke , Hillston , Swan Hill (NSW) , Sydney",Bushfire,1/12/1974,1/2/1975,3,N/A
+Bushfire - Lara and Melbourne Fringe,Victoria,Wilsons Promontory,Bushfire,8/1/1969,9/1/1969,23,100
+Bushfire - Blue Mountains and Illawarra,New South Wales,Sydney,Bushfire,15/10/1968,3/12/1968,14,N/A
+Bushfire - Black Tuesday Tasmania,Tasmania,"Hobart , Launceston",Bushfire,7/2/1967,7/2/1967,62,N/A
+Bushfire - Gippsland,Victoria,"Cooma (VIC) , Melbourne",Bushfire,15/2/1965,13/3/1965,3,N/A
+Bushfire - Longwood District,Victoria,Melbourne,Bushfire,17/1/1965,17/1/1965,7,N/A
+Bushfire - Southern Victoria and Dandenong Ranges,Victoria,Melbourne,Bushfire,14/1/1962,16/2/1962,8,N/A
+Bushfire - Wandilo,South Australia,Mount Gambier (SA),Bushfire,5/4/1958,6/4/1958,8,3
+Bushfire - Blue Mountains and Sydney Region,New South Wales,Sydney,Bushfire,30/11/1957,4/12/1957,4,N/A
+"Bushfire - Black Sunday, Mt Lofty Ranges",South Australia,Adelaide,Bushfire,2/1/1955,2/1/1955,2,N/A
+Bushfire - Narollah Station,Queensland,Charters Towers,Bushfire,14/11/1954,14/11/1954,3,N/A
+Bushfire - Central and Southern Victoria,Victoria,Melbourne,Bushfire,1/1/1952,1/3/1952,10,N/A
+Bushfire - Australian Capital Territory and South-West New South Wales,New South Wales,"Canberra (NSW) , Dubbo , Hillston",Bushfire,1/11/1951,31/1/1952,13,N/A
+Bushfire - Sydney and Southern New South Wales,New South Wales,"Cooma (NSW) , Sydney , Wollongong",Bushfire,13/1/1939,14/1/1939,6,N/A
+Bushfire - Black Friday ,"New South Wales , Australian Capital Territory , Victoria , South Australia , Tasmania","Wollongong , Canberra (ACT) , Mount Gambier (VIC) , Murray Bridge (VIC) , Wilsons Promontory , Mount Gambier (SA) , Launceston , Melbourne",Bushfire,13/1/1939,20/1/1939,71,N/A
+Bushfire - Gippsland,Victoria,Melbourne,Bushfire,4/2/1932,28/2/1932,9,N/A
+Bushfire - Central Western NSW and Southern QLD,"Queensland , New South Wales","Brisbane , Canberra (NSW) , Dubbo , Lismore (NSW)",Bushfire,1/10/1926,17/12/1926,8,N/A
+Bushfire - South East Victoria,Victoria,Melbourne,Bushfire,1/2/1926,10/3/1926,60,N/A
+Bushfire - Saltern Creek,Queensland,Longreach,Bushfire,16/9/1918,30/12/1918,5,N/A
+Bushfire - Warenda Station Hughenden,Queensland,Boulia,Bushfire,29/9/1917,29/9/1917,3,N/A
+Bushfire - Western Australia,Western Australia,"Bridgetown, Shackleton, Bayview Rise, Narrogin East ",Bushfire,5/2/2022,15/2/2022,N/A,N/A
+Bushfire - Widespread Victoria,Victoria,"Cooma (VIC) , Mount Gambier (VIC) , Wilsons Promontory , Melbourne",Bushfire,1/1/1906,15/2/1906,12,N/A
+"Criminal Act - Bourke Street Mall Incident, 2017",Victoria,Melbourne,Criminal Act,20/1/2017,,6,37
+"Criminal Act - Lindt Cafe siege, 2014",New South Wales,sydney,Criminal Act,15/12/2014,16/12/2014,3,N/A
+"Criminal Act - Marriott and Ritz-Carlton hotel bombings, 2009",Offshore,Outside Territorial Waters,Criminal Act,17/7/2009,,9,53
+Criminal Act - Bali Bombings,Offshore,Outside Territorial Waters,Criminal Act,1/10/2005,1/10/2005,20,130
+Criminal Act - London Transport Bombings,Offshore,Outside Territorial Waters,Criminal Act,7/7/2005,7/7/2005,56,700
+Criminal Act - Kuta Bali Bombing,Offshore,Outside Territorial Waters,Criminal Act,12/10/2002,12/10/2002,202,209
+Criminal Act - 9/11 Terrorist Attacks,Offshore,Outside Territorial Waters,Criminal Act,11/9/2001,11/9/2001,"2,819",N/A
+Criminal Act - Snowtown Murders,South Australia,Adelaide,Criminal Act,1/5/1999,1/5/1999,12,N/A
+Criminal Act - Port Arthur Shooting Massacre,Tasmania,Hobart,Criminal Act,28/4/1996,28/4/1996,35,21
+Criminal Act - Liverpool Arson,New South Wales,Sydney,Criminal Act,15/1/1995,15/1/1995,8,N/A
+"Criminal - Terrigal Shootings, Sydney 1992 ",New South Wales,Central Coast,Criminal Act,27/10/1992,,6,1
+Criminal Act - Kings Cross Hostel,New South Wales,Sydney,Criminal Act,17/9/1989,17/9/1989,6,18
+Criminal Act - Oenpelli Shooting Massacre,Northern Territory,Alligator River,Criminal Act,25/9/1988,25/9/1988,6,N/A
+Criminal Act - Queen Street Shooting,Victoria,Melbourne,Criminal Act,8/12/1987,8/12/1987,9,5
+Criminal Act - Hoddle Street Shooting,Victoria,Melbourne,Criminal Act,9/8/1987,9/8/1987,7,19
+Criminal Act - The Kimberley Murders,"Western Australia , Northern Territory","Fitzroy Crossing , Katherine",Criminal Act,9/6/1987,19/6/1987,6,N/A
+Criminal Act - Sydney Nursing Home,New South Wales,Sydney,Criminal Act,29/4/1981,29/4/1981,16,51
+Criminal Act - Hilton Hotel Bombing,New South Wales,Sydney,Criminal Act,13/2/1978,13/2/1978,3,N/A
+Criminal Act - Savoy Hotel Arson,New South Wales,Sydney,Criminal Act,25/12/1975,25/12/1975,15,22
+Criminal Act - Whiskey Au Go-Go Nightclub Bombing,Queensland,Brisbane,Criminal Act,8/3/1973,8/3/1973,15,N/A
+Criminal Act - Myall Creek Massacre,New South Wales,Myall Creek,Criminal Act,10/06/1838,10/06/1838,28,N/A
+Cyclone Sigma ,Queensland,"Brisbane , Townsville",Cyclone,24/01/1896,28/01/1896,18,N/A
+Cyclone - Darwin,Northern Territory,Darwin,Cyclone,06/01/1897,07/01/1897,28,N/A
+Cyclone - Gulf of Carpentaria,Queensland,Mornington Island,Cyclone,05/03/1887,05/03/1887,7,N/A
+Cyclone Mahina,Queensland,Cooktown,Cyclone,04/03/1899,10/03/1899,400,N/A
+Cyclone Veronica,Western Australia,Port Hedland,Cyclone,20/3/2019,,N/A,N/A
+Cyclone Marcus,Northern Territory,Darwin,Cyclone,15/3/2018,,N/A,N/A
+Cyclone Debbie,Queensland,Airlie Beach,Cyclone,28/3/2017,31/3/2017,10,N/A
+Cyclone Marcia,Queensland,Shoalwater Bay,Cyclone,15/2/2015,26/2/2015,N/A,N/A
+Cyclone Oswald,Queensland,Cape York Peninsula,Cyclone,21/1/2013,,6,N/A
+Cyclone Yasi,Queensland,"Ayr , Cairns , Townsville",Cyclone,2/2/2011,3/2/2011,1,N/A
+Cyclone George,Western Australia,Port Hedland,Cyclone,3/3/2007,8/3/2007,3,20
+Cyclone Larry,Queensland,Cairns,Cyclone,20/3/2006,20/3/2006,N/A,30
+Cyclone Tessi,Queensland,Townsville,Cyclone,2/4/2000,4/4/2000,N/A,N/A
+Cyclone Steve,Queensland,Cairns,Cyclone,27/2/2000,9/3/2000,1,N/A
+Cyclone Vance,Western Australia,"Dampier , Exmouth Gulf , Port Hedland",Cyclone,18/3/1999,24/3/1999,N/A,N/A
+Cyclone Justin,Queensland,"Cairns , Townsville",Cyclone,6/3/1997,24/3/1997,2,20
+Cyclone Bobby,Western Australia,Dampier,Cyclone,24/2/1995,27/2/1995,8,N/A
+Cyclone Rewa,Queensland,Brisbane,Cyclone,31/12/1993,25/1/1994,4,N/A
+Cyclone Nancy,Queensland,"Brisbane , Lismore (QLD)",Cyclone,3/2/1990,7/2/1990,6,N/A
+Cyclone Aivu,"Queensland , New South Wales","Brisbane , Lismore (QLD) , Mackay , Rockhampton , Lismore (NSW)",Cyclone,4/4/1989,20/4/1989,3,N/A
+Cyclone Herbie,Western Australia,Dampier,Cyclone,21/5/1988,22/5/1988,N/A,N/A
+Cyclone Winifred,Queensland,Cairns,Cyclone,27/1/1986,5/2/1986,3,N/A
+Cyclone Hazel,Western Australia,Carnarvon,Cyclone,1/3/1979,1/3/1979,15,5
+Cyclone Alby,Western Australia,Perth,Cyclone,27/3/1978,4/4/1978,5,N/A
+Cyclone Joan,Western Australia,Port Hedland,Cyclone,8/12/1975,9/12/1975,N/A,N/A
+Cyclone Tracy,Northern Territory,Darwin,Cyclone,25/12/1974,25/12/1974,71,650
+Cyclone Emily,Queensland,"Bundaberg , Rockhampton",Cyclone,27/3/1972,2/4/1972,8,N/A
+Cyclone Althea,Queensland,Townsville,Cyclone,24/12/1971,27/12/1971,3,25
+Cyclone Ada,Queensland,Mackay,Cyclone,17/1/1970,19/1/1970,14,N/A
+Cyclone Audrey,Northern Territory,Coburg Peninsula,Cyclone,28/2/1969,9/3/1969,4,N/A
+Cyclone Glenda,Queensland,Brisbane,Cyclone,2/4/1967,4/4/1967,6,N/A
+Cyclone Agnes,Queensland,Cairns,Cyclone,6/3/1956,7/3/1956,4,N/A
+Cyclone - Mackay,Queensland,Mackay,Cyclone,7/3/1955,7/3/1955,8,N/A
+"Cyclone - Cyclone Grant, Katherine Floods, Train Derailment, Chemical Spill",Northern Territory,Katherine,Cyclone,25/12/2011,27/12/2011,N/A,2
+Cyclone - The Great Gold coast cyclone Southern Queensland and Northern New South Wales,Queensland,"Brisbane , Lismore (QLD)",Cyclone,19/2/1954,22/2/1954,26,N/A
+Cyclone - TC119 Coastal Queensland and New South Wales,"Queensland , New South Wales","Brisbane , Cairns , Sydney",Cyclone,16/1/1950,19/1/1950,7,N/A
+Cyclone - Rockhampton,Queensland,"Bundaberg , Rockhampton",Cyclone,2/3/1949,3/3/1949,4,N/A
+Cyclone - Cape York and Townsville,Queensland,"Cairns , Townsville",Cyclone,12/3/1934,13/3/1934,75,N/A
+Cyclone - Innisfail ,Queensland,Cairns,Cyclone,10/3/1918,10/3/1918,37,N/A
+Cyclone - Mackay ,Queensland,Mackay,Cyclone,20/1/1918,22/1/1918,30,N/A
+Cyclone - Balla Balla,Western Australia,Port Hedland,Cyclone,20/3/1912,22/3/1912,173,N/A
+"Cyclone - Broome, Lacepede Islands",Western Australia,"Broome, Lacepede Islands",Cyclone,25/3/1935,,142,1
+Cyclone Broome,Western Australia,Broome,Cyclone,19/11/1910,19/11/1910,40,N/A
+Cyclone - Cooktown,Queensland,Cooktown,Cyclone,19/1/1907,19/1/1907,9,N/A
+Cyclone Leonta,Queensland,Townsville,Cyclone,9/3/1903,9/3/1903,10,N/A
+Earthquake - Beachport and Robe,South Australia,Mount Gambier (SA),Earthquake,10/05/1897,10/05/1897,N/A,50
+Earthquake - Japan,Offshore,"Antarctica , Christmas and Cocos Islands , Lord Howe and Norfolk Islands , Outside Territorial Waters , Territorial Waters",Earthquake,11/3/2011,11/3/2011,"15,467","5,388"
+Earthquake - Christchurch - New Zealand,Offshore,Outside Territorial Waters,Earthquake,22/2/2011,22/2/2011,185,"6,659"
+Earthquake - Sumatra,Offshore,Outside Territorial Waters,Earthquake,30/9/2009,30/9/2009,"1,117","1,214"
+"Earthquake â€“ Hunter Valley, Ellalong and Cessnock",New South Wales,Sydney,Earthquake,6/8/1994,6/8/1994,N/A,N/A
+Earthquake - Newcastle,New South Wales,Sydney,Earthquake,28/12/1989,29/12/1989,13,160
+Earthquake - Tennant Creek,Northern Territory,Tennant Creek,Earthquake,22/1/1988,22/1/1988,N/A,N/A
+Earthquake - Meckering and Region,Western Australia,Merredin,Earthquake,14/10/1968,14/10/1968,N/A,20
+Earthquake - Victoria ,Victoria,Alpine National Park,Earthquake,22/9/2021,22/9/2021,N/A,N/A
+Earthquake - Adelaide,South Australia,Adelaide,Earthquake,1/3/1954,1/3/1954,N/A,3
+Environment Federation Drought,"New South Wales , South Australia , Western Australia , Northern Territory , Tasmania","Sydney , Adelaide , Perth , Darwin , Hobart",Environment,01/01/1895,1/1/1902,N/A,N/A
+Environment- Bushfire pollution,New South Wales,Sydney,Environment,22/10/2013,2/11/2013,N/A,228
+Environment - Drought,New South Wales,New South Wales,Environment,1/4/2012,31/1/2014,N/A,N/A
+Environment - South-West WA Drought,Western Australia,Meekatharra,Environment,1/4/2000,22/8/2001,N/A,N/A
+Environment - Central Wheatbelt Western Australia,Western Australia,Merredin,Environment,19/9/1998,23/9/1998,N/A,N/A
+Environment - The big dry,National,National,Environment,1/1/1996,30/4/2012,N/A,N/A
+Environment - Tasmania and Victoria Drought,"Tasmania , Victoria , South Australia","Cooma (VIC) , Ceduna , Hobart , Launceston , Melbourne",Environment,1/10/1996,30/9/2000,N/A,N/A
+Environment - Eastern and Northern Australia Severe Drought,"Queensland , New South Wales , Australian Capital Territory , South Australia , Western Australia , Northern Territory , Tasmania , Victoria","Brisbane , Sydney , Canberra (ACT) , Adelaide , Perth , Darwin , Hobart , Melbourne",Environment,1/1/1991,1/10/1996,N/A,N/A
+Environment - Eastern Australia Drought,"Queensland , New South Wales , Australian Capital Territory , South Australia , Western Australia , Northern Territory , Tasmania , Victoria","Brisbane , Sydney , Canberra (ACT) , Adelaide , Perth , Darwin , Hobart , Melbourne",Environment,1/4/1982,1/3/1983,N/A,N/A
+Environment - National Drought,National,"Brisbane , Sydney , Canberra (ACT) , Adelaide , Perth , Darwin , Hobart , Melbourne",Environment,1/1/1958,1/9/1968,N/A,N/A
+Environment - Northern Australia,Western Australia,"Ashmore Reef , Bonaparte Archipelago , Cape Londonderry , Derby , Durack Ranges , Fitzroy Crossing , Halls Creek , Lagrange , Wyndham",Environment,1/1/1951,1/4/1954,N/A,N/A
+Environment - World War ll Drought,"Queensland , New South Wales , Australian Capital Territory , South Australia , Western Australia , Northern Territory , Tasmania , Victoria","Brisbane , Sydney , Canberra (ACT) , Adelaide , Perth , Darwin , Hobart , Melbourne",Environment,1/1/1939,30/6/1945,N/A,N/A
+Environment- Drought,National,"Brisbane , Sydney , Canberra (ACT) , Adelaide , Perth , Darwin , Hobart , Melbourne",Environment,1/1/1918,2/1/1920,N/A,N/A
+Environment - Drought,"Queensland , New South Wales , Australian Capital Territory , South Australia , Western Australia , Northern Territory , Tasmania , Victoria","Brisbane , Sydney , Canberra (ACT) , Adelaide , Perth , Darwin , Hobart , Melbourne",Environment,1/1/1911,31/12/1915,N/A,N/A
+Health- South Australia and Victoria Heatwave,"Victoria , South Australia",Adelaide,Health,30/12/2011,4/1/2012,N/A,45
+Health- South Eastern Australia Heatwave,"Victoria , South Australia","Cooma (VIC) , Mount Gambier (VIC) , Murray Bridge (VIC) , Swan Hill (VIC) , Warrnambool (VIC) , Adelaide , Ceduna , Coober Pedy , Cook , Danggali (SA) , Lake Blanche , Lake Eyre , Lake Maurice , Leigh Creek , Marla , Mount Gambier (SA) , Murray Bridge (SA) , Musgrave ranges , Oodnadatta , Tarcoola , Warburton Creek , Warrnambool (SA) , Whyalla , Woomera , Melbourne",Health,27/1/2009,31/1/2009,374,N/A
+Health - South East Queensland Heatwave,Queensland,Brisbane,Health,20/1/2000,24/1/2000,22,350
+Health - Townsville Heatwave,Queensland,Townsville,Health,6/1/1994,10/1/1994,3,N/A
+Health - National Heatwave,"Australia Wide , Queensland , New South Wales , Australian Capital Territory , South Australia , Western Australia , Northern Territory , Tasmania , Victoria","Brisbane , Sydney , Canberra (ACT) , Adelaide , Perth , Darwin , Hobart , Melbourne",Health,1/12/1972,28/2/1973,99,N/A
+Health -  Oodnadatta Heatwave,South Australia,Oodnadatta,Health,31/12/1959,3/1/1960,13,18
+Health - National Heatwave,National,"Brisbane , Sydney , Canberra (ACT) , Adelaide , Perth , Darwin , Hobart , Melbourne",Health,1/12/1959,28/2/1960,98,N/A
+Health - National Heatwave,National,"Brisbane , Sydney , Canberra (ACT) , Adelaide , Perth , Darwin , Hobart , Melbourne",Health,1/12/1939,28/2/1940,112,N/A
+Health- South Eastern Australia Heatwave,"New South Wales , South Australia , Victoria","Sydney , Adelaide , Ceduna , Melbourne",Health,1/1/1939,16/1/1939,400,N/A
+Health - Melbourne and Northern Victoria Legionnaires' Disease Outbreak,Victoria,Melbourne,Health,11/4/2000,27/4/2000,4,131
+Health - Food Poisoning Outbreak,South Australia,Adelaide,Health,1/11/1994,1/2/1995,1,22
+Health - Poliomyelitis,"Queensland , New South Wales , Australian Capital Territory , South Australia , Western Australia , Northern Territory , Tasmania , Victoria","Brisbane , Sydney , Canberra (ACT) , Adelaide , Perth , Darwin , Hobart , Melbourne",Health,1/1/1930,1/1/1959,N/A,"40,000"
+Health- Spanish Flu,"Queensland , New South Wales , Australian Capital Territory , South Australia , Western Australia , Northern Territory , Tasmania , Victoria","Brisbane , Sydney , Canberra (ACT) , Adelaide , Perth , Darwin , Hobart , Melbourne",Health,1/1/1918,31/12/1919,"10,000",N/A
+Health - Bubonic Plague Sydney,"Queensland , New South Wales , South Australia , Western Australia , Victoria","Brisbane , Sydney , Adelaide , Bunbury , Perth , Melbourne",Health,19/1/1900,1/1/1925,535,"1,371"
+Health - Heatwave,"Australia Wide , Queensland , New South Wales , Australian Capital Territory , South Australia , Western Australia , Northern Territory , Tasmania , Victoria","Brisbane , Sydney , Canberra (ACT) , Adelaide , Perth , Darwin , Hobart , Melbourne",Environment,01/12/1895,28/02/1896,431,N/A
+Health - South-Eastern Australia Heatwave,National,National,Health,7/1/2014,22/1/2014,167,1896
+Health - National Heatwave,National,National,Health,26/12/1926,27/1/1927,130,N/A
+Health - National Heatwave,National,National,Health,28/12/2012,10/1/2013,240,N/A
+Health - Heatwave,National,"Brisbane , Sydney , Canberra (ACT) , Adelaide , Perth , Darwin , Hobart , Melbourne",Health,1/12/1938,28/2/1939,438,N/A
+Health - Heatwave,National,"Brisbane , Sydney , Canberra (ACT) , Adelaide , Perth , Darwin , Hobart , Melbourne",Health,1/12/1926,28/2/1927,130,N/A
+Health - Heatwave,National,"Brisbane , Sydney , Canberra (ACT) , Adelaide , Perth , Darwin , Hobart , Melbourne",Health,1/12/1920,28/2/1921,147,N/A
+Health - Heatwave,National,"Brisbane , Sydney , Canberra (ACT) , Adelaide , Perth , Darwin , Hobart , Melbourne",Health,1/12/1913,28/2/1914,122,N/A
+Health - Heatwave,National,"Brisbane , Sydney , Canberra (ACT) , Adelaide , Perth , Darwin , Hobart , Melbourne",Health,1/12/1911,28/2/1912,143,N/A
+Health - Heatwaves,National,"Brisbane , Sydney , Canberra (ACT) , Adelaide , Perth , Darwin , Hobart , Melbourne",Health,9/12/1909,10/2/1910,109,N/A
+Health - Melbourne heatwave,Victoria,Melbourne,Health,1/12/1907,28/2/1908,246,N/A
+Flood - Bolwarra,New South Wales,Sydney,Flood,28/07/1857,29/07/1857,26,N/A
+Flood - Southern Tasmania,Tasmania,Hobart,Flood,26/02/1854,22/03/1854,N/A,N/A
+Flood - Gundagai,New South Wales,Canberra (NSW),Flood,25/06/1852,25/06/1852,89,N/A
+Flood - Mid-North South Australia,South Australia,"Adelaide , Leigh Creek , Murray Bridge (SA)",Flood,14/04/1889,19/04/1889,5,N/A
+Flood - Araluen and Braidwood,New South Wales,Wollongong,Flood,08/02/1860,13/02/1860,24,N/A
+Flood -  Widespread New South Wales (including Queensland and South Australia),New South Wales,"Bourke , Broken Hill , Danggali (NSW) , Swan Hill (NSW)",Flood,01/04/1890,01/10/1890,9,N/A
+"Flood - Black February. Brisbane, Ipswich and Maryborough",Queensland,"Brisbane , Bundaberg",Flood,01/02/1893,15/02/1893,35,300
+Flood - Maitland,New South Wales,Maitland,Flood,9/3/1893,,8,N/A
+Flood - Katherine and Daly River,Northern Territory,"Katherine , Victoria River",Flood,01/02/1879,01/02/1879,6,N/A
+Flood - Clermont and Peak Downs,Queensland,Clermont,Flood,01/02/1870,01/02/1870,15,N/A
+Flood - Widespread New South Wales and Queensland,New South Wales,New South Wales,Flood,14/2/1863,28/2/1863,10,N/A
+Flood - Nowra,New South Wales,Wollongong,Flood,01/01/1860,01/01/1860,16,N/A
+South-east Queensland Heavy rainfall and floods,Queensland,Queensland,Flood,8/2/2020,14/2/2020,1,N/A
+Flood - Hobart flash flooding,Tasmania,Hobart,Flood,10/5/2018,10/5/2018,N/A,N/A
+Flood - south-eastern Australia,National,National,Flood,1/9/2016,30/9/2016,1,N/A
+"Flood - Tasmania, 2016",Tasmania,"Mersey, Forth, Meander, North Esk, South Esk, Macquarie, Ouse, Huon and Derwent Rivers",Flood,1/6/2016,31/7/2016,3,N/A
+Flood - Victoria,Victoria,Cooma (VIC),Flood,26/2/2012,15/3/2012,N/A,N/A
+Flood - New South Wales,New South Wales,"Bourke , Broken Hill , Canberra (NSW) , Cooma (NSW) , Dubbo , Narrabi , Swan Hill (NSW) , Sydney , Tamworth , Tibooburra (NSW) , Wollongong",Flood,24/1/2012,13/3/2012,3,N/A
+Flood - Queensland,Queensland,"Cairns , Cape York , Charters Towers , Cooktown , Gunpowder , Mackay , Mitchell River , Mornington Island , Normanton , Torres Strait , Townsville , Weipa",Flood,24/1/2012,13/3/2012,1,N/A
+Flood - Northern NSW - Moree,New South Wales,"Moree (NSW) , Narrabi , Tamworth",Flood,27/11/2011,4/12/2011,1,N/A
+Flood - Victoria ,Victoria,"Mount Gambier (VIC) , Murray Bridge (VIC) , Swan Hill (VIC) , Melbourne",Flood,12/1/2011,18/1/2011,N/A,N/A
+"Flood - Warum, Kimberly",Western Australia,Kimberly,Flood,10/3/2011,14/3/2011,N/A,N/A
+Flood - Queensland,Queensland,Brisbane,Flood,30/11/2010,17/1/2011,33,N/A
+Flood - Gascoyne river,Western Australia,Gascoyne River,Flood,16/12/2010,18/12/2010,N/A,N/A
+Flood - Queensland ,Queensland,"Blackall , Brisbane , Charleville , Clermont , Eromanga , Moree (QLD) , Roma , Taroom , Windorah",Flood,28/2/2010,5/3/2010,N/A,N/A
+Flood - Northern New South Wales,New South Wales,Lismore (NSW),Flood,20/5/2009,23/5/2009,1,N/A
+Flood - Mid and North Coast ,New South Wales,Tamworth,Flood,31/3/2009,2/4/2009,N/A,N/A
+Flood - North Queensland,Queensland,"Cairns , Townsville",Flood,31/1/2009,7/2/2009,1,N/A
+Flood - North Queensland ,Queensland,"Cairns , Townsville",Flood,12/1/2009,14/2/2009,N/A,N/A
+Flood - Mackay,Queensland,"Blackall , Bundaberg , Cairns , Cape York , Charters Towers , Clermont , Cooktown , Croydon , Longreach , Mackay , Mitchell River , Normanton , Rockhampton , Taroom , Townsville , Weipa",Flood,14/2/2008,17/2/2008,N/A,N/A
+Flood - South East Queensland,Queensland,"Blackall , Bundaberg , Cairns , Cape York , Charters Towers , Clermont , Cooktown , Croydon , Longreach , Mackay , Mitchell River , Normanton , Rockhampton , Taroom , Tibooburra (QLD) , Townsville , Weipa",Flood,10/2/2008,18/2/2008,N/A,N/A
+Flood - North Coast New South Wales ,New South Wales,Lismore (NSW),Flood,4/1/2008,11/1/2008,N/A,N/A
+Flood - Queensland,Queensland,"Ayr , Birdsville , Blackall , Boulia , Cairns , Cape York , Charleville , Charters Towers , Clermont , Cooktown , Coringa Islets , Croydon , Cunnamulla (QLD) , Eromanga , Longreach , Mackay , Mitchell River , Moree (QLD) , Mornington Island , Mount Isa , Normanton , Osprey Reef , Richmond , Rockhampton , Roma , Taroom , Tibooburra (QLD) , Townsville , Weipa , Windorah , Winton",Flood,1/1/2008,31/1/2008,N/A,N/A
+Flood - South East Queensland ,Queensland,"Brisbane , Lismore (QLD)",Flood,27/12/2007,7/1/2008,N/A,N/A
+Flood - Gippsland,Victoria,"Cooma (VIC) , Wilsons Promontory , Melbourne",Flood,27/6/2007,2/7/2007,1,N/A
+Flood - Gawler river,South Australia,Gawler River,flood,8/11/2005,,N/A,N/A
+Flood - North East New South Wales,New South Wales,Lismore (NSW),Flood,29/6/2005,30/6/2005,1,N/A
+Flood - South East Queensland,Queensland,Lismore (QLD),Flood,29/6/2005,30/6/2005,2,N/A
+"Flood - Brisbane, Sunshine Coast, and Gold Coast",Queensland,Brisbane,Flood,9/3/2001,11/3/2001,2,N/A
+"Flood - Grafton, Kempsey and North Coast New South Wales ",New South Wales,"Lismore (NSW) , Tamworth",Flood,5/3/2001,12/3/2001,N/A,N/A
+Flood - North and Central Queensland,Queensland,"Cairns , Townsville",Flood,5/2/2000,28/2/2000,N/A,10
+Flood - Melbourne and Central Victoria,Victoria,Melbourne,Flood,26/12/1999,28/12/1999,N/A,N/A
+Flood - Switzerland Gorge Flash Flood,Offshore,Outside Territorial Waters,Flood,27/7/1999,28/7/1999,21,N/A
+Flood - Sydney and Wollongong,New South Wales,"Sydney , Wollongong",Flood,17/8/1998,19/8/1998,1,N/A
+Flood - Katherine Floods,Northern Territory,Katherine,Flood,25/1/1998,2/2/1998,3,30
+Flood - Townsville,Queensland,"Cairns , Townsville",Flood,10/1/1998,12/1/1998,1,N/A
+Flood - Southern Queensland and Northern New South Wales,"Queensland , New South Wales","Brisbane , Lismore (NSW)",Flood,1/5/1996,9/5/1996,5,20
+Flood - North-Eastern Victoria,Victoria,Melbourne,Flood,3/10/1993,4/10/1993,N/A,N/A
+"Flood - Gnarr Creek, Ballarat",Victoria,Melbourne,Flood,16/12/1991,18/12/1991,N/A,N/A
+Flood - Boonah,Queensland,Brisbane,Flood,7/2/1991,11/2/1991,3,10
+Flood - Gulf Country ,Queensland,"Cairns , Rockhampton",Flood,23/12/1990,7/1/1991,6,N/A
+"Flood - Queensland - Charleville, New South Wales - Nyngan, Victoria - Gippsland",National,"Brisbane , Lismore (NSW) , Melbourne",Flood,18/4/1990,30/4/1990,6,60
+"Flood - Gympie, Southern Queensland, and Eastern New South Wales",Queensland,"Brisbane , Lismore (QLD)",Flood,25/4/1989,30/4/1989,3,N/A
+Flood - Lismore,New South Wales,Lismore (NSW),Flood,7/4/1988,12/4/1988,N/A,N/A
+Flood - Alice Springs and Central NT,Northern Territory,Alice Springs,Flood,31/3/1988,2/4/1988,3,N/A
+Flood - Sydney,New South Wales,Sydney,Flood,4/8/1986,6/8/1986,6,N/A
+Flood - Sydney,New South Wales,Sydney,Flood,8/11/1984,8/11/1984,N/A,N/A
+Flood - Dalby,Queensland,Brisbane,Flood,1/2/1981,1/2/1981,1,5
+"Flood - Sydney, Newcastle and Wollongong",New South Wales,Sydney,Flood,10/2/1978,10/2/1978,6,N/A
+Flood - Sydney,New South Wales,Sydney,Flood,9/3/1975,9/3/1975,N/A,N/A
+Flood - Western Sydney,New South Wales,Sydney,Flood,24/4/1974,24/4/1974,1,N/A
+Flood - Brisbane River,Queensland,Brisbane,Flood,25/1/1974,29/1/1974,13,300
+Flood - Eastern Australia,"Queensland , New South Wales , South Australia , Tasmania , Victoria","Brisbane , Dubbo , Lismore (NSW) , Sydney , Tamworth , Wollongong , Coober Pedy , Oodnadatta , Launceston , Melbourne",Flood,25/1/1974,1/4/1974,14,N/A
+"Flood - Queensland, Northern Territory and Western Australia",Queensland,"Birdsville , Cooktown , Longreach , Mornington Island , Mount Isa",Flood,2/3/1973,30/3/1973,N/A,N/A
+Flood - Woden Valley,Australian Capital Territory,Canberra (ACT),Flood,26/1/1971,26/1/1971,7,15
+Flood - Central Coast,Queensland,"Ayr , Charters Towers , Mackay , Townsville",Flood,16/2/1958,24/2/1958,3,N/A
+Flood - Murray River,South Australia,Murray Bridge (SA),Flood,8/6/1956,1/12/1956,N/A,N/A
+Flood - Hunter Valley ,New South Wales,Sydney,Flood,22/2/1955,28/2/1955,24,N/A
+Flood - Northern New South Wales ,New South Wales,Lismore (NSW),Flood,20/2/1954,24/2/1954,22,N/A
+Flood - Eastern New South Wales,New South Wales,Sydney,Flood,1/6/1950,30/6/1950,5,N/A
+"Flood - Sydney, North Coast, and North Western Districts",New South Wales,Sydney,Flood,16/1/1950,19/1/1950,10,N/A
+Flood - Burdekin River,Queensland,"Ayr , Townsville",Flood,7/4/1940,9/4/1940,3,N/A
+"Flood - Melbourne, Yarra Valley",Victoria,"Cooma (VIC) , Wilsons Promontory , Melbourne",Flood,30/11/1934,2/12/1934,36,N/A
+Flood - Widespread Queensland,Queensland,"Blackall , Cairns , Charleville , Charters Towers , Longreach , Mackay , Mount Isa , Townsville , Winton",Flood,20/1/1930,30/1/1930,6,N/A
+Flood - Tasmania,Tasmania,"Hobart , Launceston",Flood,3/4/1929,6/4/1929,22,N/A
+Flood - Widespread Coastal,Queensland,"Brisbane , Cairns , Lismore (QLD) , Townsville",Flood,20/2/1929,28/2/1929,3,N/A
+Flood - Queensland South Coast,"Queensland , New South Wales","Brisbane , Dubbo",Flood,18/4/1928,24/4/1928,9,N/A
+Flood - South East Queensland,Queensland,Brisbane,Flood,14/2/1928,22/2/1928,5,N/A
+"Flood - Toowoomba, Miles, Cairns, and Townsville",Queensland,"Brisbane , Cairns , Roma , Townsville",Flood,10/2/1927,17/2/1927,47,N/A
+"Flood - Toowoomba, Miles, Cairns, and Townsville",Queensland,Cairns,Flood,9/2/1927,16/2/1927,47,N/A
+Flood - Hughenden,Queensland,Hughenden,Flood,1/1/1917,10/1/1917,5,N/A
+Flood - Clermont and Peak Downs,Queensland,Clermont,Flood,27/12/1916,27/12/1916,61,N/A
+Bolwara Flood,New South Wales,Bolwarra,Flood,15/7/1857,31/7/1857,26,N/A
+Flood - Melbourne and Victoria ,Victoria,Melbourne,Flood,29/11/1934,1/12/1934,36,400
+"Flood - Flooding, New South Wales",New South Wales,Northern Rivers,Flood,22/2/2022,,N/A,N/A
+Flood - Rainfall and Flooding,Queensland,South East Queensland,Flood,22/2/2022,7/3/2022,N/A,N/A
+Flood - Severe Flooding from (ex) Tropical Cyclone Tiffany ,South Australia,South Australia,Flood,21/1/2022,3/2/2022,N/A,N/A
+Flood - Geelong,Victoria,Geelong,Flood,27/1/2015,27/1/2015,N/A,N/A
+Flood - Nowra Flood,New South Wales,Nowra,Flood,11/02/1860,25/2/1860,16,N/A
+Industrial - Longford Gas explision,Victoria,"Bass Strait , Mount Gambier (VIC) , Wilsons Promontory , Melbourne",Industrial,25/9/1998,14/10/1998,2,8
+Industrial - Bulli Mine,New South Wales,Wollongong,Industrial,23/03/1887,23/03/1887,81,3
+Industrial - Dudley Mine,New South Wales,Sydney,Industrial,21/03/1898,21/03/1898,15,N/A
+Industrial - Broken Hill Mine Collapse,New South Wales,Broken Hill,Industrial,18/07/1895,18/07/1895,9,1
+Industrial - Creswick Gold Mine,Victoria,Melbourne,Industrial,12/12/1882,12/12/1882,22,N/A
+"Swanston Street wall collapse, 2013",Victoria,Melbourne,Industrial,29/3/2013,,3,8
+"Industrial – Pike River Mine, New Zealand",Offshore,Outside Territorial Waters,Industrial,19/11/2010,26/11/2010,29,2
+Industrial - Savage River Mine Fire,Tasmania,Savage River,Industrial,21/6/2006,,N/A,N/A
+Industrial - Gladstone Factory Explosion,South Australia,Whyalla,Industrial,9/5/2006,9/5/2006,3,2
+Industrial - Beaconsfield Mine,Tasmania,Launceston,Industrial,25/4/2006,9/5/2006,1,2
+Industrial - Bellevue Hazardous Waste Fire,Western Australia,Perth,Industrial,15/2/2001,17/2/2001,N/A,130
+Industrial -Kalgoorlie Mine Collapse,Western Australia,Kalgoorlie,Industrial,26/6/2000,26/6/2000,3,8
+Industrial - Hunter Valley Silo Explosion,New South Wales,Sydney,Industrial,6/12/1999,6/12/1999,3,1
+Industrial - North Parkes Mine,New South Wales,Dubbo,Industrial,24/11/1999,24/11/1999,4,N/A
+Industrial- Hazardous material incident,Victoria,Melbourne,Industrial,21/2/2005,21/2/2005,N/A,57
+Industrial - Structure Collapse,South Australia,Adelaide,Industrial,6/8/1996,6/8/1996,N/A,50
+Industrial - Moura Mine,Queensland,Taroom,Industrial,7/8/1994,7/8/1994,11,N/A
+Industrial - South Bulli Coal Mine,New South Wales,Wollongong,Industrial,24/7/1991,24/7/1991,3,N/A
+Industrial - Coode Island,Victoria,Melbourne,Industrial,21/7/1991,,2,N/A
+Industrial - Western Main,New South Wales,Hillston,Industrial,29/5/1991,29/5/1991,3,N/A
+Industrial - Leinster Mine Flood,Western Australia,Wiluna,Industrial,13/6/1989,13/6/1989,6,N/A
+"Industrial - Boiling liquid expanding vapour explosion (BLEVE), Cairns ",Queensland,Cairns,Industrial,1/8/1987,1/8/1987,1,27
+Industrial - Moura Mine,Queensland,Taroom,Industrial,16/7/1986,16/7/1986,12,N/A
+Industrial - Poisonous gases HMAS Stalwart,Offshore,Territorial Waters,Industrial,22/10/1985,,3,60
+Industrial - Appin Mine Explosion,New South Wales,Wollongong,Industrial,24/7/1979,24/7/1979,14,N/A
+Industrial - Kianga Mine,Queensland,Taroom,Industrial,20/9/1975,20/9/1975,13,N/A
+Industrial - Mount St Canice,Tasmania,Hobart,Industrial,5/9/1974,5/9/1974,8,17
+Industrial - Box Flat Mine Ipswich,Queensland,Brisbane,Industrial,31/7/1972,31/7/1972,18,17
+Industrial - Blackmans Flat,New South Wales,Dubbo,Industrial,1/1/1972,1/1/1972,3,N/A
+"Industrial - Westgate Bridge Collapse, Melbourne",Victoria,Melbourne,Industrial,15/10/1970,15/10/1970,35,N/A
+Industrial â€“ Wyee State Mine,New South Wales,Sydney,Industrial,21/10/1966,21/10/1966,5,N/A
+Industrial â€“ Melbourne Crane Collapse,Victoria,Melbourne,Industrial,1/10/1961,1/10/1961,3,N/A
+Industrial - Collinsville Mine,Queensland,Mackay,Industrial,13/10/1954,13/10/1954,7,2
+Industrial - Balmain colliery,New South Wales,Balmain,Industrial,20/4/1945,,3,2
+Industrial - Woodend Mine,Queensland,Brisbane,Industrial,1/2/1945,1/2/1945,4,N/A
+Industrial - Redhead Colliery,New South Wales,Sydney,Industrial,21/1/1926,21/1/1926,5,N/A
+Industrial - Bellbird Colliery,New South Wales,Sydney,Industrial,1/9/1923,1/9/1923,21,N/A
+Industrial - Mount Mulligan Mine ,Queensland,Cairns,Industrial,19/9/1921,19/9/1921,75,N/A
+Industrial - Great Extended Hustler's Mine explosion,Victoria,Bendigo,Industrial,2/5/1914,,7,N/A
+Industrial - Queenstown Copper Mine Fire,Tasmania,Hobart,Industrial,12/10/1912,12/10/1912,42,N/A
+Industrial - Stanford Merthyr Mine ,New South Wales,Sydney,Industrial,29/10/1905,29/10/1905,6,N/A
+Industrial - Charters Towers mine 1904,Queensland,Charters Towers,Industrial,14/10/1904,14/10/1904,7,N/A
+Industrial - Burwood Colliery,New South Wales,Sydney,Industrial,13/11/1901,13/11/1901,3,N/A
+Industrial - Balmain mining fall,New South Wales,Balmain,Industrial,17/3/1900,,5,1
+Industrial - Greta Colliery Fire,New South Wales,Sydney,Industrial,5/12/1900,5/12/1900,5,N/A
+Industrial - Varanus Island Gas Explosion,Western Australia,Dampier,Industrial,3/6/2008,3/6/2008,N/A,N/A
+Industrial - Newcastle Toxic Fume Leak,New South Wales,Sydney,Industrial,30/3/2006,30/3/2006,N/A,37
+Industrial - Tullamarine Chemical Spill,Victoria,Melbourne,Industrial,29/10/2004,29/10/2004,N/A,28
+Industrial - Kakadu Mine Uranium Leak,Northern Territory,Kakadu,Industrial,23/3/2004,23/3/2004,N/A,28
+Industrial - MV Nego Kim,Western Australia,Dampier,Industrial,18/11/2001,18/11/2001,8,N/A
+Industrial - HMAS Westralia (II),Western Australia,Perth,Industrial,5/5/1998,5/5/1998,4,9
+Industrial - HMAS Tarakan Explosion,New South Wales,Sydney,Industrial,25/1/1950,25/1/1950,8,12
+Industrial - Wonthaggi Gas Explosion,Victoria,Wilsons Promontory,Industrial,15/2/1937,15/2/1937,13,N/A
+Industrial - Mt Kembla Gas Explosion,New South Wales,Wollongong,Industrial,31/7/1902,31/7/1902,96,N/A
+Landslide - Somersby ,New South Wales,Sydney,Landslide,8/6/2007,8/6/2007,5,N/A
+Landslide - Thredbo,New South Wales,Canberra (NSW),Landslide,30/7/1997,30/7/1997,18,1
+Landslide - Gracetown,Western Australia,Gracetown,Landslide,27/9/1996,28/9/1996,9,3
+Landslide - Adelaide Hills,South Australia,Adelaide,Landslide,31/1/1928,31/1/1928,6,3
+Other Disasters- Cowra POW Attempted Mass Escape,New South Wales,Dubbo,Other Disasters,5/8/1944,`,231,108
+Other Disasters - Wartime Bombing Raids,Northern Territory,Darwin,Other Disasters,19/2/1942,19/2/1942,243,400
+"Severe Storm - Thunderstorm Asthma, 2016",Victoria,Melbourne,Storm,21/11/2016,22/11/2016,9,8000
+"Severe Storm - Extreme weather and statewide power failure, South Australia, 2016",South Australia,South Australia,Storm,28/9/2016,1/11/2016,N/A,N/A
+"Hail - North Sydney hailstorm, 2017",New South Wales,North sydney,Storm,18/2/2017,18/2/2017,N/A,3
+Hail - Sydney,New South Wales,Sydney,Storm,9/12/2007,9/12/2007,N/A,30
+Hail - Lismore,New South Wales,Lismore (NSW),Storm,8/10/2007,9/10/2007,N/A,17
+Hail - Hunter Valley,New South Wales,Sydney,Storm,31/10/2006,31/10/2006,N/A,N/A
+Hail - Sydney Hailstorm,New South Wales,Sydney,Storm,25/4/2015,25/4/2015,N/A,N/A
+Hail - Lake Grace,Western Australia,Bunbury,Storm,16/10/2005,16/10/2005,N/A,N/A
+Storm - Severe storm Sydney,New South Wales,Sydney,Storm,16/12/2015,,N/A,N/A
+Hail - Gold Coast ,Queensland,Brisbane,Storm,12/10/2005,12/10/2005,N/A,N/A
+Hail - Brisbane,Queensland,Brisbane,Storm,19/5/2005,19/5/2005,N/A,N/A
+Hail - South East Queensland,Queensland,"Brisbane , Bundaberg , Lismore (QLD)",Storm,24/1/2004,31/1/2004,1,3
+Hail - Sydney,New South Wales,Sydney,Storm,14/4/1999,14/4/1999,1,50
+Hail - Brisbane and Region,Queensland,Brisbane,Storm,16/12/1998,16/12/1998,N/A,N/A
+Hail - Singleton,New South Wales,Sydney,Storm,11/12/1996,11/12/1996,N/A,N/A
+Hail - Armidale and Tamworth,New South Wales,Tamworth,Storm,29/9/1996,29/9/1996,N/A,10
+Hail - Brisbane and South East Queensland,Queensland,Brisbane,Storm,3/11/1995,6/11/1995,1,N/A
+Hail - Adelaide,South Australia,Adelaide,Storm,22/1/1991,22/1/1991,N/A,N/A
+Hail - Western Sydney,New South Wales,Sydney,Storm,18/3/1990,18/3/1990,N/A,25
+Hail - Western Sydney,New South Wales,Sydney,Storm,3/10/1986,3/10/1986,N/A,10
+Hail - Orange,New South Wales,Dubbo,Storm,21/1/1986,21/1/1986,N/A,N/A
+Hail - Brighton ,Queensland,Brisbane,Storm,16/12/1980,16/12/1980,N/A,N/A
+Hail - Port Broughton,South Australia,Whyalla,Storm,14/11/1979,14/11/1979,N/A,71
+Hail - Toowoomba,Queensland,Brisbane,Storm,9/1/1976,9/1/1976,N/A,N/A
+Hail - Sydney,New South Wales,Sydney,Storm,1/1/1947,1/1/1947,N/A,300
+Severe Storm - Melbourne,Victoria,Melbourne,Storm,25/12/2011,26/12/2011,N/A,N/A
+"Severe Storm - Melbourne, Victoria",Victoria,Melbourne,Storm,4/2/2011,6/2/2011,N/A,1
+Severe Storm - Perth,Western Australia,Perth,Storm,22/3/2010,22/3/2010,N/A,N/A
+"Severe Storm - Melbourne, Victoria",Victoria,Melbourne,Storm,6/3/2010,7/3/2010,N/A,N/A
+Severe Storm - South East Queensland,Queensland,Brisbane,Storm,16/11/2008,22/11/2008,1,N/A
+Severe Storm - Southern States Windstorms,"South Australia , Tasmania , Victoria","Adelaide , Mount Gambier (SA) , Murray Bridge (SA) , Hobart , Launceston , Melbourne",Storm,2/4/2008,2/4/2008,2,N/A
+Severe Storm - South East Queensland and Northern New South Wales,Queensland,"Brisbane , Bundaberg , Lismore (QLD) , Roma",Storm,7/10/2007,12/10/2007,N/A,N/A
+Severe Storm - New South Wales East Coast Low,New South Wales,Sydney,Storm,8/6/2007,10/6/2007,9,N/A
+Severe Storm - Northern New South Wales,New South Wales,Lismore (NSW),Storm,30/6/2005,30/6/2005,1,N/A
+Severe Storm - Bunbury and South Perth,Western Australia,"Bunbury , Perth",Storm,16/5/2005,16/5/2005,N/A,N/A
+"Severe Storm - New South Wales, Victoria, Australian Capital Territory, Tasmania and South Australia","New South Wales , Australian Capital Territory , Victoria , South Australia","Sydney , Wollongong , Canberra (ACT) , Cooma (VIC) , Adelaide , Melbourne",Storm,1/2/2005,3/2/2005,N/A,N/A
+"Severe Storm - South East Queensland, Northern New South Wales, Northern Western Australia. Northern Territory","Queensland , New South Wales , Western Australia , Northern Territory","Brisbane , Lismore (NSW) , Broome , Katherine",Storm,3/3/2004,31/3/2004,3,N/A
+Severe Storm - South Eastern Australia,"New South Wales , Australian Capital Territory , Victoria , Tasmania","Sydney , Wollongong , Canberra (ACT) , Cooma (VIC) , Warrnambool (VIC) , Wilsons Promontory , Hobart , Melbourne",Storm,24/8/2003,24/8/2003,1,4
+Severe Storm - Sydney,New South Wales,Sydney,Storm,16/2/2002,16/2/2002,N/A,N/A
+"Severe Storm - Grafton, Kingscliff and Lismore",New South Wales,Lismore (NSW),Storm,16/1/2002,16/1/2002,N/A,N/A
+"Severe Storm - Sydney, Hunter Valley and Northern Regions",New South Wales,"Sydney , Tamworth , Wollongong",Storm,3/12/2001,3/12/2001,2,N/A
+Severe Storm - Eastern New South Wales,New South Wales,Sydney,Storm,18/11/2001,21/11/2001,3,N/A
+Severe Storm - Casino and Region,New South Wales,Lismore (NSW),Storm,17/1/2001,17/1/2001,N/A,N/A
+Severe Storm - Sydney and Region,New South Wales,"Sydney , Wollongong",Storm,15/1/2001,15/1/2001,N/A,N/A
+Storm - Melbourne,Victoria,Melbourne,Storm,27/8/2020,27/8/2020,3,N/A
+Severe Storm - Dubbo,New South Wales,Dubbo,Storm,6/1/2001,6/1/2001,N/A,N/A
+"Severe Storm - Sydney, Wollongong and South Coast ",New South Wales,"Sydney , Wollongong",Storm,24/10/1999,24/10/1999,N/A,N/A
+Severe Storm - Kosciuszko NP ,New South Wales,Cooma (NSW),Storm,7/8/1999,11/8/1999,4,N/A
+Severe Storm - Warwick ,Queensland,"Brisbane , Lismore (QLD)",Storm,13/10/1998,13/10/1998,N/A,N/A
+"Severe Storm - Hunter Valley, Tablelands and Southern Highlands",New South Wales,"Sydney , Wollongong",Storm,23/6/1998,24/6/1998,1,N/A
+Severe Storm - Ipswich,Queensland,Brisbane,Storm,10/4/1998,10/4/1998,3,N/A
+Severe Storm - Sydney,New South Wales,Sydney,Storm,9/4/1998,10/4/1998,1,N/A
+Severe Storm - Sydney and Regions,New South Wales,"Dubbo , Sydney , Tamworth",Storm,4/2/1998,4/2/1998,N/A,1
+Severe Storm - Nyngan,New South Wales,Bourke,Storm,5/1/1998,5/1/1998,N/A,1
+Severe Storm - Coffs Harbour,New South Wales,Tamworth,Storm,23/11/1996,23/11/1996,1,N/A
+Storm - Queensland Floods and Storms,Queensland,Central and South East Queensland,Storm,31/10/2020,31/10/2020,N/A,N/A
+Severe Storm - New England and Hunter Valley,New South Wales,"Sydney , Tamworth",Storm,17/11/1996,17/11/1996,1,N/A
+Severe Storm - Illawarra and Sydney,New South Wales,"Sydney , Wollongong",Storm,31/8/1996,31/8/1996,N/A,N/A
+Severe Storm - Hunter Valley and Mid North Coast,New South Wales,Sydney,Storm,30/11/1995,30/11/1995,N/A,N/A
+Severe Storm - Sydney and Blue Mountains ,New South Wales,Sydney,Storm,20/11/1994,20/11/1994,2,2
+Severe Storm - South Eastern Australia,"New South Wales , Australian Capital Territory , Victoria","Sydney , Canberra (ACT) , Melbourne",Storm,6/11/1994,8/11/1994,1,50
+"Severe Storm - Perth, Mandurah and South-West Coast",Western Australia,"Bunbury , Geraldton , Perth",Storm,23/5/1994,24/5/1994,N/A,N/A
+Severe Storm - Sydney,New South Wales,Sydney,Storm,12/2/1992,13/2/1992,N/A,1
+Severe Storm - Orbost,Victoria,Cooma (VIC),Storm,24/1/1991,24/1/1991,N/A,N/A
+Severe Storm - Sydney,New South Wales,Sydney,Storm,21/1/1991,21/1/1991,1,100
+Severe Storm - Ballarat,Victoria,Melbourne,Storm,16/11/1989,16/11/1989,N/A,N/A
+Severe Storm - Adelaide,South Australia,Adelaide,Storm,6/12/1986,8/12/1986,N/A,N/A
+"Severe Storm - Newcastle, Sydney, Wollongong",New South Wales,"Sydney , Wollongong",Storm,10/2/1978,11/2/1978,N/A,8
+Severe Storm - Sydney,New South Wales,Sydney,Storm,21/1/1977,21/1/1977,1,N/A
+Severe Storm - Western Sydney,New South Wales,Sydney,Storm,9/11/1976,9/11/1976,N/A,10
+Storm - Brisbane,Queensland,Brisbane,Storm,27/11/2014,27/11/2014,N/A,N/A
+Severe Storm - Sydney,New South Wales,Sydney,Storm,25/1/1937,25/1/1937,4,N/A
+Storm - Victoria,Victoria,Melbourne and surrounds,Storm,28/10/2021,8/11/2021,N/A,N/A
+Storm - South Australia,South Australia,Adelaide,Storm,28/10/2021,29/10/2021,N/A,N/A
+Storm - Sydney Hailstorm,New South Wales,Sydney,Storm,14/4/1999,14/4/1999,1,50
+Maritime/Coastal - Lake Illawarra,Tasmania,Hobart,Maritime/Coastal,5/1/1975,5/1/1975,12,
+"Maritime/Coastal - AHS Centaur sinking, Cape Moreton ",Queensland,Brisbane,Maritime/Coastal,14/5/1943,14/5/1943,268,N/A
+Maritime/Coastal - Iron Crown steamship Sinking,Victoria,Cooma (VIC),Maritime/Coastal,4/6/1942,4/6/1942,37,5
+Maritime/Coastal - Sydney to Hobart Yacht Race ,Victoria,Bass Strait,Maritime/Coastal,26/12/1998,30/12/1998,6,70
+Shipwreck - Sierra Nevada,Victoria,Wilsons Promontory,Maritime/Coastal,9/5/1900,9/5/1900,23,N/A
+Shipwrecks - Richmond River Ballina,New South Wales,Lismore (NSW),Maritime/Coastal,28/09/1850,28/09/1850,N/A,N/A
+"Shipwreck - Toroa Shipwreck, Victoria 1858",Victoria,Cape Otway,Maritime/Coastal,6/08/1858,,12,N/A
+Shipwreck - Koenig Willem ll,South Australia,Mount Gambier (SA),Maritime/Coastal,30/06/1857,30/06/1857,16,N/A
+Shipwreck - Sally,Tasmania,Launceston,Maritime/Coastal,30/06/1826,30/06/1826,13,N/A
+Shipwreck - Ly-Ee-Moon,New South Wales,Cooma (NSW),Maritime/Coastal,30/05/1886,30/05/1886,71,16
+Shipwreck - Sea,Victoria,Wilsons Promontory,Maritime/Coastal,30/05/1853,30/05/1853,24,N/A
+Shipwreck - Ecliptic,Victoria,Wilsons Promontory,Maritime/Coastal,30/03/1874,30/03/1874,8,1
+Shipwreck - Creole,Tasmania,Launceston,Maritime/Coastal,29/08/1863,29/08/1863,29,N/A
+Shipwreck - Rebecca,Tasmania,Hobart,Maritime/Coastal,29/04/1853,29/04/1853,6,N/A
+Shipwreck - Alert,Victoria,Wilsons Promontory,Maritime/Coastal,28/12/1893,28/12/1893,15,1
+Shipwreck - Glimpse,Tasmania,Launceston,Maritime/Coastal,28/08/1863,28/08/1863,5,N/A
+Shipwreck - Maypo,Tasmania,Hobart,Maritime/Coastal,28/05/1855,28/05/1855,4,N/A
+Shipwreck - Frisk,Victoria,Wilsons Promontory,Maritime/Coastal,28/05/1853,28/05/1853,5,N/A
+Shipwreck - Marmion,Victoria,Wilsons Promontory,Maritime/Coastal,28/05/1853,28/05/1853,4,N/A
+Shipwreck - Vergulde Draeck,Western Australia,Perth,Maritime/Coastal,28/04/1656,28/04/1656,100,N/A
+Shipwreck - Quetta ,Queensland,Cairns,Maritime/Coastal,28/02/1890,28/02/1890,133,158
+Shipwreck - Governor Phillip,Tasmania,Launceston,Maritime/Coastal,27/10/1848,27/10/1848,16,N/A
+Shipwreck - Echo,Tasmania,Hobart,Maritime/Coastal,27/08/1840,27/08/1840,3,N/A
+Shipwreck - Lady Franklin,Tasmania,Hobart,Maritime/Coastal,27/04/1838,27/04/1838,15,N/A
+Shipwreck - Tubal Cain,Victoria,Wilsons Promontory,Maritime/Coastal,26/08/1862,26/08/1862,12,1
+Shipwreck - Pandora ,Queensland,Cairns,Maritime/Coastal,26/08/1791,26/08/1791,35,91
+Shipwreck - Thetis,Victoria,Wilsons Promontory,Maritime/Coastal,26/05/1848,26/05/1848,4,20
+Shipwreck - HMS Pelorus,Northern Territory,Darwin,Maritime/Coastal,25/11/1839,25/11/1839,12,N/A
+Shipwreck - Trial (Tryal),Western Australia,Dampier,Maritime/Coastal,25/05/1622,25/05/1622,95,N/A
+Shipwreck - Revenge,New South Wales,Wollongong,Maritime/Coastal,25/03/1862,25/03/1862,4,N/A
+"Shipwreck - Lily of the Lake, Wild Wave, Blossom",Western Australia,Exmouth Gulf,Maritime/Coastal,24/12/1875,24/12/1875,57,N/A
+Shipwreck - Haweis ,New South Wales,Sydney,Maritime/Coastal,24/10/1829,24/10/1829,11,N/A
+Shipwreck - Lady Bird and Champion,Victoria,Wilsons Promontory,Maritime/Coastal,24/08/1857,24/08/1857,32,N/A
+Shipwreck - Meg Merrilies,Victoria,Wilsons Promontory,Maritime/Coastal,24/05/1856,24/05/1856,4,N/A
+Shipwreck - Gothenburg ,Queensland,Ayr,Maritime/Coastal,24/02/1875,24/02/1875,102,N/A
+Shipwreck - Brothers,New South Wales,Sydney,Maritime/Coastal,23/12/1837,23/12/1837,3,N/A
+Shipwreck - Bogong,Victoria,Cooma (VIC),Maritime/Coastal,23/09/1896,23/09/1896,4,3
+Shipwreck - British Admiral,Victoria,Wilsons Promontory,Maritime/Coastal,23/05/1874,23/05/1874,79,9
+"Shipwreck - Highlander, Baruah, Elizabeth Jane, Effort and Pelican.",New South Wales,Sydney,Maritime/Coastal,22/06/1852,23/06/1852,7,N/A
+Shipwreck - Broome and Region,Western Australia,Broome,Maritime/Coastal,22/04/1887,22/04/1887,140,N/A
+Shipwreck - Canmore,New South Wales,Sydney,Maritime/Coastal,21/10/1854,21/10/1854,7,2
+Shipwreck - Moolgewanke,South Australia,Murray Bridge (SA),Maritime/Coastal,21/07/1874,21/07/1874,3,1
+Shipwreck - Brahmin,Tasmania,Launceston,Maritime/Coastal,21/05/1854,21/05/1854,17,N/A
+Shipwreck - Edward,Tasmania,Launceston,Maritime/Coastal,21/05/1842,21/05/1842,8,N/A
+Shipwreck - Stirling Castle ,Queensland,Swain Reefs,Maritime/Coastal,21/05/1836,21/05/1836,10,8
+Shipwreck - Banshee ,Queensland,Townsville,Maritime/Coastal,21/03/1876,21/03/1876,7,N/A
+Shipwreck - Lioness,Tasmania,Hobart,Maritime/Coastal,21/03/1854,21/03/1854,N/A,N/A
+Shipwreck - Isabella Watson,Victoria,Wilsons Promontory,Maritime/Coastal,21/03/1852,21/03/1852,9,N/A
+Shipwreck - Schah,Victoria,Cooma (VIC),Maritime/Coastal,20/12/1837,20/12/1837,7,12
+Shipwreck - Yarra Yarra,Tasmania,Launceston,Maritime/Coastal,20/09/1838,20/09/1838,18,N/A
+Shipwreck - Dunbar,New South Wales,Sydney,Maritime/Coastal,20/08/1857,20/08/1857,121,N/A
+Shipwreck - Rambler ,New South Wales,Sydney,Maritime/Coastal,20/07/1847,20/07/1847,5,N/A
+Shipwreck - Cheviot,Victoria,Wilsons Promontory,Maritime/Coastal,19/10/1887,19/10/1887,35,24
+Shipwreck - Marie,Victoria,Warrnambool (VIC),Maritime/Coastal,19/09/1851,19/09/1851,25,N/A
+Shipwreck - Carrington,New South Wales,Sydney,Maritime/Coastal,19/05/1842,20/05/1842,5,N/A
+Shipwreck - Antares,Tasmania,Launceston,Maritime/Coastal,19/02/1853,19/02/1853,9,N/A
+Shipwreck - Balclutha,New South Wales,Sydney,Maritime/Coastal,18/10/1881,18/10/1881,22,N/A
+Shipwreck - Rembrandt,Victoria,Cooma (VIC),Maritime/Coastal,18/04/1860,18/04/1860,10,N/A
+Shipwreck - Peruvian ,Queensland,Cairns,Maritime/Coastal,18/03/1846,18/03/1846,21,N/A
+Shipwreck - Ellen Simpson,Victoria,Cooma (VIC),Maritime/Coastal,17/05/1866,17/05/1866,9,1
+Shipwreck - Favourite,Victoria,Wilsons Promontory,Maritime/Coastal,17/05/1852,17/05/1852,21,N/A
+Shipwreck - Port Phillip Packet,Tasmania,Launceston,Maritime/Coastal,17/05/1838,17/05/1838,6,N/A
+Shipwreck - Enchantress,Tasmania,Hobart,Maritime/Coastal,16/07/1835,16/07/1835,17,N/A
+Shipwreck - Annie Ward,Tasmania,Hobart,Maritime/Coastal,15/11/1898,15/11/1898,3,N/A
+Shipwreck - Monumental City,Victoria,Cooma (VIC),Maritime/Coastal,15/05/1853,15/05/1853,37,N/A
+Shipwreck - Rover,New South Wales,Wollongong,Maritime/Coastal,14/10/1841,14/10/1841,12,N/A
+Shipwreck - Conside,Victoria,Wilsons Promontory,Maritime/Coastal,14/09/1852,14/09/1852,14,N/A
+Shipwreck - John Nussey,Victoria,Wilsons Promontory,Maritime/Coastal,14/08/1858,14/08/1858,4,N/A
+Shipwreck - Geltwood,South Australia,Mount Gambier (SA),Maritime/Coastal,14/06/1876,14/06/1876,30,N/A
+Shipwreck - Neva,Tasmania,Launceston,Maritime/Coastal,14/05/1835,14/05/1835,218,N/A
+Shipwreck - Nonpareil,Victoria,Wilsons Promontory,Maritime/Coastal,13/10/1857,13/10/1857,4,N/A
+Shipwreck - Star of Greece,South Australia,Adelaide,Maritime/Coastal,13/07/1888,13/07/1888,17,N/A
+Shipwreck - Rip,Victoria,Port Philip,Maritime/Coastal,13/07/1873,13/07/1873,4,N/A
+Shipwreck - Zephyr,Tasmania,Hobart,Maritime/Coastal,13/07/1852,13/07/1852,N/A,N/A
+Shipwreck - Spencer,Victoria,Wilsons Promontory,Maritime/Coastal,13/01/1854,13/01/1854,5,N/A
+Shipwreck - St Patrick,New South Wales,Sydney,Maritime/Coastal,13/01/1835,13/01/1835,3,N/A
+Shipwreck - Carlisle Castle and City of York,Western Australia,Perth,Maritime/Coastal,12/07/1899,12/07/1899,33,N/A
+Shipwreck - PSS Cawarra,New South Wales,Sydney,Maritime/Coastal,12/07/1866,12/07/1866,62,N/A
+Shipwreck - George lll,Tasmania,Hobart,Maritime/Coastal,12/04/1835,12/04/1835,133,N/A
+Shipwreck - Dandenong,New South Wales,Wollongong,Maritime/Coastal,11/09/1876,12/09/1876,44,N/A
+Shipwreck - Farningham,Tasmania,Hobart,Maritime/Coastal,11/07/1884,11/07/1884,3,N/A
+Shipwreck - Macclesfield,Victoria,Wilsons Promontory,Maritime/Coastal,11/07/1861,11/07/1861,6,N/A
+Shipwreck - Domain,Victoria,Wilsons Promontory,Maritime/Coastal,11/04/1846,11/04/1846,14,1
+Shipwreck - Bonnie Dundee and Barrabool Collision,New South Wales,Sydney,Maritime/Coastal,10/03/1879,11/03/1879,5,N/A
+Shipwreck - Providence,Victoria,Melbourne,Maritime/Coastal,09/11/1872,09/11/1872,5,N/A
+Shipwreck - Elmgrove,Victoria,Wilsons Promontory,Maritime/Coastal,09/09/1876,09/09/1876,7,2
+Shipwreck - Zeewijk,Western Australia,Geraldton,Maritime/Coastal,09/06/1727,09/06/1727,130,N/A
+Shipwreck - Kielawarra ,New South Wales,Tamworth,Maritime/Coastal,08/12/1886,08/12/1886,40,N/A
+Shipwreck - Bunyip,South Australia,Murray Bridge (SA),Maritime/Coastal,08/12/1863,08/12/1863,4,N/A
+Shipwreck - Admiral Gifford,New South Wales,Sydney,Maritime/Coastal,08/10/1834,08/10/1834,15,N/A
+Shipwreck - Bertha,Victoria,Wilsons Promontory,Maritime/Coastal,08/09/1870,08/09/1870,7,1
+Shipwreck - Fairy,Tasmania,Launceston,Maritime/Coastal,08/09/1851,08/09/1851,3,N/A
+Shipwreck - Craigburn,Victoria,Wilsons Promontory,Maritime/Coastal,08/05/1891,08/05/1891,6,N/A
+Shipwreck - Circassian,Victoria,Cooma (VIC),Maritime/Coastal,06/10/1864,06/10/1864,4,4
+Shipwreck - Admella,South Australia,Adelaide,Maritime/Coastal,06/08/1859,06/08/1859,89,24
+Shipwreck - Toroa,Victoria,Wilsons Promontory,Maritime/Coastal,06/08/1858,06/08/1858,12,N/A
+Shipwreck - Fiji,Victoria,Wilsons Promontory,Maritime/Coastal,06/01/1891,06/01/1891,12,N/A
+Shipwreck - Mars,Tasmania,Hobart,Maritime/Coastal,05/05/1837,05/05/1837,4,N/A
+Shipwreck - Cumberland,Western Australia,Albany,Maritime/Coastal,05/03/1830,05/03/1830,3,N/A
+Shipwreck - Tyne,Tasmania,Hobart,Maritime/Coastal,04/12/1861,04/12/1861,N/A,N/A
+Shipwreck - Cataraqui,Tasmania,Launceston,Maritime/Coastal,04/08/1845,04/08/1845,408,N/A
+Shipwreck - Eric the Red,Victoria,Wilsons Promontory,Maritime/Coastal,03/09/1880,03/09/1880,4,N/A
+Shipwreck - Cambus Wallace ,Queensland,Brisbane,Maritime/Coastal,02/09/1894,02/09/1894,5,N/A
+Shipwreck - Julia,Victoria,Mount Gambier (VIC),Maritime/Coastal,02/08/1863,02/08/1863,6,N/A
+Shipwreck - Rainbow,New South Wales,Sydney,Maritime/Coastal,02/06/1864,02/06/1864,7,2
+Shipwreck - Isabella,New South Wales,Tamworth,Maritime/Coastal,01/11/1835,01/11/1835,3,N/A
+Shipwreck - Vixen,Queensland,Brisbane,Maritime/Coastal,01/09/1847,01/09/1847,5,N/A
+Shipwreck - Sally ,New South Wales,Sydney,Maritime/Coastal,01/08/1826,01/08/1826,3,N/A
+Shipwreck - Lightship Rose,Queensland,Brisbane,Maritime/Coastal,01/05/1857,01/05/1857,16,N/A
+Shipwreck - Columbine,Victoria,Wilsons Promontory,Maritime/Coastal,01/04/1854,01/04/1854,4,N/A
+Shipwreck - Georgina and Spy,Tasmania,Hobart,Maritime/Coastal,01/04/1848,01/04/1848,3,N/A
+Shipwreck - Sappho,Victoria,Wilsons Promontory,Maritime/Coastal,01/02/1858,01/02/1858,50,N/A
+"Shipwreck - SIEV 221, Rocky Point, Christmas Island",Offshore,Christmas and Cocos Islands,Maritime/Coastal,15/12/2010,15/12/2010,50,2
+Shipwreck - Just Cruisin ,Queensland,Brisbane,Maritime/Coastal,6/7/2001,6/7/2001,4,N/A
+Shipwreck - Mineral Diamond,Western Australia,Port Hedland,Maritime/Coastal,15/4/1991,15/4/1991,27,N/A
+Shipwreck - Shark Ace 4,Victoria,Cooma (VIC),Maritime/Coastal,12/5/1990,12/5/1990,3,1
+Shipwreck â€“ Nâ€™glucka ,New South Wales,Sydney,Maritime/Coastal,8/1/1990,8/1/1990,5,N/A
+Shipwreck - Great Expectations,Tasmania,Launceston,Maritime/Coastal,4/1/1990,4/1/1990,6,N/A
+Shipwreck - Booya,Northern Territory,Darwin,Maritime/Coastal,24/12/1974,24/12/1974,5,N/A
+Shipwreck - Mandorah Queen,Northern Territory,Darwin,Maritime/Coastal,24/12/1974,24/12/1974,3,N/A
+Shipwreck - Blythe Star II,Tasmania,Launceston,Maritime/Coastal,12/10/1973,12/10/1973,3,N/A
+Shipwreck - Collision Melbourne and Nieuw Holland,Victoria,Wilsons Promontory,Maritime/Coastal,9/8/1972,9/8/1972,5,N/A
+Shipwreck - Sedco Helen,Northern Territory,Darwin,Maritime/Coastal,31/1/1970,31/1/1970,9,N/A
+Shipwreck - Noongah,New South Wales,Tamworth,Maritime/Coastal,25/8/1969,25/8/1969,21,N/A
+Shipwreck - Port Welshpool Ship Explosion,Victoria,Wilsons Promontory,Maritime/Coastal,22/3/1969,22/3/1969,3,20
+Shipwreck - Naval Collision off Jervis Bay,New South Wales,Wollongong,Maritime/Coastal,10/2/1964,10/2/1964,82,232
+Shipwreck - Vicky,Victoria,Wilsons Promontory,Maritime/Coastal,25/6/1956,25/6/1956,8,N/A
+Shipwreck - Fairwind,New South Wales,Tamworth,Maritime/Coastal,27/6/1950,27/6/1950,17,N/A
+Shipwreck - La Grange and Unidentified,Northern Territory,Darwin,Maritime/Coastal,1/12/1948,1/12/1948,12,N/A
+Shipwreck - Sibigo ,Queensland,Cooktown,Maritime/Coastal,16/3/1945,16/3/1945,72,N/A
+Shipwreck - Peter Silvester,Western Australia,Bunbury,Maritime/Coastal,6/2/1945,6/2/1945,32,N/A
+Shipwreck - Macumba,Northern Territory,Coburg Peninsula,Maritime/Coastal,6/8/1943,6/8/1943,3,5
+Shipwreck - Wollongong,New South Wales,Wollongong,Maritime/Coastal,16/5/1943,16/5/1943,4,N/A
+Shipwreck - HMAS Kuttabul ,New South Wales,Sydney,Maritime/Coastal,1/6/1942,1/6/1942,21,10
+Shipwreck - Submarine l-124,Northern Territory,Darwin,Maritime/Coastal,20/1/1942,20/1/1942,75,N/A
+Shipwreck - HMAS Sydney,Offshore,Outside Territorial Waters,Maritime/Coastal,19/11/1941,19/11/1941,645,N/A
+Shipwreck - Goorangai,Victoria,Wilsons Promontory,Maritime/Coastal,20/11/1940,20/11/1940,24,N/A
+Shipwreck - Kakariki and SS Caradale,Victoria,Melbourne,Maritime/Coastal,29/1/1937,29/1/1937,5,N/A
+Shipwreck - Paringa,Victoria,Wilsons Promontory,Maritime/Coastal,26/12/1935,26/12/1935,31,N/A
+Shipwreck - Lacepede Island,Western Australia,Broome,Maritime/Coastal,26/3/1935,26/3/1935,141,N/A
+Shipwreck - Coramba,Victoria,Warrnambool (VIC),Maritime/Coastal,29/11/1934,30/11/1934,16,N/A
+Shipwreck - Christina Fraser,Victoria,Cooma (VIC),Maritime/Coastal,24/6/1933,24/6/1933,18,N/A
+Shipwreck - Casino,Victoria,Wilsons Promontory,Maritime/Coastal,10/7/1932,10/7/1932,10,N/A
+Shipwreck - Greycliffe,New South Wales,Sydney,Maritime/Coastal,3/11/1927,3/11/1927,40,N/A
+Shipwreck - Wyrallah,Victoria,Wilsons Promontory,Maritime/Coastal,8/4/1924,8/4/1924,6,N/A
+Shipwreck - S.S. Douglas Mawson,Offshore,Territorial Waters,Maritime/Coastal,29/3/1923,29/3/1923,20,N/A
+Shipwreck - Southern Cross,Tasmania,Launceston,Maritime/Coastal,12/9/1920,12/9/1920,12,N/A
+Shipwreck - Amelia J,Victoria,Cooma (VIC),Maritime/Coastal,21/8/1920,21/8/1920,12,N/A
+Shipwreck - Pareora,South Australia,Adelaide,Maritime/Coastal,19/9/1919,19/9/1919,11,7
+"Shipwreck - Afric, Harriet, Leila, Opal",Northern Territory,Melville Island,Maritime/Coastal,25/2/1915,25/2/1915,9,N/A
+Shipwreck - Antares,Victoria,Warrnambool (VIC),Maritime/Coastal,1/11/1914,1/11/1914,25,N/A
+Shipwreck - Candidate ,New South Wales,Lismore (NSW),Maritime/Coastal,14/7/1912,14/7/1912,5,N/A
+"Maritime/Coastal - SS Rosedale Shipwreck, NSW 1911 ",New South Wales,Crowdy Head,Maritime/Coastal,1/9/1911,,30,N/A
+Shipwreck - Glenelg,Victoria,Cooma (VIC),Maritime/Coastal,25/3/1911,25/3/1911,31,N/A
+Shipwreck - Yongala ,Queensland,Ayr,Maritime/Coastal,23/3/1911,23/3/1911,137,N/A
+Shipwreck - Errol Middleton Reef,New South Wales,Lismore (NSW),Maritime/Coastal,18/6/1909,12/7/1909,17,N/A
+Shipwreck - Loch Lomond,New South Wales,Sydney,Maritime/Coastal,19/7/1908,19/7/1908,19,N/A
+Shipwreck - Orion,Tasmania,Launceston,Maritime/Coastal,6/5/1908,6/5/1908,27,N/A
+Shipwreck - Alfhild,Tasmania,Hobart,Maritime/Coastal,10/10/1907,10/10/1907,11,N/A
+Shipwreck - Kawatiri,Tasmania,Launceston,Maritime/Coastal,13/8/1907,13/8/1907,6,N/A
+Shipwreck - Brier Holme,Tasmania,Hobart,Maritime/Coastal,5/11/1904,5/11/1904,17,N/A
+Shipwreck - Acacia,Tasmania,Hobart,Maritime/Coastal,20/6/1904,20/6/1904,9,N/A
+Shipwreck - Edward Lombe,New South Wales,Sydney,Maritime/Coastal,25/08/1834,,12,17
+Shipwreck - The Rip Shipwwreck ,Victoria,Port Phillip Heads,Maritime/Coastal,18/07/1873,,4,N/A
+Shipwreck - Federal,Victoria,Cooma (VIC),Maritime/Coastal,21/3/1901,21/3/1901,21,N/A
+"Tornado - Bundaberg, Queensland 2013",Queensland,bundaberg,Tornado,26/1/2013,26/1/2013,N/A,20
+Tornado - Kin Kin,Queensland,Brisbane,Tornado,14/8/1971,14/8/1971,3,N/A
+Transport - Redfern Train Collision,New South Wales,Sydney,Transport,31/10/1894,31/10/1894,14,27
+Transport - Cootamundra Train Derailment,New South Wales,Wollongong,Transport,25/01/1885,25/01/1885,7,20
+Transport - Brisbane River Ferry Sinking,Queensland,Brisbane,Transport,13/02/1896,13/02/1896,57,N/A
+"Transport – Emu Plains Train Collision, New South Wales 1878",New South Wales,Emu Plains,Transport,30/01/1878,30/01/1878,3,N/A
+"Transport – Aircraft crash, Caboolture Queensland 2014",Queensland,Caboolture,Transport,22/3/2014,,5,N/A
+Transport – Laos plane crash 2013,Offshore,Outside Territorial Waters,Transport,16/10/2013,16/10/2013,49,N/A
+Transport - Papua New Guinea Plane Crash,Offshore,Outside Territorial Waters,Transport,11/8/2009,11/8/2009,13,N/A
+Transport - Taxi and Truck Collision ,Northern Territory,Darwin,Transport,8/11/2012,8/11/2012,3,N/A
+Transport - Kerang Train and Truck Collision,Victoria,Swan Hill (VIC),Transport,5/6/2007,5/6/2007,11,14
+Transport â€“ Sydney Ferry Accident,New South Wales,Sydney,Transport,28/3/2007,28/3/2007,4,8
+Transport - Burnley Tunnel Fire ,Victoria,Melbourne,Transport,23/3/2007,23/3/2007,3,2
+Transport - Plane Crash Indonesia,Offshore,Outside Territorial Waters,Transport,7/3/2007,7/3/2007,21,12
+Transport - Trawalla Train and Truck Collision,Victoria,Melbourne,Transport,28/4/2006,28/4/2006,2,18
+Transport - Egypt Bus Crash,Offshore,Outside Territorial Waters,Transport,10/1/2006,10/1/2006,6,27
+"Transport - Bundaberg Backpacker mini-bus accident, Queensland 2005",Queensland,Bundaberg,Transport,10/9/2005,,3,8
+Transport -Mini Bus accident on Jamberoo Mountain Road,New South Wales,Wollongong,Transport,5/9/2005,5/9/2005,3,14
+Transport - Lockhart River Plane Crash ,Queensland,Weipa,Transport,7/5/2005,7/5/2005,15,N/A
+Transport - Navy Helicopter Accident,Offshore,Outside Territorial Waters,Transport,2/4/2005,2/4/2005,9,2
+Transport - Bundaberg Tilt Train Derailment,Queensland,Bundaberg,Transport,15/11/2004,15/11/2004,N/A,100
+"Transport - Bus Accident, Burnley Tunnel",Victoria,Melbourne,Transport,17/9/2004,17/9/2004,N/A,21
+"Transport - St Albans, Train and Car Collision",Victoria,Melbourne,Transport,5/8/2004,5/8/2004,3,N/A
+Transport â€“ Sydney Bus Accident,Victoria,Sydney,Transport,3/4/2004,3/4/2004,N/A,60
+Transport - Ballan Train Collision and Derailment,Victoria,Melbourne,Transport,15/11/2003,15/11/2003,N/A,43
+Transport - Waterfall Train Crash,New South Wales,Sydney,Transport,31/1/2003,31/1/2003,7,41
+"Transport - Salisbury - Train, Bus and Car Collision",South Australia,Adelaide,Transport,24/10/2002,24/10/2002,4,26
+Transport - Benalla Train Derailment,Victoria,Melbourne,Transport,13/10/2002,13/10/2002,3,1
+Transport - Albury Bus Crash,New South Wales,Canberra (NSW),Transport,2/5/2002,2/5/2002,4,N/A
+Transport - Wandandian bus crash,New South Wales,Wollongong,Transport,1/2/2001,1/2/2001,1,35
+Transport - Barossa Valley School Bus Crash,South Australia,Adelaide,Transport,29/1/2001,29/1/2001,1,26
+Transport - Newman Police Aircraft Crash,Western Australia,Tom Price,Transport,26/1/2001,26/1/2001,4,N/A
+Transport - Capricorn Helicopter Rescue Crash,Queensland,Rockhampton,Transport,24/7/2000,24/7/2000,5,N/A
+Transport - Spencer Gulf Light Aircraft Crash,South Australia,Whyalla,Transport,31/5/2000,31/5/2000,8,N/A
+Transport - Glenbrook (Blue Mountains) Railway Accident,New South Wales,Sydney,Transport,2/12/1999,2/12/1999,7,51
+"Transport - Gulf of Carpentaria Light Aircraft Crash, Queensland 1999",Queensland,Gulf of Carpentaria,Transport,24/11/1999,24/11/1999,6,0
+Transport - Zanthus Rail Collision ,Western Australia,Rawlinna,Transport,18/8/1999,18/8/1999,N/A,45
+Transport - Fiji Air Crash,Offshore,Outside Territorial Waters,Transport,24/7/1999,24/7/1999,17,N/A
+Transport - Eastern Highlands Papua New Guinea Plane Crash,Offshore,Outside Territorial Waters,Transport,17/6/1999,17/6/1999,17,N/A
+"Transport - Torres Strait plane crash, Queensland 1999",Queensland,Torres Strait,Transport,16/1/1999,,3,1
+Transport - Albury Coach and Truck Collision,New South Wales,Canberra (NSW),Transport,13/8/1998,13/8/1998,1,25
+Transport - Bookham Coach Semi-Trailer Collision,New South Wales,Canberra (NSW),Transport,7/8/1998,7/8/1998,3,19
+Transport - Black Hawk Air Collision,Queensland,Townsville,Transport,12/6/1996,12/6/1996,18,12
+Transport - Albany Light Aircraft Crash,Western Australia,Albany,Transport,13/3/1996,13/3/1996,4,N/A
+Transport - Merredin Rail Collision,Western Australia,Merredin,Transport,13/1/1996,13/1/1996,2,1
+"Transport - Williamtown to Lord Howe Island, Light Aircraft Crash",New South Wales,Cooma (NSW),Transport,2/10/1994,2/10/1994,9,N/A
+Transport - Boondall (Brisbane) Bus Crash,Queensland,Brisbane,Transport,1/10/1994,1/10/1994,12,38
+Transport - Wangaratta Truck and Bus Collision,Victoria,Melbourne,Transport,1/11/1993,1/11/1993,9,35
+Transport - Mt Tamborine Bus Crash,Queensland,Brisbane,Transport,25/9/1990,25/9/1990,11,38
+Transport - Mt Emerald Jet Aircraft Crash,Queensland,Cairns,Transport,11/5/1990,11/5/1990,11,N/A
+Transport - Brooklyn NSW Train Collision ,New South Wales,Sydney,Transport,6/5/1990,6/5/1990,6,93
+Transport - Clybucca Flat (near Kempsey) Bus Collision,New South Wales,Tamworth,Transport,22/12/1989,22/12/1989,35,41
+Transport - Syndal Train Collision,Victoria,Melbourne,Transport,20/11/1989,20/11/1989,N/A,75
+Transport - Cowper (near Grafton) Bus and Semi Trailer Collision,New South Wales,Lismore (NSW),Transport,20/10/1989,20/10/1989,21,22
+Transport - Adelaide - Bus Collision,South Australia,Adelaide,Transport,2/10/1989,2/10/1989,N/A,78
+Transport - Hot Air Balloon Crash,Northern Territory,Alice Springs,Transport,13/8/1989,13/8/1989,13,N/A
+Transport - Leonora Light Aircraft Crash,Western Australia,Leonora,Transport,16/12/1988,16/12/1988,10,N/A
+Transport - Bundaberg Air Ambulance Crash ,Queensland,Bundaberg,Transport,21/6/1987,21/6/1987,4,1
+Transport - Gordonvale/Cairns Bus Crash,Queensland,Cairns,Transport,4/2/1987,4/2/1987,8,30
+Transport - Essendon Air ambulance Crash,Victoria,Melbourne,Transport,3/9/1986,3/9/1986,6,4
+"Transport - Light Aircraft Crash, Victoria ",Victoria,Gisbourne,Transport,1/12/1999,1/12/1999,4,N/A
+Transport - Koolan Island Light Aircraft Crash,Western Australia,Derby,Transport,23/12/1984,23/12/1984,6,N/A
+Transport - Goulburn Light Aircraft Crash ,New South Wales,Wollongong,Transport,15/5/1984,15/5/1984,4,N/A
+Transport - El Alamein Helicopter Crash,South Australia,Whyalla,Transport,25/11/1978,25/11/1978,5,N/A
+"Transport - Essendon Melbourne, Light Aircraft Crash",Victoria,Melbourne,Transport,10/7/1978,10/7/1978,6,4
+Transport - Granville Rail Disaster,New South Wales,Sydney,Transport,18/1/1977,18/1/1977,83,210
+Transport - Parafield Light Aircraft Collision,South Australia,Adelaide,Transport,1/2/1976,1/2/1976,5,N/A
+Transport - Bankstown Light Aircraft Collision ,New South Wales,Sydney,Transport,13/3/1974,13/3/1974,4,N/A
+"Transport - Tumut Ponds Bus crash, NSW 1973 ",New South Wales,Tumut Ponds,Transport,1/9/1973,,18,21
+Transport - Golden Grove Light Aircraft Crash,South Australia,Adelaide,Transport,13/7/1972,13/7/1972,8,N/A
+Transport - Leigh Creek Light Aircraft Crash,South Australia,Leigh Creek,Transport,25/1/1972,25/1/1972,4,N/A
+Wasleys train and bus crash,South Australia,Wasleys,Transport,12/4/1970,,17,45
+Transport - Parafield Region Light Aircraft Crash,South Australia,Adelaide,Transport,8/2/1969,8/2/1969,4,N/A
+"Violet Town train collision, 1969",Victoria,Violet Town,Transport,7/2/1969,,9,117
+Transport - Southern Aurora,Victoria,Melbourne,Transport,7/2/1969,7/2/1969,9,40
+Transport - Port Hedland Aircraft Crash,Western Australia,Port Hedland,Transport,31/12/1968,31/12/1968,26,N/A
+Transport - Winton Aircraft Accident,Queensland,Winton,Transport,22/9/1966,22/9/1966,24,N/A
+Transport - Guerie Rail Collision,New South Wales,Dubbo,Transport,23/8/1963,23/8/1963,N/A,22
+Transport - Sydney Airliner Crash ,New South Wales,Sydney,Transport,30/11/1961,30/11/1961,15,N/A
+Transport - Mackay Aircraft Crash,Queensland,Mackay,Transport,10/6/1960,10/6/1960,N/A,N/A
+Transport - Bogantungan Railway Accident,Queensland,Clermont,Transport,26/2/1960,26/2/1960,7,43
+Transport - Wallumbilla Rail Collision,Queensland,Roma,Transport,1/12/1956,1/12/1956,5,10
+Transport - Sydenham (Sydney) Train Collision,New South Wales,Sydney,Transport,19/12/1953,19/12/1953,5,748
+Transport - Boronia Bus and Train Collision,Victoria,Melbourne,Transport,1/6/1952,1/6/1952,9,N/A
+Transport - Berala Rail Collision,New South Wales,Sydney,Transport,7/5/1952,7/5/1952,10,140
+Transport - Horsham Train and Bus Collision,Victoria,Mount Gambier (VIC),Transport,24/2/1951,24/2/1951,11,N/A
+Transport - York Aircraft Crash,Western Australia,Perth,Transport,27/6/1950,27/6/1950,29,N/A
+Transport - Perth Aircraft Crash,Western Australia,Perth,Transport,2/7/1949,2/7/1949,18,N/A
+Transport - Spit Bridge Bus Crash,New South Wales,Sydney,Transport,30/5/1949,30/5/1949,4,33
+Transport - Coolangatta Aircraft Crash,Queensland,Lismore (QLD),Transport,10/3/1949,10/3/1949,21,N/A
+Transport - Rocky Ponds Train Derailment,New South Wales,Canberra (NSW),Transport,30/6/1948,30/6/1948,4,18
+Transport - Tamaree Train Crash,Queensland,Bundaberg,Transport,18/10/1947,18/10/1947,6,15
+Transport - Camp Mountain (Dayboro) Train Derailment,Queensland,Brisbane,Transport,5/5/1947,5/5/1947,16,38
+Transport - Balgowlah Bus Crash,New South Wales,Sydney,Transport,10/3/1947,10/3/1947,N/A,70
+"Transport - Aircraft crash, Seven Mile Beach, 1946",Tasmania,Seven Mile Beach,Transport,10/3/1946,,25,N/A
+Transport - Copley Rail Collision,South Australia,Leigh Creek,Transport,11/5/1944,11/5/1944,4,27
+Transport - Brooklyn Train and Bus Collision,New South Wales,Sydney,Transport,20/1/1944,20/1/1944,17,5
+Transport - Wodonga Train and Bus Collision,Victoria,Cooma (VIC),Transport,8/5/1943,8/5/1943,25,N/A
+Transport - Dandenongs Aircraft Crash,Victoria,Melbourne,Transport,25/10/1938,25/10/1938,18,N/A
+Transport - Capsized Ferry Rodney,New South Wales,Sydney,Transport,13/2/1938,13/2/1938,19,N/A
+"Transport - Southern Cloud Crash, NSW 1931 ",New South Wales,Tumbarumba,Transport,1/3/1931,,8,N/A
+Transport - Koo-Wee-Rup Rail Collision,Victoria,Melbourne,Transport,24/12/1928,24/12/1928,N/A,54
+Transport - Sydney Harbour Ferry Collision,New South Wales,Sydney,Transport,3/11/1927,3/11/1927,40,N/A
+Transport - Murulla Train Accident ,New South Wales,Tamworth,Transport,13/9/1926,13/9/1926,27,38
+Transport - Aberdeen Bridge Collapse,New South Wales,Sydney,Transport,10/6/1926,10/6/1926,4,39
+Transport - Traveston Train Derailment,Queensland,Brisbane,Transport,7/6/1925,7/6/1925,10,53
+Transport - Wokalup Train Crash,Western Australia,Bunbury,Transport,6/11/1920,6/11/1920,9,N/A
+Transport - Hurstville Rail Accident ,New South Wales,Sydney,Transport,3/8/1920,3/8/1920,4,18
+Transport - Exeter Train Collision,New South Wales,Wollongong,Transport,16/3/1914,16/3/1914,14,20
+"Transport – Toowoomba Train Collision, Queensland 1913",Queensland,Brisbane,Transport,30/1/1913,30/1/1913,6,N/A
+Transport - Richmond Rail Collision,Victoria,Melbourne,Transport,18/7/1910,18/7/1910,9,114
+Transport - Beaufort Train Derailment,Victoria,Melbourne,Transport,5/2/1910,5/2/1910,3,1
+Transport - Sunshine Rail Collision,Victoria,Melbourne,Transport,20/4/1908,20/4/1908,44,413
+Transport - Belgrave Train Derailment,Victoria,Melbourne,Transport,28/1/1908,28/1/1908,N/A,40
+Transport - Sydenham Train Derailment ,New South Wales,Sydney,Transport,15/2/1901,15/2/1901,7,30
+"Tsunami - Samoa, American Samoa and Tonga",Offshore,Outside Territorial Waters,Tsunami,29/9/2009,29/9/2009,144,N/A
+Tsunami - Indian Ocean,Offshore,Outside Territorial Waters,Tsunami,26/12/2004,26/12/2004,"273,636",N/A
+Urban Fire - Quakers Hill Nursing Home,New South Wales,Sydney,Urban Fire,18/11/2011,18/11/2011,10,32
+Urban Fire - Slacks Creek House Fire,Queensland,Brisbane,Urban Fire,24/8/2011,24/8/2011,11,2
+Urban Fire - Myer Store Hobart,Tasmania,Hobart,Urban Fire,22/9/2007,22/9/2007,N/A,N/A
+Urban Fire - Melbourne Warehouse,Victoria,Melbourne,Urban Fire,12/11/2004,12/11/2004,N/A,N/A
+"Urban Fire - Mitcham Shopping Centre, Adelaide",South Australia,Adelaide,Urban Fire,22/8/2004,22/8/2004,N/A,N/A
+Urban Fire - Brisbane Boarding House ,Queensland,Brisbane,Urban Fire,18/8/2002,18/8/2002,3,6
+Urban Fire - Childers Backpacker ,Queensland,Bundaberg,Urban Fire,23/6/2000,23/6/2000,15,N/A
+Urban Fire - Kew Cottages,Victoria,Melbourne,Urban Fire,8/4/1996,8/4/1996,9,N/A
+Urban Fire - Dungog Hostel Fire,New South Wales,Sydney,Urban Fire,2/8/1991,2/8/1991,12,28
+Urban Fire - Noble Park Melbourne,Victoria,Melbourne,Urban Fire,1/1/1991,1/1/1991,4,22
+Urban Fire - Oakdale Guesthouse Ipswich,Queensland,Brisbane,Urban Fire,29/12/1990,29/12/1990,5,N/A
+"Urban Fire – Kings Cross, New South Wales 1989",New South Wales,Sydney,Urban Fire,17/9/1989,17/9/1989,6,18
+Urban Fire - Kings Cross,New South Wales,Sydney,Urban Fire,25/8/1981,25/8/1981,9,N/A
+Urban Fire - Sydney Luna Park,New South Wales,Sydney,Urban Fire,9/6/1979,9/6/1979,7,N/A
+Urban Fire - Melbourne Hostel,Victoria,Melbourne,Urban Fire,13/8/1966,13/8/1966,30,N/A
+Urban Fire - Somers Hospital Fire,Victoria,Wilsons Promontory,Urban Fire,9/9/1952,9/9/1952,5,26
+Urban Fire - Adelaide Café fire ,South Australia,Adelaide,Urban Fire,27/10/1948,27/10/1948,5,N/A

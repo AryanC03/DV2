@@ -1,0 +1,143 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Disaster counts (bars) and GSP growth (line) per state and year.",
+  "autosize": {
+    "type": "fit-x",
+    "contains": "padding"
+  },
+  "padding": 5,
+  "data": {
+    "url": "data/disasters.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "State": "string",
+        "Year": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "filter": "isValid(datum.State) && datum.State !== '' && isValid(datum.Year)"
+    },
+    {
+      "aggregate": [
+        {
+          "op": "count",
+          "as": "DisasterCount"
+        }
+      ],
+      "groupby": [
+        "State",
+        "Year"
+      ]
+    },
+    {
+      "calculate": "datum.State + '_' + datum.Year",
+      "as": "state_year"
+    },
+    {
+      "lookup": "state_year",
+      "from": {
+        "data": {
+          "url": "data/gsp.csv",
+          "format": {
+            "type": "csv",
+            "parse": {
+              "state_year": "string",
+              "GSPGrowthPercent": "number"
+            }
+          }
+        },
+        "key": "state_year",
+        "fields": [
+          "GSPGrowthPercent"
+        ]
+      }
+    }
+  ],
+  "facet": {
+    "field": "State",
+    "type": "nominal",
+    "title": "Disasters vs GSP Growth by State"
+  },
+  "resolve": {
+    "scale": {
+      "y": "independent"
+    }
+  },
+  "spec": {
+    "width": 170,
+    "height": 140,
+    "layer": [
+      {
+        "mark": {
+          "type": "bar",
+          "color": "#1f77b4"
+        },
+        "encoding": {
+          "x": {
+            "field": "Year",
+            "type": "ordinal",
+            "axis": {
+              "title": null,
+              "labelAngle": -45
+            }
+          },
+          "y": {
+            "field": "DisasterCount",
+            "type": "quantitative",
+            "axis": {
+              "title": "Disasters"
+            }
+          },
+          "tooltip": [
+            {
+              "field": "State",
+              "type": "nominal",
+              "title": "State"
+            },
+            {
+              "field": "Year",
+              "type": "ordinal",
+              "title": "Year"
+            },
+            {
+              "field": "DisasterCount",
+              "type": "quantitative",
+              "title": "Disasters"
+            },
+            {
+              "field": "GSPGrowthPercent",
+              "type": "quantitative",
+              "title": "GSP growth (%)",
+              "format": ".2f"
+            }
+          ]
+        }
+      },
+      {
+        "mark": {
+          "type": "line",
+          "color": "#d62728",
+          "strokeWidth": 2,
+          "point": true
+        },
+        "encoding": {
+          "x": {
+            "field": "Year",
+            "type": "ordinal"
+          },
+          "y": {
+            "field": "GSPGrowthPercent",
+            "type": "quantitative",
+            "axis": {
+              "title": "GSP growth (%)",
+              "orient": "right"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

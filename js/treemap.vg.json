@@ -1,9 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v6.json",
   "description": "Treemap of Australian disaster events by type and state.",
-  "width": 840,
-  "height": 560,
-  "padding": 5,
+  "width": 540,
+  "height": 500,
   "autosize": "none",
   "signals": [
     {

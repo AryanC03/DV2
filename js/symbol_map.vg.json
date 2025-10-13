@@ -1,502 +1,195 @@
 {
-  "$schema": "https://vega.github.io/schema/vega/v6.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Symbol Map of Disasters in Australia",
   "autosize": {
     "type": "fit-x",
     "contains": "padding"
   },
-  "signals": [
-        {
-          "name": "selectedState",
-          "value": "Australia"
-        },
-        {
-          "name": "Zoom",
-          "value": 1000
-        },
-        {
-          "name": "DisasterType",
-          "value": "All",
-          "bind": {
-            "input": "select",
-            "options": [
-              "All",
-              "Bushfire",
-              "Cyclone",
-              "Earthquake",
-              "Flood",
-              "Storm"]
-            }
-          },
-          {
-            "name": "centre_to",
-            "value": [
-              133,
-              -27
-            ]
-          },
-          {
-            "name": "StateFilter",
-            "value": "Australia"
-          }
-      ],
-  "hconcat": [
+  "width": "container",
+  "height": 500,
+  "title": "Major Disaster Events in Australia",
+  "params": [
     {
-      "width": "container",
-      "height": 500,
-      "title": "Major Disaster Events in Australia",
-        "projection": {
-          "type": "mercator",
-          "center": {
-            "expr": "centre_to"
-          },
+      "name": "Zoom",
+      "value": 1000
+    },
+    {
+      "name": "DisasterType",
+      "value": "All"
+    },
+    {
+      "name": "centre_to",
+      "value": [
+        133,
+        -27
+      ]
+    },
+    {
+      "name": "StateFilter",
+      "value": "Australia"
+    }
+  ],
+  "projection": {
+    "type": "mercator",
+    "center": {
+      "expr": "centre_to"
+    },
+    "scale": {
+      "expr": "Zoom"
+    }
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "data/au.json",
+        "format": {
+          "type": "topojson",
+          "feature": "au"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#cebbbb",
+        "stroke": "#000000",
+        "strokeWidth": 0.8
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/oceans.topojson",
+        "format": {
+          "type": "topojson",
+          "feature": "oceans"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "skyblue"
+      }
+    },
+    {
+      "data": {
+        "url": "data/disasters.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "Latitude": "number",
+            "Longitude": "number",
+            "Fatalities": "number",
+            "Injuries": "number",
+            "InsuredCostMillions": "number",
+            "Year": "number",
+            "Month": "number"
+          }
+        }
+      },
+      "transform": [
+        {
+          "calculate": "datum.Fatalities != null ? datum.Fatalities : (datum.Injuries != null ? datum.Injuries : (datum.InsuredCostMillions != null ? datum.InsuredCostMillions / 1000000 : 1))",
+          "as": "Impact"
+        },
+        {
+          "calculate": "log(1 + datum.Impact)",
+          "as": "NormalizedImpact"
+        },
+        {
+          "filter": "isValid(datum.Latitude) && isValid(datum.Longitude)"
+        },
+        {
+          "filter": "isValid(datum.Impact)"
+        },
+        {
+          "filter": "DisasterType == 'All' || datum.DisasterType == DisasterType"
+        },
+        {
+          "filter": "StateFilter == 'Australia' || datum.State == StateFilter"
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "opacity": 0.8,
+        "stroke": "#ffffff",
+        "strokeWidth": 0.5
+      },
+      "encoding": {
+        "longitude": {
+          "field": "Longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "Latitude",
+          "type": "quantitative"
+        },
+        "size": {
+          "field": "NormalizedImpact",
+          "type": "quantitative",
+          "title": "Impact score (log scale)",
           "scale": {
-            "expr": "Zoom"
+            "range": [
+              40,
+              400
+            ]
           }
         },
-        "layer": [
-          {
-            "data": {
-              "url": "data/au.json",
-              "format": {
-                "type": "topojson",
-                "feature": "au"
-              }
-            },
-            "mark": {
-              "type": "geoshape",
-              "fill": "#cebbbb",
-              "stroke": "#000000",
-              "strokeWidth": 0.8
-            }
-          },
-          {
-            "data": {
-              "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/oceans.topojson",
-              "format": {
-                "type": "topojson",
-                "feature": "oceans"
-              }
-            },
-            "mark": {
-              "type": "geoshape",
-              "fill": "skyblue"
-            }
-          },
-          {
-            "data": {
-              "url": "data/disasters.csv",
-              "format": {
-                "type": "csv",
-                "parse": {
-                  "Latitude": "number",
-                  "Longitude": "number",
-                  "Fatalities": "number",
-                  "Injuries": "number",
-                  "InsuredCostMillions": "number",
-                  "Year": "number",
-                  "Month": "number"
-                }
-              }
-            },
-            "transform": [
-              {
-                "calculate": "datum.Fatalities != null ? datum.Fatalities : (datum.Injuries != null ? datum.Injuries : (datum.InsuredCostMillions != null ? datum.InsuredCostMillions / 1000000 : 1))",
-                "as": "Impact"
-              },
-              {
-                "filter": "isValid(datum.Latitude) && isValid(datum.Longitude)"
-              },
-              {
-                "filter": "isValid(datum.Impact)"
-              },
-              {
-                "filter": "DisasterType == 'All' || datum.DisasterType == DisasterType"
-              },
-              {
-                "filter": "StateFilter == 'Australia' || datum.State == StateFilter"
-              }
+        "color": {
+          "field": "DisasterType",
+          "type": "nominal",
+          "title": "Disaster type",
+          "scale": {
+            "domain": [
+              "Bushfire",
+              "Flood",
+              "Storm",
+              "Earthquake",
+              "Cyclone"
             ],
-            "mark": {
-              "type": "circle",
-              "opacity": 0.8,
-              "stroke": "#ffffff",
-              "strokeWidth": 0.5
-            },
-            "encoding": {
-              "longitude": {
-                "field": "Longitude",
-                "type": "quantitative"
-              },
-              "latitude": {
-                "field": "Latitude",
-                "type": "quantitative"
-              },
-              "size": {
-                "field": "Impact",
-                "type": "quantitative",
-                "title": "Impact score",
-                "scale": {
-                  "range": [
-                    40,
-                    400
-                  ]
-                }
-              },
-              "color": {
-                "field": "DisasterType",
-                "type": "nominal",
-                "title": "Disaster type"
-              },
-              "tooltip": [
-                {
-                  "field": "EventName",
-                  "type": "nominal",
-                  "title": "Event"
-                },
-                {
-                  "field": "City",
-                  "type": "nominal"
-                },
-                {
-                  "field": "State",
-                  "type": "nominal"
-                },
-                {
-                  "field": "DisasterType",
-                  "type": "nominal",
-                  "title": "Type"
-                },
-                {
-                  "field": "Year",
-                  "type": "quantitative"
-                },
-                {
-                  "field": "Month",
-                  "type": "quantitative"
-                },
-                {
-                  "field": "Fatalities",
-                  "type": "quantitative"
-                },
-                {
-                  "field": "Injuries",
-                  "type": "quantitative"
-                },
-                {
-                  "field": "InsuredCostMillions",
-                  "type": "quantitative",
-                  "title": "Insured cost (millions)"
-                }
-              ]
-            }
+            "range": [
+              "#d95f02",
+              "#1f78b4",
+              "#2ca9b6",
+              "#8c510a",
+              "#6a3d9a"
+            ]
+          }
+        },
+        "tooltip": [
+          {
+            "field": "EventName",
+            "type": "nominal",
+            "title": "Event"
+          },
+          {
+            "field": "City",
+            "type": "nominal"
+          },
+          {
+            "field": "State",
+            "type": "nominal"
+          },
+          {
+            "field": "DisasterType",
+            "type": "nominal",
+            "title": "Type"
+          },
+          {
+            "field": "Year",
+            "type": "quantitative"
+          },
+          {
+            "field": "Fatalities",
+            "type": "quantitative"
+          },
+          {
+            "field": "Injuries",
+            "type": "quantitative"
+          },
+          {
+            "field": "InsuredCostMillions",
+            "type": "quantitative",
+            "title": "Insured cost (millions)"
           }
         ]
-      },{
-      "width": 840,
-      "height": 560,
-      "padding": 5,
-      "autosize": "none",
-      "data": [
-        {
-          "name": "tree",
-          "url": "data/disasters_treemap.csv",
-          "format": {
-            "type": "csv",
-            "parse": {
-              "size": "number"
-            }
-          },
-          "transform": [
-            {
-              "type": "formula",
-              "as": "categoryLabel",
-              "expr": "datum.DisasterType"
-            },
-            {
-              "type": "formula",
-              "as": "stateLabel",
-              "expr": "datum.State"
-            },
-            {
-              "type": "filter",
-              "expr": "datum.parent === '' || datum.parent === 'All Disasters' || (selectedState !== 'Australia' && datum.State === selectedState)"
-            },
-            {
-              "type": "formula",
-              "as": "adjustedSize",
-              "expr": "datum.parent === '' ? null : datum.parent === 'All Disasters' ? (selectedState === 'Australia' ? datum.size : null) : datum.size"
-            },
-            {
-              "type": "stratify",
-              "key": "id",
-              "parentKey": "parent"
-            },
-            {
-              "type": "treemap",
-              "field": "adjustedSize",
-              "sort": {
-                "field": "size",
-                "order": "descending"
-              },
-              "round": true,
-              "size": [
-                {
-                  "signal": "width"
-                },
-                {
-                  "signal": "height"
-                }
-              ],
-              "method": "squarify",
-              "ratio": 1.3
-            }
-          ]
-        },
-        {
-          "name": "nodes",
-          "source": "tree",
-          "transform": [
-            {
-              "type": "filter",
-              "expr": "datum.children"
-            },
-            {
-              "type": "formula",
-              "expr": "datum.name",
-              "as": "label"
-            }
-          ]
-        },
-        {
-          "name": "leaves",
-          "source": "tree",
-          "transform": [
-            {
-              "type": "filter",
-              "expr": "!datum.children"
-            },
-            {
-              "type": "formula",
-              "expr": "datum.categoryLabel",
-              "as": "category"
-            },
-            {
-              "type": "formula",
-              "expr": "selectedState === 'Australia' ? 'Australia' : (datum.stateLabel)",
-              "as": "state"
-            },
-            {
-              "type": "formula",
-              "expr": "datum.adjustedSize",
-              "as": "count"
-            },
-            {
-              "type": "formula",
-              "expr": "(datum.x1 - datum.x0) * (datum.y1 - datum.y0)",
-              "as": "area"
-            },
-            {
-              "type": "formula",
-              "expr": "datum.x1 - datum.x0",
-              "as": "w"
-            },
-            {
-              "type": "formula",
-              "expr": "datum.y1 - datum.y0",
-              "as": "h"
-            }
-          ]
-        }
-      ],
-      "scales": [
-        {
-          "name": "color",
-          "type": "ordinal",
-          "domain": [
-            "Bushfire",
-            "Flood",
-            "Storm",
-            "Cyclone",
-            "Earthquake"
-          ],
-          "range": [
-            "#d95f02",
-            "#1f78b4",
-            "#2ca9b6",
-            "#6a3d9a",
-            "#8c510a"
-          ]
-        }
-      ],
-      "marks": [
-        {
-          "type": "rect",
-          "from": {
-            "data": "nodes"
-          },
-          "interactive": false,
-          "encode": {
-            "enter": {
-              "fill": {
-                "value": "#f0f0f0"
-              }
-            },
-            "update": {
-              "x": {
-                "field": "x0"
-              },
-              "y": {
-                "field": "y0"
-              },
-              "x2": {
-                "field": "x1"
-              },
-              "y2": {
-                "field": "y1"
-              },
-              "fillOpacity": {
-                "signal": "datum.depth === 0 ? 0 : 0.25"
-              }
-            }
-          }
-        },
-        {
-          "type": "rect",
-          "from": {
-            "data": "leaves"
-          },
-          "encode": {
-            "enter": {
-              "stroke": {
-                "value": "#fff"
-              },
-              "strokeWidth": {
-                "value": 1
-              }
-            },
-            "update": {
-              "x": {
-                "field": "x0"
-              },
-              "y": {
-                "field": "y0"
-              },
-              "x2": {
-                "field": "x1"
-              },
-              "y2": {
-                "field": "y1"
-              },
-              "fill": {
-                "scale": "color",
-                "field": "category"
-              },
-              "fillOpacity": {
-                "value": 0.95
-              },
-              "tooltip": {
-                "signal": "{'Disaster type': datum.DisasterType, 'State': datum.state, 'Event count': datum.size}"
-              }
-            },
-            "hover": {
-              "stroke": {
-                "value": "#000"
-              },
-              "strokeWidth": {
-                "value": 2
-              },
-              "fillOpacity": {
-                "value": 1
-              }
-            }
-          }
-        },
-        {
-          "type": "text",
-          "from": {
-            "data": "nodes"
-          },
-          "interactive": false,
-          "encode": {
-            "enter": {
-              "font": {
-                "value": "Helvetica Neue, Arial"
-              },
-              "align": {
-                "value": "center"
-              },
-              "baseline": {
-                "value": "middle"
-              },
-              "fill": {
-                "value": "#0b0b0b"
-              },
-              "fontWeight": {
-                "value": "bold"
-              }
-            },
-            "update": {
-              "x": {
-                "signal": "0.5 * (datum.x0 + datum.x1)"
-              },
-              "y": {
-                "signal": "0.5 * (datum.y0 + datum.y1)"
-              },
-              "text": {
-                "signal": "datum.depth === 0 ? '' : datum.label"
-              },
-              "fillOpacity": {
-                "signal": "datum.depth === 1 ? 1 : 0"
-              },
-              "fontSize": {
-                "value": 16
-              }
-            }
-          }
-        },
-        {
-          "type": "text",
-          "from": {
-            "data": "leaves"
-          },
-          "encode": {
-            "enter": {
-              "align": {
-                "value": "center"
-              },
-              "baseline": {
-                "value": "middle"
-              },
-              "fill": {
-                "value": "#111"
-              },
-              "font": {
-                "value": "Helvetica Neue, Arial"
-              }
-            },
-            "update": {
-              "x": {
-                "signal": "0.5 * (datum.x0 + datum.x1)"
-              },
-              "y": {
-                "signal": "0.5 * (datum.y0 + datum.y1)"
-              },
-              "text": {
-                "signal": "(datum.w > 80 && datum.h > 14) ? datum.category : ''"
-              },
-              "fontSize": {
-                "value": 12
-              },
-              "fillOpacity": {
-                "value": 0.9
-              },
-              "limit": {
-                "signal": "max(0, datum.w - 8)"
-              }
-            }
-          }
-        }
-      ]
+      }
     }
   ]
 }
