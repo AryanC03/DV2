@@ -32,21 +32,15 @@
       <button type="button" data-state="Victoria" class="state-btn">Victoria</button>
       <button type="button" data-state="Western Australia" class="state-btn">Western Australia</button>
     </div>
-    <div id="symbol_map"></div>
+    <div class="row">
+      <div id="symbol_map" class="column"></div>
+      <!-- <div id="treemap" class="column"></div> -->
+    </div>
     <div id="zoom-disaster-buttons">
-      <input type="range" class="slider" min="400" max="4000" step="50" id="myRange">
+      <input type="range" class="slider" min="900" max="5000" step="50" id="myRange">
     </div>
     <div class="state-text">
       <p></p>
-
-    </div>
-
-
-
-    <div>
-      <h2>Treemap of Disasters by State</h2>
-      <p>This treemap shows the number of disaster events in each state, grouped by disaster type.</p>
-      <div id="treemap"></div>
     </div>
   </main>
 
@@ -57,7 +51,7 @@
     zoomValue.value = 1000; // Default zoom level
     zoomValue.addEventListener('input', function () {
       if (symbolMapView) {
-        symbolMapView.signal('zoom_to', +zoomValue.value).runAsync();
+        symbolMapView.signal('Zoom', +zoomValue.value).runAsync();
       }
     });
 
@@ -72,7 +66,7 @@
       "Victoria": "Victoria is prone to some of Australia's most severe bushfires, like the Black Saturday fires, and also experiences significant flooding and storms.",
       "Western Australia": "Western Australia regularly deals with tropical cyclones in the north, widespread bushfires in the south-west, and storm events."
     };
-    
+
     var stateButtons = document.querySelectorAll('#state-buttons .state-btn');
     var stateCenters = {
       "Australia": [133, -27],
@@ -130,29 +124,45 @@
 
     var spec2 = "js/symbol_map.vg.json";
     vegaEmbed('#symbol_map', spec2).then(function (result) {
-      symbolMapView = result.view;
-      applyStateToMap(currentState);
-    }).catch(console.error);
+      // Use one variable for the entire combined view
+      var chartView = result.view;
 
-    var spec3 = "js/treemap.vg.json";
-    vegaEmbed('#treemap', spec3).then(function (result) {
-      treemapView = result.view;
-      treemapView.addSignalListener('selectedState', function (name, value) {
-        if (value !== currentState) {
-          currentState = value;
-          setActiveButton(value);
-          applyStateToMap(value);
+      // Make symbolMapView available to other functions
+      symbolMapView = chartView;
+
+      // Add a listener for clicks on the treemap part of the chart
+      chartView.addSignalListener('selectedState', function (name, value) {
+        // If the treemap selection changes, update the whole UI
+        if (value && value !== currentState) {
+          updateStateFromUI(value); // This function already handles everything
         }
       });
 
-      if (treemapView.signal('selectedState') !== currentState) {
-        treemapView.signal('selectedState', currentState).runAsync();
-      }
-      setActiveButton(currentState);
+      // Set the initial state for the map and treemap
       applyStateToMap(currentState);
+      chartView.signal('selectedState', currentState).runAsync();
+
     }).catch(console.error);
 
-    
+    // var spec3 = "js/treemap.vg.json";
+    // vegaEmbed('#treemap', spec3).then(function (result) {
+    //   treemapView = result.view;
+    //   treemapView.addSignalListener('selectedState', function (name, value) {
+    //     if (value !== currentState) {
+    //       currentState = value;
+    //       setActiveButton(value);
+    //       applyStateToMap(value);
+    //     }
+    //   });
+
+    //   if (treemapView.signal('selectedState') !== currentState) {
+    //     treemapView.signal('selectedState', currentState).runAsync();
+    //   }
+    //   setActiveButton(currentState);
+    //   applyStateToMap(currentState);
+    // }).catch(console.error);
+
+
 
   </script>
 
