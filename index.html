@@ -31,18 +31,31 @@
       <button type="button" data-state="Western Australia" class="state-btn">Western Australia</button>
     </div>
     <div class="row70">
-    <div id="symbol_map" class="column70"></div>
-    <div id="treemap" class="column70"></div>
+      <div id="symbol_map" class="column70"></div>
+      <div id="treemap" class="column70"></div>
     </div>
     <div id="zoom-disaster-buttons">
       <input type="range" class="slider" min="900" max="4000" step="50" id="myRange">
     </div>
     <div class="state-text">
-      <p></p>
+      <p style="text-align: center;"></p>
     </div>
     <div class="row50">
       <div id="bar_line_single" class="column50"></div>
-      <p>Text</p>
+      <p style="padding-left:2cm;">Between 1990 and 2021, Australia experienced an average of around 4 to 5 major disasters per year, while the
+        national Gross State Product (GSP) growth averaged about 3.1%. The correlation between disaster frequency and
+        GSP growth was weakly positive (r ≈ 0.11), indicating little to no consistent relationship between the two. In
+        other words, years with more disasters did not reliably correspond to slower or faster economic growth. Despite
+        notable events such as the Black Saturday bushfires in 2009 and the Black Summer fires in 2019-2020, Australia's
+        overall economy demonstrated strong resilience, with state-level diversification, such as mining and
+        construction activity, often offsetting losses in affected areas.
+
+        Over time, disaster frequency has become more variable, particularly since the 2000s, with bushfires, floods,
+        and cyclones occurring more often. However, national GSP growth has remained relatively steady, suggesting that
+        while disasters can cause localised and short-term economic disruption, they do not significantly affect the
+        country's overall growth trajectory. In some cases, recovery and reconstruction activities may even boost
+        economic output in the aftermath of major events. Overall, the data suggests that Australia's economy absorbs
+        disaster impacts well on a national scale, though state-level analyses may reveal stronger regional effects.</p>
     </div>
 
   </main>
@@ -59,11 +72,11 @@
 
     var stateDescriptions = {};
     fetch('data/descriptions.json').then(response => response.json()).then(data => {
-        stateDescriptions = data;
-        stateTextElement.textContent = stateDescriptions[currentState];
-      })
+      stateDescriptions = data;
+      stateTextElement.textContent = stateDescriptions[currentState];
+    })
       .catch(error => console.error('Error loading state descriptions:', error));
-    
+
     var stateButtons = document.querySelectorAll('#state-buttons .state-btn');
     var stateCenters = {
       "Australia": [133, -27],
@@ -160,21 +173,9 @@
     // vegaEmbed('#bar_line_multiples', spec4).catch(console.error);
 
     var spec5 = 'js/bar_line_single.vg.json';
-    vegaEmbed('#bar_line_single', spec5).then(function (result) {
-      barLineSingleView = result.view;
-      barLineSingleView.addSignalListener('selectedState', function (name, value) {
-        if (value !== currentState) {
-          currentState = value;
-          setActiveButton(value);
-          applyStateToMap(value);
-        }
-      });
-      if (barLineSingleStates.includes(currentState) && barLineSingleView.signal('selectedState') !== currentState) {
-        barLineSingleView.signal('selectedState', currentState).runAsync();
-      }
-    }).catch(console.error);
+    vegaEmbed('#bar_line_single', spec5).catch(console.error);
 
-    
+
 
   </script>
 

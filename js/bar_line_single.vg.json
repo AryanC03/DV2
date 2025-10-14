@@ -5,6 +5,7 @@
     "type": "fit-x",
     "contains": "padding"
   },
+  "title": "Disasters and GSP Growth Over Time",
   "padding": 5,
   "width": 650,
   "height": 320,
@@ -21,7 +22,31 @@
   "params": [
     {
       "name": "selectedState",
-      "value": "Victoria"
+      "value": "Victoria",
+      "bind": {
+        "input": "select",
+        "options": [
+          "New South Wales",
+          "Victoria",
+          "Queensland",
+          "South Australia",
+          "Western Australia",
+          "Tasmania",
+          "Northern Territory",
+          "Australian Capital Territory"
+        ],
+        "labels": [
+          "New South Wales",
+          "Victoria",
+          "Queensland",
+          "South Australia",
+          "Western Australia",
+          "Tasmania",
+          "Northern Territory",
+          "Australian Capital Territory"
+        ],
+        "name": "Select State: "
+      }
     }
   ],
   "transform": [
@@ -120,7 +145,7 @@
         "type": "line",
         "color": "#d62728",
         "strokeWidth": 2,
-        "point": true
+        "point": false
       },
       "encoding": {
         "x": {

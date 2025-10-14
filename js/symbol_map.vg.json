@@ -129,6 +129,10 @@
               40,
               400
             ]
+          },
+          "legend": {
+            "orient": "bottom",
+            "direction": "horizontal"
           }
         },
         "color": {
@@ -150,6 +154,10 @@
               "#8c510a",
               "#6a3d9a"
             ]
+          },
+          "legend": {
+            "orient": "bottom",
+            "direction": "horizontal"
           }
         },
         "tooltip": [
