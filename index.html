@@ -8,6 +8,10 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
 
   <!-- CSS file -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
 
 
@@ -38,11 +42,56 @@
       <input type="range" class="slider" min="900" max="4000" step="50" id="myRange">
     </div>
     <div class="state-text">
-      <p style="text-align: center;"></p>
+      <p></p>
     </div>
+
+    <table>
+      <tr>
+        <td>
+          <img src="images/bushfire.jpg">
+        </td>
+        <td>
+          <img src="images/flood.jpg">
+        </td>
+        <td>
+          <img src="images/cyclone.jpg">
+        </td>
+        <td>
+          <img src="images/storm.jpg">
+        </td>
+        <td>
+          <img src="images/earthquake.jpg">
+        </td>
+      </tr>
+      <tr>
+        <td class="img-subcaption">Bushfire</td>
+        <td class="img-subcaption">Flood</td>
+        <td class="img-subcaption">Cyclone</td>
+        <td class="img-subcaption">Storm</td>
+        <td class="img-subcaption">Earthquake</td>
+      </tr>
+      <tr>
+        <td class="img-caption">Frequent during hot, dry summers, Australian bushfires are among the most destructive
+          natural disasters, often devastating vast forests and communities.</td>
+        <td class="img-caption">Floods in Australia can result from heavy rainfall, cyclones, or river overflows,
+          leading to significant damage to homes, infrastructure, and agriculture.</td>
+        <td class="img-caption">Cyclones, particularly in northern Australia, bring strong winds and heavy rains,
+          causing widespread destruction and flooding.</td>
+        <td class="img-caption">Severe storms, including hailstorms and thunderstorms, can cause localized damage
+          through high winds, lightning, and heavy rainfall.</td>
+        <td class="img-caption">While less common, earthquakes do occur in Australia, particularly in regions like South
+          Australia and Victoria, sometimes causing structural damage.</td>
+      </tr>
+    </table>
+
+    <hr class="dashed-line">
+
+    <h2 style="text-align: center; font-weight: bold;">Impact on Gross State Product (GSP)</h2>
+
     <div class="row50">
       <div id="bar_line_single" class="column50"></div>
-      <p style="padding-left:2cm;">Between 1990 and 2021, Australia experienced an average of around 4 to 5 major disasters per year, while the
+      <p style="padding-left:2cm;">Between 1990 and 2021, Australia experienced an average of around 4 to 5 major
+        disasters per year, while the
         national Gross State Product (GSP) growth averaged about 3.1%. The correlation between disaster frequency and
         GSP growth was weakly positive (r ≈ 0.11), indicating little to no consistent relationship between the two. In
         other words, years with more disasters did not reliably correspond to slower or faster economic growth. Despite
@@ -58,6 +107,7 @@
         disaster impacts well on a national scale, though state-level analyses may reveal stronger regional effects.</p>
     </div>
 
+    
   </main>
 
   <script type="text/javascript">

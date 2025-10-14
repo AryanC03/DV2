@@ -5,9 +5,13 @@
     "type": "fit-x",
     "contains": "padding"
   },
+  "background": "transparent",
   "width": "container",
   "height": 500,
-  "title": "Major Disaster Events in Australia",
+  "title": {
+    "text": "Major Disaster Events in Australia",
+    "color": "black"
+  },
   "params": [
     {
       "name": "Zoom",
@@ -132,7 +136,9 @@
           },
           "legend": {
             "orient": "bottom",
-            "direction": "horizontal"
+            "direction": "horizontal",
+            "labelColor": "black",
+            "titleColor": "black"
           }
         },
         "color": {
@@ -157,7 +163,9 @@
           },
           "legend": {
             "orient": "bottom",
-            "direction": "horizontal"
+            "direction": "horizontal",
+            "labelColor": "black",
+            "titleColor": "black"
           }
         },
         "tooltip": [
@@ -194,7 +202,7 @@
           {
             "field": "InsuredCostMillions",
             "type": "quantitative",
-            "title": "Insured cost (millions)"
+            "title": "Insured cost"
           }
         ]
       }

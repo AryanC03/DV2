@@ -3,7 +3,10 @@
   "description": "Treemap of Australian disaster events by type and state.",
   "width": 384,
   "height": 500,
-  "title": "Disaster Events Treemap",
+  "title": {
+    "text": "Disaster Events by Type and State",
+    "color": "black"
+  },
   "autosize": {
     "type": "fit-x",
     "contains": "padding"
@@ -21,7 +24,9 @@
       "url": "data/disasters_treemap.csv",
       "format": {
         "type": "csv",
-        "parse": {"size": "number"}
+        "parse": {
+          "size": "number"
+        }
       },
       "transform": [
         {
@@ -51,9 +56,19 @@
         {
           "type": "treemap",
           "field": "adjustedSize",
-          "sort": {"field": "size", "order": "descending"},
+          "sort": {
+            "field": "size",
+            "order": "descending"
+          },
           "round": true,
-          "size": [{"signal": "width"}, {"signal": "height"}],
+          "size": [
+            {
+              "signal": "width"
+            },
+            {
+              "signal": "height"
+            }
+          ],
           "method": "squarify",
           "ratio": 1.3
         }
@@ -63,7 +78,10 @@
       "name": "nodes",
       "source": "tree",
       "transform": [
-        {"type": "filter", "expr": "datum.children"},
+        {
+          "type": "filter",
+          "expr": "datum.children"
+        },
         {
           "type": "formula",
           "expr": "datum.name",
@@ -75,7 +93,10 @@
       "name": "leaves",
       "source": "tree",
       "transform": [
-        {"type": "filter", "expr": "!datum.children"},
+        {
+          "type": "filter",
+          "expr": "!datum.children"
+        },
         {
           "type": "formula",
           "expr": "datum.categoryLabel",
@@ -96,15 +117,15 @@
           "expr": "(datum.x1 - datum.x0) * (datum.y1 - datum.y0)",
           "as": "area"
         },
-        { 
-          "type": "formula", 
-          "expr": "datum.x1 - datum.x0", 
-          "as": "w" 
+        {
+          "type": "formula",
+          "expr": "datum.x1 - datum.x0",
+          "as": "w"
         },
-        { 
-          "type": "formula", 
-          "expr": "datum.y1 - datum.y0", 
-          "as": "h" 
+        {
+          "type": "formula",
+          "expr": "datum.y1 - datum.y0",
+          "as": "h"
         }
       ]
     }
@@ -132,89 +153,170 @@
   "marks": [
     {
       "type": "rect",
-      "from": {"data": "nodes"},
+      "from": {
+        "data": "nodes"
+      },
       "interactive": false,
       "encode": {
         "enter": {
-          "fill": {"value": "#f0f0f0"}
+          "fill": {
+            "value": "#f0f0f0"
+          }
         },
         "update": {
-          "x": {"field": "x0"},
-          "y": {"field": "y0"},
-          "x2": {"field": "x1"},
-          "y2": {"field": "y1"},
-          "fillOpacity": {"signal": "datum.depth === 0 ? 0 : 0.25"}
+          "x": {
+            "field": "x0"
+          },
+          "y": {
+            "field": "y0"
+          },
+          "x2": {
+            "field": "x1"
+          },
+          "y2": {
+            "field": "y1"
+          },
+          "fillOpacity": {
+            "signal": "datum.depth === 0 ? 0 : 0.25"
+          }
         }
       }
     },
     {
       "type": "rect",
-      "from": {"data": "leaves"},
+      "from": {
+        "data": "leaves"
+      },
       "encode": {
         "enter": {
-          "stroke": {"value": "#fff"},
-          "strokeWidth": {"value": 1}
+          "stroke": {
+            "value": "#fff"
+          },
+          "strokeWidth": {
+            "value": 1
+          }
         },
         "update": {
-          "x": {"field": "x0"},
-          "y": {"field": "y0"},
-          "x2": {"field": "x1"},
-          "y2": {"field": "y1"},
-          "fill": {"scale": "color", "field": "category"},
-          "fillOpacity": {"value": 0.95},
+          "x": {
+            "field": "x0"
+          },
+          "y": {
+            "field": "y0"
+          },
+          "x2": {
+            "field": "x1"
+          },
+          "y2": {
+            "field": "y1"
+          },
+          "fill": {
+            "scale": "color",
+            "field": "category"
+          },
+          "fillOpacity": {
+            "value": 0.95
+          },
           "tooltip": {
             "signal": "{'Disaster type': datum.DisasterType, 'State': datum.state, 'Event count': datum.size}"
           }
         },
         "hover": {
-          "stroke": {"value": "#000"},
-          "strokeWidth": {"value": 2},
-          "fillOpacity": {"value": 1}
+          "stroke": {
+            "value": "#000"
+          },
+          "strokeWidth": {
+            "value": 2
+          },
+          "fillOpacity": {
+            "value": 1
+          }
         }
       }
     },
     {
       "type": "text",
-      "from": {"data": "nodes"},
+      "from": {
+        "data": "nodes"
+      },
       "interactive": false,
       "encode": {
         "enter": {
-          "font": {"value": "Helvetica Neue, Arial"},
-          "align": {"value": "center"},
-          "baseline": {"value": "middle"},
-          "fill": {"value": "#0b0b0b"},
-          "fontWeight": {"value": "bold"}
+          "font": {
+            "value": "Helvetica Neue, Arial"
+          },
+          "align": {
+            "value": "center"
+          },
+          "baseline": {
+            "value": "middle"
+          },
+          "fill": {
+            "value": "#0b0b0b"
+          },
+          "fontWeight": {
+            "value": "bold"
+          }
         },
         "update": {
-          "x": {"signal": "0.5 * (datum.x0 + datum.x1)"},
-          "y": {"signal": "0.5 * (datum.y0 + datum.y1)"},
+          "x": {
+            "signal": "0.5 * (datum.x0 + datum.x1)"
+          },
+          "y": {
+            "signal": "0.5 * (datum.y0 + datum.y1)"
+          },
           "text": {
             "signal": "datum.depth === 0 ? '' : datum.label"
           },
-          "fillOpacity": {"signal": "datum.depth === 1 ? 1 : 0"},
-          "fontSize": {"value": 16}
+          "fillOpacity": {
+            "signal": "datum.depth === 1 ? 1 : 0"
+          },
+          "fontSize": {
+            "value": 16
+          }
         }
       }
     },
     {
-  "type": "text",
-  "from": {"data": "leaves"},
-  "encode": {
-    "enter": {
-      "align": {"value": "center"},
-      "baseline": {"value": "middle"},
-      "fill": {"value": "#111"},
-      "font": {"value": "Helvetica Neue, Arial"}
-    },
-    "update": {
-      "x": {"signal": "0.5 * (datum.x0 + datum.x1)"},
-      "y": {"signal": "0.5 * (datum.y0 + datum.y1)"},
-      "text": { "signal": "(datum.w > 80 && datum.h > 14) ? datum.category : ''" },
-      "fontSize": {"value": 12},
-      "fillOpacity": {"value": 0.9},
-      "limit": { "signal": "max(0, datum.w - 8)" }                 
+      "type": "text",
+      "from": {
+        "data": "leaves"
+      },
+      "encode": {
+        "enter": {
+          "align": {
+            "value": "center"
+          },
+          "baseline": {
+            "value": "middle"
+          },
+          "fill": {
+            "value": "#111"
+          },
+          "font": {
+            "value": "Helvetica Neue, Arial"
+          }
+        },
+        "update": {
+          "x": {
+            "signal": "0.5 * (datum.x0 + datum.x1)"
+          },
+          "y": {
+            "signal": "0.5 * (datum.y0 + datum.y1)"
+          },
+          "text": {
+            "signal": "(datum.w > 80 && datum.h > 14) ? datum.category : ''"
+          },
+          "fontSize": {
+            "value": 12
+          },
+          "fillOpacity": {
+            "value": 0.9
+          },
+          "limit": {
+            "signal": "max(0, datum.w - 8)"
+          }
+        }
+      }
     }
-  }
-}
   ]
 }
