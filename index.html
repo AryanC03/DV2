@@ -19,95 +19,102 @@
 
 <body>
   <main>
-    <div>
-      <h1>Major Disaster Events in Australia</h1>
+    <div class="header-card">
+      <h1 style="font-size: xx-large;">Major Disaster Events in Australia</h1>
+      <p style="font-size: smaller;">by Aryan Chordia</p>
     </div>
-    <div id="state-buttons" class="state-button-bar">
-      <button type="button" data-state="Australia" class="state-btn active">Australia</button>
-      <button type="button" data-state="Australian Capital Territory" class="state-btn">Australian Capital
-        Territory</button>
-      <button type="button" data-state="New South Wales" class="state-btn">New South Wales</button>
-      <button type="button" data-state="Northern Territory" class="state-btn">Northern Territory</button>
-      <button type="button" data-state="Queensland" class="state-btn">Queensland</button>
-      <button type="button" data-state="South Australia" class="state-btn">South Australia</button>
-      <button type="button" data-state="Tasmania" class="state-btn">Tasmania</button>
-      <button type="button" data-state="Victoria" class="state-btn">Victoria</button>
-      <button type="button" data-state="Western Australia" class="state-btn">Western Australia</button>
-    </div>
-    <div class="row70">
-      <div id="symbol_map" class="column70"></div>
-      <div id="treemap" class="column70"></div>
-    </div>
-    <div id="zoom-disaster-buttons">
-      <input type="range" class="slider" min="900" max="4000" step="50" id="myRange">
-    </div>
-    <div class="state-text">
-      <p></p>
-    </div>
+    <div class="card">
+      <div id="state-buttons" class="state-button-bar">
+        <button type="button" data-state="Australia" class="state-btn active">Australia</button>
+        <button type="button" data-state="Australian Capital Territory" class="state-btn">Australian Capital
+          Territory</button>
+        <button type="button" data-state="New South Wales" class="state-btn">New South Wales</button>
+        <button type="button" data-state="Northern Territory" class="state-btn">Northern Territory</button>
+        <button type="button" data-state="Queensland" class="state-btn">Queensland</button>
+        <button type="button" data-state="South Australia" class="state-btn">South Australia</button>
+        <button type="button" data-state="Tasmania" class="state-btn">Tasmania</button>
+        <button type="button" data-state="Victoria" class="state-btn">Victoria</button>
+        <button type="button" data-state="Western Australia" class="state-btn">Western Australia</button>
+      </div>
+      <div class="row70">
+        <div id="symbol_map" class="column70"></div>
+        <div id="treemap" class="column70" style="padding-right: 1cm;"></div>
+      </div>
+      <div id="zoom-disaster-buttons">
+        <input type="range" class="slider" min="900" max="4000" step="50" id="myRange">
+      </div>
+      <div class="state-text">
+        <p style="font-size: larger;"></p>
+      </div>
 
-    <table class="disaster-gallery">
-      <tr>
-        <td>
-          <img src="images/bushfire.jpg">
-        </td>
-        <td>
-          <img src="images/flood.jpg">
-        </td>
-        <td>
-          <img src="images/cyclone.jpg">
-        </td>
-        <td>
-          <img src="images/storm.jpg">
-        </td>
-        <td>
-          <img src="images/earthquake.jpg">
-        </td>
-      </tr>
-      <tr>
-        <td class="img-subcaption">Bushfire</td>
-        <td class="img-subcaption">Flood</td>
-        <td class="img-subcaption">Cyclone</td>
-        <td class="img-subcaption">Storm</td>
-        <td class="img-subcaption">Earthquake</td>
-      </tr>
-      <tr>
-        <td class="img-caption">Frequent during hot, dry summers, Australian bushfires are among the most destructive
-          natural disasters, often devastating vast forests and communities.</td>
-        <td class="img-caption">Floods in Australia can result from heavy rainfall, cyclones, or river overflows,
-          leading to significant damage to homes, infrastructure, and agriculture.</td>
-        <td class="img-caption">Cyclones, particularly in northern Australia, bring strong winds and heavy rains,
-          causing widespread destruction and flooding.</td>
-        <td class="img-caption">Severe storms, including hailstorms and thunderstorms, can cause localized damage
-          through high winds, lightning, and heavy rainfall.</td>
-        <td class="img-caption">While less common, earthquakes do occur in Australia, particularly in regions like South
-          Australia and Victoria, sometimes causing structural damage.</td>
-      </tr>
-    </table>
-
-    <hr class="dashed-line">
-
-    <h2 style="text-align: center; font-weight: bold;">Impact on Gross State Product (GSP)</h2>
-
-    <div class="row50">
-      <div id="bar_line_single" class="column50"></div>
-      <p style="padding-left:2cm;">Between 1990 and 2021, Australia experienced an average of around 4 to 5 major
-        disasters per year, while the
-        national Gross State Product (GSP) growth averaged about 3.1%. The correlation between disaster frequency and
-        GSP growth was weakly positive (r ≈ 0.11), indicating little to no consistent relationship between the two. In
-        other words, years with more disasters did not reliably correspond to slower or faster economic growth. Despite
-        notable events such as the Black Saturday bushfires in 2009 and the Black Summer fires in 2019-2020, Australia's
-        overall economy demonstrated strong resilience, with state-level diversification, such as mining and
-        construction activity, often offsetting losses in affected areas.
-
-        Over time, disaster frequency has become more variable, particularly since the 2000s, with bushfires, floods,
-        and cyclones occurring more often. However, national GSP growth has remained relatively steady, suggesting that
-        while disasters can cause localised and short-term economic disruption, they do not significantly affect the
-        country's overall growth trajectory. In some cases, recovery and reconstruction activities may even boost
-        economic output in the aftermath of major events. Overall, the data suggests that Australia's economy absorbs
-        disaster impacts well on a national scale, though state-level analyses may reveal stronger regional effects.</p>
+      <table class="disaster-gallery">
+        <tr>
+          <td>
+            <img src="images/bushfire.jpg">
+          </td>
+          <td>
+            <img src="images/flood.jpg">
+          </td>
+          <td>
+            <img src="images/cyclone.jpg">
+          </td>
+          <td>
+            <img src="images/storm.jpg">
+          </td>
+          <td>
+            <img src="images/earthquake.jpg">
+          </td>
+        </tr>
+        <tr>
+          <td class="img-subcaption">Bushfire</td>
+          <td class="img-subcaption">Flood</td>
+          <td class="img-subcaption">Cyclone</td>
+          <td class="img-subcaption">Storm</td>
+          <td class="img-subcaption">Earthquake</td>
+        </tr>
+        <tr>
+          <td class="img-caption">Frequent during hot, dry summers, Australian bushfires are among the most destructive
+            natural disasters, often devastating vast forests and communities.</td>
+          <td class="img-caption">Floods in Australia can result from heavy rainfall, cyclones, or river overflows,
+            leading to significant damage to homes, infrastructure, and agriculture.</td>
+          <td class="img-caption">Cyclones, particularly in northern Australia, bring strong winds and heavy rains,
+            causing widespread destruction and flooding.</td>
+          <td class="img-caption">Severe storms, including hailstorms and thunderstorms, can cause localized damage
+            through high winds, lightning, and heavy rainfall.</td>
+          <td class="img-caption">While less common, earthquakes do occur in Australia, particularly in regions like
+            South
+            Australia and Victoria, sometimes causing structural damage.</td>
+        </tr>
+      </table>
     </div>
 
-    
+    <div class="card">
+      <h2 style="text-align: center; font-weight: bold; font-size: x-large;">Impact on Gross State Product (GSP)</h2>
+
+      <div class="row50">
+        <div id="bar_line_single" class="column50"></div>
+        <p style="padding-left:2cm; font-size: large;">From 1990 to 2021, Australia averaged around 4-5 major disasters each year, while
+          national Gross State Product (GSP) growth remained steady at approximately 3.1%. The weak positive correlation
+          between disaster frequency and GSP growth (r ≈ 0.11) indicates little to no consistent relationship, meaning
+          years with more disasters did not necessarily coincide with slower or faster economic performance. Despite
+          major events such as the Black Saturday and Black Summer bushfires, the Australian economy showed strong
+          resilience, with sectors like mining and construction often compensating for regional losses. Since the 2000s,
+          disaster frequency has become more variable, but national growth has stayed stable, suggesting that while
+          disasters cause short-term and local disruptions, they have limited long-term impact on Australia's overall
+          economic trajectory. In some cases, recovery and reconstruction efforts may even stimulate temporary economic
+          growth.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2 style="text-align: center;">Data Sources</h2>
+      <p style="font-size: small;"><b>Disaster Data: Australian Disaster Resilience Knowledge Hub</b>
+        (https://knowledge.aidr.org.au/resources/data-sources/)</p>
+      <p style="font-size: small;"><b>Economic Data: Australian Bureau of Statistics </b>(https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-state-accounts/latest-release#data-downloads)</p>
+      <p style="font-size: small;"><b>Employment and Unemployment Data: Australia Bureau of Statistics</b> (https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/latest-release#all-data-downloads)</p>
+    </div>
+
+
   </main>
 
   <script type="text/javascript">
@@ -224,9 +231,6 @@
 
     var spec5 = 'js/bar_line_single.vg.json';
     vegaEmbed('#bar_line_single', spec5).catch(console.error);
-
-
-
   </script>
 
 </body>
