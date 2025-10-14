@@ -187,6 +187,22 @@ main img {
   object-fit: cover;
 }
 
+.vega-tooltip {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border-radius: 6px !important;
+  border: 1px solid rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+  color: #000000 !important;
+  font: 13px Lato, sans-serif !important;
+  max-width: 320px !important;
+  padding: 10px 12px !important;
+}
+
+.vega-tooltip table {
+  width: auto !important;
+  table-layout: auto !important;
+}
+
 hr.dashed-line {
     border: none; /* Remove default border */
     border-top: 2px dashed #333; /* Dashed line, 2px thick, dark gray color */
