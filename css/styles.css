@@ -166,7 +166,7 @@ main img {
   display: block;
 }
 
-table {
+.disaster-gallery {
   width: 100%;
   max-width: 100%;
   margin: 24px auto 0;
@@ -174,13 +174,13 @@ table {
   table-layout: fixed;
 }
 
-table td {
+.disaster-gallery td {
   width: 20%;
   padding: 0 8px;
   vertical-align: top;
 }
 
-table td img {
+.disaster-gallery td img {
   width: 100%;
   height: 180px;
   border-radius: 8px;
