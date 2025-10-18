@@ -14,12 +14,13 @@
   "width": 650,
   "height": 375,
   "data": {
-    "url": "data/disasters.csv",
+    "url": "data/gsp.csv",
     "format": {
       "type": "csv",
       "parse": {
         "State": "string",
-        "Year": "number"
+        "Year": "number",
+        "GSPGrowthPercent": "number"
       }
     }
   },
@@ -55,22 +56,10 @@
   ],
   "transform": [
     {
-      "filter": "isValid(datum.State) && datum.State !== '' && isValid(datum.Year)"
+      "filter": "datum.Year >= 1990 && datum.Year <= 2024"
     },
     {
       "filter": "datum.State == selectedState"
-    },
-    {
-      "aggregate": [
-        {
-          "op": "count",
-          "as": "DisasterCount"
-        }
-      ],
-      "groupby": [
-        "State",
-        "Year"
-      ]
     },
     {
       "calculate": "datum.State + '_' + datum.Year",
@@ -80,20 +69,44 @@
       "lookup": "state_year",
       "from": {
         "data": {
-          "url": "data/gsp.csv",
+          "url": "data/disasters.csv",
           "format": {
             "type": "csv",
             "parse": {
-              "state_year": "string",
-              "GSPGrowthPercent": "number"
+              "State": "string",
+              "Year": "number"
             }
           }
         },
+        "transform": [
+          {
+            "filter": "isValid(datum.State) && datum.State !== '' && isValid(datum.Year)"
+          },
+          {
+            "calculate": "datum.State + '_' + datum.Year",
+            "as": "state_year"
+          },
+          {
+            "aggregate": [
+              {
+                "op": "count",
+                "as": "DisasterCount"
+              }
+            ],
+            "groupby": [
+              "state_year"
+            ]
+          }
+        ],
         "key": "state_year",
         "fields": [
-          "GSPGrowthPercent"
+          "DisasterCount"
         ]
       }
+    },
+    {
+      "calculate": "datum.DisasterCount == null ? 0 : datum.DisasterCount",
+      "as": "DisasterCount"
     }
   ],
   "layer": [
