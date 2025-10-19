@@ -9,19 +9,6 @@ body {
   background-color: #FEFFEC;
 }
 
-/* body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  background-image: url('../images/background.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  filter: blur(14px);
-  transform: scale(1.05);
-  z-index: -1;
-} */
-
 h1 {
   font: 24px Montserrat, sans-serif;
   text-align: center;
@@ -212,7 +199,7 @@ main img {
 
 
 .card1 {
-  background-image: linear-gradient(to bottom, red, orange);
+  background-image: linear-gradient(to bottom, rgb(252, 82, 82), rgb(255, 186, 57));
   padding: 16px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
@@ -220,7 +207,7 @@ main img {
 }
 
 .card2 {
-  background-image: linear-gradient(to bottom, orange, black);
+  background-image: linear-gradient(to bottom, rgb(255, 186, 57), black);
   padding: 16px;
   
   margin-bottom: 0px;
