@@ -99,6 +99,7 @@
       "Victoria": [143, -37],
       "Western Australia": [121, -25]
     };
+
     var barLineSingleStates = [
       "Australian Capital Territory",
       "New South Wales",
@@ -112,7 +113,11 @@
     var currentState = 'Australia';
     var yearStart = 1990;
     var yearEnd = 2024;
+    var symbolMapView = null;
+    var treemapView = null;
+    var barLineSingleView = null;
     var barLineMultiplesView = null;
+    var timelineView = null;
     var stateTextElement = document.querySelector('.state-text p');
 
     function setActiveButton(value) {
@@ -169,8 +174,9 @@
       var centre = stateCenters[value] || stateCenters['Australia'];
       symbolMapView.signal('StateFilter', value);
       symbolMapView.signal('centre_to', centre);
+      symbolMapView.signal('YearStart', yearStart);
+      symbolMapView.signal('YearEnd', yearEnd);
       symbolMapView.runAsync();
-      applyYearRangeToViews();
     }
 
     function updateStateFromUI(value) {
