@@ -13,6 +13,7 @@ h1 {
   font: 24px Montserrat, sans-serif;
   text-align: center;
   color: rgb(255, 255, 255);
+  margin-bottom: 4px;
 }
 
 h2 {
@@ -48,6 +49,7 @@ main {
 }
 
 #symbol_map {
+  position: relative;
   width: 100%;
   max-width: 100vw;
 }
@@ -55,6 +57,31 @@ main {
 #symbol_map .vega-embed,
 #symbol_map .vega-embed > * {
   width: 100% !important;
+  position: relative;
+}
+
+#symbol_map .vega-bindings {
+  position: absolute;
+  bottom: 72px;
+  left: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(3px);
+  color: #ffffff;
+}
+
+#symbol_map .vega-bindings label {
+  margin: 0;
+  font: 12px Montserrat, sans-serif;
+  color: #ffffff;
+}
+
+#symbol_map .vega-bindings input[type="range"] {
+  width: 180px;
 }
 
 .state-button-bar {
@@ -106,36 +133,6 @@ main {
   font: 13px Montserrat, sans-serif !important;
 }
 
-.slider {
-  -webkit-appearance: none;
-  width: 800px;
-  height: 15px;
-  border-radius: 5px;  
-  background: #d3d3d3;
-  outline: none;
-  opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
-  
-}
-
-.slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%; 
-  background: #0430aa;
-  cursor: pointer;
-}
-
-.slider::-moz-range-thumb {
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  background: #0430aa;
-  cursor: pointer;
-}
 
 .column70 {
   float: left;
@@ -209,14 +206,6 @@ main img {
 .card2 {
   background-image: linear-gradient(to bottom, rgb(255, 186, 57), black);
   padding: 16px;
-  
-  margin-bottom: 0px;
-}
-
-.card3 {
-  background: rgba(34, 46, 55, 0.85);
-  padding: 16px;
-  border-radius: 8px;
   
   margin-bottom: 0px;
 }

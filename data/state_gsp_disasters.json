@@ -1,0 +1,1682 @@
+[
+  {
+    "State": "Australian Capital Territory",
+    "Year": 1990,
+    "GSPGrowthPercent": null,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 1991,
+    "GSPGrowthPercent": 2.49,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 1992,
+    "GSPGrowthPercent": 0.44,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 1993,
+    "GSPGrowthPercent": 3.85,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 1994,
+    "GSPGrowthPercent": 4.33,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 1995,
+    "GSPGrowthPercent": 3.83,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 1996,
+    "GSPGrowthPercent": -0.14,
+    "NumberOfDisasters": 2
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 1997,
+    "GSPGrowthPercent": 4.02,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 1998,
+    "GSPGrowthPercent": 3.78,
+    "NumberOfDisasters": 2
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 1999,
+    "GSPGrowthPercent": 5.89,
+    "NumberOfDisasters": 2
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 2000,
+    "GSPGrowthPercent": 2.46,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 2001,
+    "GSPGrowthPercent": 5.21,
+    "NumberOfDisasters": 2
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 2002,
+    "GSPGrowthPercent": 3.59,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 2003,
+    "GSPGrowthPercent": 4.6,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 2004,
+    "GSPGrowthPercent": 3.21,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 2005,
+    "GSPGrowthPercent": 3.29,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 2006,
+    "GSPGrowthPercent": 2.58,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 2007,
+    "GSPGrowthPercent": 6.13,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 2008,
+    "GSPGrowthPercent": 4.64,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 2009,
+    "GSPGrowthPercent": 2.77,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 2010,
+    "GSPGrowthPercent": 4.57,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 2011,
+    "GSPGrowthPercent": 2.99,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 2012,
+    "GSPGrowthPercent": 4.3,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 2013,
+    "GSPGrowthPercent": 3.4,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 2014,
+    "GSPGrowthPercent": 0.31,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 2015,
+    "GSPGrowthPercent": 2.95,
+    "NumberOfDisasters": 2
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 2016,
+    "GSPGrowthPercent": 4.79,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 2017,
+    "GSPGrowthPercent": 4.17,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 2018,
+    "GSPGrowthPercent": 4.11,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 2019,
+    "GSPGrowthPercent": 4.05,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 2020,
+    "GSPGrowthPercent": 3.93,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 2021,
+    "GSPGrowthPercent": 3.95,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 2022,
+    "GSPGrowthPercent": 2.65,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 2023,
+    "GSPGrowthPercent": 4.72,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Australian Capital Territory",
+    "Year": 2024,
+    "GSPGrowthPercent": 3.96,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "New South Wales",
+    "Year": 1990,
+    "GSPGrowthPercent": null,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "New South Wales",
+    "Year": 1991,
+    "GSPGrowthPercent": 0.44,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "New South Wales",
+    "Year": 1992,
+    "GSPGrowthPercent": 0.18,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "New South Wales",
+    "Year": 1993,
+    "GSPGrowthPercent": 2.81,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "New South Wales",
+    "Year": 1994,
+    "GSPGrowthPercent": 3.7,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "New South Wales",
+    "Year": 1995,
+    "GSPGrowthPercent": 3.67,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "New South Wales",
+    "Year": 1996,
+    "GSPGrowthPercent": 3.86,
+    "NumberOfDisasters": 2
+  },
+  {
+    "State": "New South Wales",
+    "Year": 1997,
+    "GSPGrowthPercent": 3.28,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "New South Wales",
+    "Year": 1998,
+    "GSPGrowthPercent": 3.7,
+    "NumberOfDisasters": 3
+  },
+  {
+    "State": "New South Wales",
+    "Year": 1999,
+    "GSPGrowthPercent": 4.82,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "New South Wales",
+    "Year": 2000,
+    "GSPGrowthPercent": 4.4,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "New South Wales",
+    "Year": 2001,
+    "GSPGrowthPercent": 1.73,
+    "NumberOfDisasters": 5
+  },
+  {
+    "State": "New South Wales",
+    "Year": 2002,
+    "GSPGrowthPercent": 1.86,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "New South Wales",
+    "Year": 2003,
+    "GSPGrowthPercent": 2.08,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "New South Wales",
+    "Year": 2004,
+    "GSPGrowthPercent": 2.76,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "New South Wales",
+    "Year": 2005,
+    "GSPGrowthPercent": 1.34,
+    "NumberOfDisasters": 5
+  },
+  {
+    "State": "New South Wales",
+    "Year": 2006,
+    "GSPGrowthPercent": 1.24,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "New South Wales",
+    "Year": 2007,
+    "GSPGrowthPercent": 1.7,
+    "NumberOfDisasters": 3
+  },
+  {
+    "State": "New South Wales",
+    "Year": 2008,
+    "GSPGrowthPercent": 2.07,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "New South Wales",
+    "Year": 2009,
+    "GSPGrowthPercent": 1.45,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "New South Wales",
+    "Year": 2010,
+    "GSPGrowthPercent": 1.59,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "New South Wales",
+    "Year": 2011,
+    "GSPGrowthPercent": 2.02,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "New South Wales",
+    "Year": 2012,
+    "GSPGrowthPercent": 2.42,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "New South Wales",
+    "Year": 2013,
+    "GSPGrowthPercent": 2.2,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "New South Wales",
+    "Year": 2014,
+    "GSPGrowthPercent": 2.33,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "New South Wales",
+    "Year": 2015,
+    "GSPGrowthPercent": 2.74,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "New South Wales",
+    "Year": 2016,
+    "GSPGrowthPercent": 3.69,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "New South Wales",
+    "Year": 2017,
+    "GSPGrowthPercent": 2.52,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "New South Wales",
+    "Year": 2018,
+    "GSPGrowthPercent": 2.23,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "New South Wales",
+    "Year": 2019,
+    "GSPGrowthPercent": 2.58,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "New South Wales",
+    "Year": 2020,
+    "GSPGrowthPercent": -0.63,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "New South Wales",
+    "Year": 2021,
+    "GSPGrowthPercent": 2.26,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "New South Wales",
+    "Year": 2022,
+    "GSPGrowthPercent": 2.49,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "New South Wales",
+    "Year": 2023,
+    "GSPGrowthPercent": 4.16,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "New South Wales",
+    "Year": 2024,
+    "GSPGrowthPercent": 1.22,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 1990,
+    "GSPGrowthPercent": null,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 1991,
+    "GSPGrowthPercent": 2.73,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 1992,
+    "GSPGrowthPercent": -2.99,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 1993,
+    "GSPGrowthPercent": 0.22,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 1994,
+    "GSPGrowthPercent": -1.59,
+    "NumberOfDisasters": 2
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 1995,
+    "GSPGrowthPercent": 5.06,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 1996,
+    "GSPGrowthPercent": 8.05,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 1997,
+    "GSPGrowthPercent": 2.13,
+    "NumberOfDisasters": 2
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 1998,
+    "GSPGrowthPercent": 6.8,
+    "NumberOfDisasters": 3
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 1999,
+    "GSPGrowthPercent": 11.41,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 2000,
+    "GSPGrowthPercent": -1.13,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 2001,
+    "GSPGrowthPercent": 4.27,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 2002,
+    "GSPGrowthPercent": 8.22,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 2003,
+    "GSPGrowthPercent": 0.87,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 2004,
+    "GSPGrowthPercent": 0.74,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 2005,
+    "GSPGrowthPercent": 4.53,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 2006,
+    "GSPGrowthPercent": 6.4,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 2007,
+    "GSPGrowthPercent": 12.17,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 2008,
+    "GSPGrowthPercent": 1.1,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 2009,
+    "GSPGrowthPercent": 8.53,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 2010,
+    "GSPGrowthPercent": -0.45,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 2011,
+    "GSPGrowthPercent": 2.27,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 2012,
+    "GSPGrowthPercent": 3.77,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 2013,
+    "GSPGrowthPercent": 6.99,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 2014,
+    "GSPGrowthPercent": 1.29,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 2015,
+    "GSPGrowthPercent": 1.41,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 2016,
+    "GSPGrowthPercent": 1.97,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 2017,
+    "GSPGrowthPercent": 1.44,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 2018,
+    "GSPGrowthPercent": 1.86,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 2019,
+    "GSPGrowthPercent": -0.98,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 2020,
+    "GSPGrowthPercent": 6.08,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 2021,
+    "GSPGrowthPercent": -1.43,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 2022,
+    "GSPGrowthPercent": 5.38,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 2023,
+    "GSPGrowthPercent": -5.17,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Northern Territory",
+    "Year": 2024,
+    "GSPGrowthPercent": 4.6,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Queensland",
+    "Year": 1990,
+    "GSPGrowthPercent": null,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Queensland",
+    "Year": 1991,
+    "GSPGrowthPercent": 0.11,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Queensland",
+    "Year": 1992,
+    "GSPGrowthPercent": 3.45,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Queensland",
+    "Year": 1993,
+    "GSPGrowthPercent": 6.27,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Queensland",
+    "Year": 1994,
+    "GSPGrowthPercent": 4.99,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Queensland",
+    "Year": 1995,
+    "GSPGrowthPercent": 5.79,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Queensland",
+    "Year": 1996,
+    "GSPGrowthPercent": 3.35,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Queensland",
+    "Year": 1997,
+    "GSPGrowthPercent": 5.35,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Queensland",
+    "Year": 1998,
+    "GSPGrowthPercent": 4.03,
+    "NumberOfDisasters": 2
+  },
+  {
+    "State": "Queensland",
+    "Year": 1999,
+    "GSPGrowthPercent": 5.92,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Queensland",
+    "Year": 2000,
+    "GSPGrowthPercent": 4.66,
+    "NumberOfDisasters": 3
+  },
+  {
+    "State": "Queensland",
+    "Year": 2001,
+    "GSPGrowthPercent": 2.97,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Queensland",
+    "Year": 2002,
+    "GSPGrowthPercent": 6.35,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Queensland",
+    "Year": 2003,
+    "GSPGrowthPercent": 4.6,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Queensland",
+    "Year": 2004,
+    "GSPGrowthPercent": 6.67,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Queensland",
+    "Year": 2005,
+    "GSPGrowthPercent": 5.33,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Queensland",
+    "Year": 2006,
+    "GSPGrowthPercent": 5.16,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Queensland",
+    "Year": 2007,
+    "GSPGrowthPercent": 6.73,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Queensland",
+    "Year": 2008,
+    "GSPGrowthPercent": 4.74,
+    "NumberOfDisasters": 5
+  },
+  {
+    "State": "Queensland",
+    "Year": 2009,
+    "GSPGrowthPercent": 1.34,
+    "NumberOfDisasters": 2
+  },
+  {
+    "State": "Queensland",
+    "Year": 2010,
+    "GSPGrowthPercent": 2.08,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Queensland",
+    "Year": 2011,
+    "GSPGrowthPercent": 0.85,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Queensland",
+    "Year": 2012,
+    "GSPGrowthPercent": 5.83,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Queensland",
+    "Year": 2013,
+    "GSPGrowthPercent": 2.85,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Queensland",
+    "Year": 2014,
+    "GSPGrowthPercent": 1.98,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Queensland",
+    "Year": 2015,
+    "GSPGrowthPercent": 0.84,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Queensland",
+    "Year": 2016,
+    "GSPGrowthPercent": 2.38,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Queensland",
+    "Year": 2017,
+    "GSPGrowthPercent": 2.63,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Queensland",
+    "Year": 2018,
+    "GSPGrowthPercent": 3.97,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Queensland",
+    "Year": 2019,
+    "GSPGrowthPercent": 0.93,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Queensland",
+    "Year": 2020,
+    "GSPGrowthPercent": -0.91,
+    "NumberOfDisasters": 2
+  },
+  {
+    "State": "Queensland",
+    "Year": 2021,
+    "GSPGrowthPercent": 2.79,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Queensland",
+    "Year": 2022,
+    "GSPGrowthPercent": 5.55,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Queensland",
+    "Year": 2023,
+    "GSPGrowthPercent": 2.76,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Queensland",
+    "Year": 2024,
+    "GSPGrowthPercent": 2.11,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 1990,
+    "GSPGrowthPercent": null,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 1991,
+    "GSPGrowthPercent": -0.36,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "South Australia",
+    "Year": 1992,
+    "GSPGrowthPercent": -1.73,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 1993,
+    "GSPGrowthPercent": 2.69,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 1994,
+    "GSPGrowthPercent": 2.75,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 1995,
+    "GSPGrowthPercent": 1.42,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 1996,
+    "GSPGrowthPercent": 4.03,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 1997,
+    "GSPGrowthPercent": 3.83,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 1998,
+    "GSPGrowthPercent": 5.51,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 1999,
+    "GSPGrowthPercent": 2.07,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 2000,
+    "GSPGrowthPercent": 3.55,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 2001,
+    "GSPGrowthPercent": 3.02,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 2002,
+    "GSPGrowthPercent": 4.94,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 2003,
+    "GSPGrowthPercent": 2.65,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 2004,
+    "GSPGrowthPercent": 3.29,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 2005,
+    "GSPGrowthPercent": 2.11,
+    "NumberOfDisasters": 2
+  },
+  {
+    "State": "South Australia",
+    "Year": 2006,
+    "GSPGrowthPercent": 1.37,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 2007,
+    "GSPGrowthPercent": 1.82,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "South Australia",
+    "Year": 2008,
+    "GSPGrowthPercent": 4.65,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "South Australia",
+    "Year": 2009,
+    "GSPGrowthPercent": 2.73,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 2010,
+    "GSPGrowthPercent": 2.12,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 2011,
+    "GSPGrowthPercent": 2.16,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 2012,
+    "GSPGrowthPercent": 1.04,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 2013,
+    "GSPGrowthPercent": 0.74,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 2014,
+    "GSPGrowthPercent": 0.38,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 2015,
+    "GSPGrowthPercent": 1.12,
+    "NumberOfDisasters": 2
+  },
+  {
+    "State": "South Australia",
+    "Year": 2016,
+    "GSPGrowthPercent": 0.55,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "South Australia",
+    "Year": 2017,
+    "GSPGrowthPercent": 1.85,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 2018,
+    "GSPGrowthPercent": 2.22,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 2019,
+    "GSPGrowthPercent": 1.19,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "South Australia",
+    "Year": 2020,
+    "GSPGrowthPercent": -0.78,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 2021,
+    "GSPGrowthPercent": 4.8,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 2022,
+    "GSPGrowthPercent": 5.42,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 2023,
+    "GSPGrowthPercent": 3.6,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "South Australia",
+    "Year": 2024,
+    "GSPGrowthPercent": 1.19,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 1990,
+    "GSPGrowthPercent": null,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 1991,
+    "GSPGrowthPercent": -0.05,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 1992,
+    "GSPGrowthPercent": 2.66,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 1993,
+    "GSPGrowthPercent": 3.14,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 1994,
+    "GSPGrowthPercent": 2.03,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 1995,
+    "GSPGrowthPercent": 2.67,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 1996,
+    "GSPGrowthPercent": 3.75,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 1997,
+    "GSPGrowthPercent": 1.64,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 1998,
+    "GSPGrowthPercent": 3.76,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 1999,
+    "GSPGrowthPercent": 2.27,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 2000,
+    "GSPGrowthPercent": 0.49,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 2001,
+    "GSPGrowthPercent": -0.94,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 2002,
+    "GSPGrowthPercent": 5.23,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 2003,
+    "GSPGrowthPercent": 3.12,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 2004,
+    "GSPGrowthPercent": 5.19,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 2005,
+    "GSPGrowthPercent": 2.48,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 2006,
+    "GSPGrowthPercent": 4.16,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 2007,
+    "GSPGrowthPercent": 2.7,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 2008,
+    "GSPGrowthPercent": 4.23,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 2009,
+    "GSPGrowthPercent": 2.79,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 2010,
+    "GSPGrowthPercent": 0.99,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 2011,
+    "GSPGrowthPercent": 2.43,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 2012,
+    "GSPGrowthPercent": 2.03,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 2013,
+    "GSPGrowthPercent": -0.59,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Tasmania",
+    "Year": 2014,
+    "GSPGrowthPercent": 1.45,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 2015,
+    "GSPGrowthPercent": 1.04,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 2016,
+    "GSPGrowthPercent": 1.7,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Tasmania",
+    "Year": 2017,
+    "GSPGrowthPercent": 1.13,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 2018,
+    "GSPGrowthPercent": 3.58,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Tasmania",
+    "Year": 2019,
+    "GSPGrowthPercent": 3.8,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 2020,
+    "GSPGrowthPercent": 0.31,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 2021,
+    "GSPGrowthPercent": 4.38,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 2022,
+    "GSPGrowthPercent": 4.47,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 2023,
+    "GSPGrowthPercent": 1.93,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Tasmania",
+    "Year": 2024,
+    "GSPGrowthPercent": 1.38,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Victoria",
+    "Year": 1990,
+    "GSPGrowthPercent": null,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Victoria",
+    "Year": 1991,
+    "GSPGrowthPercent": -2.57,
+    "NumberOfDisasters": 2
+  },
+  {
+    "State": "Victoria",
+    "Year": 1992,
+    "GSPGrowthPercent": -1.41,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Victoria",
+    "Year": 1993,
+    "GSPGrowthPercent": 4.99,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Victoria",
+    "Year": 1994,
+    "GSPGrowthPercent": 3.38,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Victoria",
+    "Year": 1995,
+    "GSPGrowthPercent": 3.09,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Victoria",
+    "Year": 1996,
+    "GSPGrowthPercent": 3.48,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Victoria",
+    "Year": 1997,
+    "GSPGrowthPercent": 4.39,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Victoria",
+    "Year": 1998,
+    "GSPGrowthPercent": 5.92,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Victoria",
+    "Year": 1999,
+    "GSPGrowthPercent": 6.34,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Victoria",
+    "Year": 2000,
+    "GSPGrowthPercent": 3.38,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Victoria",
+    "Year": 2001,
+    "GSPGrowthPercent": 1.91,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Victoria",
+    "Year": 2002,
+    "GSPGrowthPercent": 3.85,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Victoria",
+    "Year": 2003,
+    "GSPGrowthPercent": 2.71,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Victoria",
+    "Year": 2004,
+    "GSPGrowthPercent": 3.74,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Victoria",
+    "Year": 2005,
+    "GSPGrowthPercent": 4.22,
+    "NumberOfDisasters": 2
+  },
+  {
+    "State": "Victoria",
+    "Year": 2006,
+    "GSPGrowthPercent": 2.26,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Victoria",
+    "Year": 2007,
+    "GSPGrowthPercent": 2.93,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Victoria",
+    "Year": 2008,
+    "GSPGrowthPercent": 3.59,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Victoria",
+    "Year": 2009,
+    "GSPGrowthPercent": 1.92,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Victoria",
+    "Year": 2010,
+    "GSPGrowthPercent": 1.04,
+    "NumberOfDisasters": 2
+  },
+  {
+    "State": "Victoria",
+    "Year": 2011,
+    "GSPGrowthPercent": 2.82,
+    "NumberOfDisasters": 3
+  },
+  {
+    "State": "Victoria",
+    "Year": 2012,
+    "GSPGrowthPercent": 2.42,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Victoria",
+    "Year": 2013,
+    "GSPGrowthPercent": 0.98,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Victoria",
+    "Year": 2014,
+    "GSPGrowthPercent": 2.21,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Victoria",
+    "Year": 2015,
+    "GSPGrowthPercent": 2.8,
+    "NumberOfDisasters": 2
+  },
+  {
+    "State": "Victoria",
+    "Year": 2016,
+    "GSPGrowthPercent": 3.43,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Victoria",
+    "Year": 2017,
+    "GSPGrowthPercent": 3.75,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Victoria",
+    "Year": 2018,
+    "GSPGrowthPercent": 3.38,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Victoria",
+    "Year": 2019,
+    "GSPGrowthPercent": 3.03,
+    "NumberOfDisasters": 2
+  },
+  {
+    "State": "Victoria",
+    "Year": 2020,
+    "GSPGrowthPercent": -0.28,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Victoria",
+    "Year": 2021,
+    "GSPGrowthPercent": -0.21,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Victoria",
+    "Year": 2022,
+    "GSPGrowthPercent": 6.74,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Victoria",
+    "Year": 2023,
+    "GSPGrowthPercent": 3.39,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Victoria",
+    "Year": 2024,
+    "GSPGrowthPercent": 1.52,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Western Australia",
+    "Year": 1990,
+    "GSPGrowthPercent": null,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Western Australia",
+    "Year": 1991,
+    "GSPGrowthPercent": 0.6,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Western Australia",
+    "Year": 1992,
+    "GSPGrowthPercent": 3.27,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Western Australia",
+    "Year": 1993,
+    "GSPGrowthPercent": 4.62,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Western Australia",
+    "Year": 1994,
+    "GSPGrowthPercent": 6.82,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Western Australia",
+    "Year": 1995,
+    "GSPGrowthPercent": 5.58,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Western Australia",
+    "Year": 1996,
+    "GSPGrowthPercent": 5.9,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Western Australia",
+    "Year": 1997,
+    "GSPGrowthPercent": 3.45,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Western Australia",
+    "Year": 1998,
+    "GSPGrowthPercent": 5.61,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Western Australia",
+    "Year": 1999,
+    "GSPGrowthPercent": 3.03,
+    "NumberOfDisasters": 2
+  },
+  {
+    "State": "Western Australia",
+    "Year": 2000,
+    "GSPGrowthPercent": 4.12,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Western Australia",
+    "Year": 2001,
+    "GSPGrowthPercent": 0.95,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Western Australia",
+    "Year": 2002,
+    "GSPGrowthPercent": 6.65,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Western Australia",
+    "Year": 2003,
+    "GSPGrowthPercent": 5.23,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Western Australia",
+    "Year": 2004,
+    "GSPGrowthPercent": 7.28,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Western Australia",
+    "Year": 2005,
+    "GSPGrowthPercent": 3.72,
+    "NumberOfDisasters": 2
+  },
+  {
+    "State": "Western Australia",
+    "Year": 2006,
+    "GSPGrowthPercent": 4.94,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Western Australia",
+    "Year": 2007,
+    "GSPGrowthPercent": 6.63,
+    "NumberOfDisasters": 2
+  },
+  {
+    "State": "Western Australia",
+    "Year": 2008,
+    "GSPGrowthPercent": 5.16,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Western Australia",
+    "Year": 2009,
+    "GSPGrowthPercent": 2.37,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Western Australia",
+    "Year": 2010,
+    "GSPGrowthPercent": 5.97,
+    "NumberOfDisasters": 2
+  },
+  {
+    "State": "Western Australia",
+    "Year": 2011,
+    "GSPGrowthPercent": 4.68,
+    "NumberOfDisasters": 4
+  },
+  {
+    "State": "Western Australia",
+    "Year": 2012,
+    "GSPGrowthPercent": 8.28,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Western Australia",
+    "Year": 2013,
+    "GSPGrowthPercent": 6.03,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Western Australia",
+    "Year": 2014,
+    "GSPGrowthPercent": 5.75,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Western Australia",
+    "Year": 2015,
+    "GSPGrowthPercent": 2.27,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Western Australia",
+    "Year": 2016,
+    "GSPGrowthPercent": 1.03,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Western Australia",
+    "Year": 2017,
+    "GSPGrowthPercent": -1.04,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Western Australia",
+    "Year": 2018,
+    "GSPGrowthPercent": 2.2,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Western Australia",
+    "Year": 2019,
+    "GSPGrowthPercent": 1.64,
+    "NumberOfDisasters": 1
+  },
+  {
+    "State": "Western Australia",
+    "Year": 2020,
+    "GSPGrowthPercent": 1.36,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Western Australia",
+    "Year": 2021,
+    "GSPGrowthPercent": 3.39,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Western Australia",
+    "Year": 2022,
+    "GSPGrowthPercent": 2.51,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Western Australia",
+    "Year": 2023,
+    "GSPGrowthPercent": 3.66,
+    "NumberOfDisasters": 0
+  },
+  {
+    "State": "Western Australia",
+    "Year": 2024,
+    "GSPGrowthPercent": 0.48,
+    "NumberOfDisasters": 0
+  }
+]

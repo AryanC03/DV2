@@ -22,7 +22,7 @@
     <div class="card1">
       <h1 style="font-size: 80px;">MAJOR DISASTER EVENTS IN <span
           style="color: rgb(0, 0, 0); font-weight: bold; text-align: center;">AUSTRALIA</span></h1>
-      <!-- <p style="font-size: smaller; text-align: center;">by Aryan Chordia</p> -->
+      <p style="font-size: smaller; text-align: center; padding-bottom: 1cm">by Aryan Chordia</p>
       <h2 style="text-align: center; font-size: 30px"> <span style="color: rgb(0, 0, 0); font-weight: bold;">NATURAL</span>
         DISASTERS</h2>
 
@@ -49,30 +49,17 @@
         <div id="symbol_map" class="column70"></div>
         <div id="treemap" class="column70" style="padding-right: 1cm;"></div>
       </div>
-      <div id="zoom-disaster-buttons">
-        <input type="range" class="slider" min="600" max="3000" step="50" id="myRange">
-      </div>
+
       <div>
         <p style="font-size: xx-small;">* Note some states may not align with the states where they are positioned.</p>
       </div>
 
-      <h2 style="text-align: center; font-size: 30px">GROSS STATE PRODUCT <span style="color: rgb(0, 0, 0); font-weight: bold;">(GSP)</span>
-        IMPACT</h2>
-      <div class="row50">
-        <div id="bar_line_single" class="column50"></div>
-        <p style="padding-left:2cm;">From 1990 to 2021, Australia averaged around 4-5 major disasters each year, while
-          national Gross State Product (GSP) growth remained steady at approximately 3.1%. The weak positive correlation
-          between disaster frequency and GSP growth (r ≈ 0.11) indicates little to no consistent relationship, meaning
-          years with more disasters did not necessarily coincide with slower or faster economic performance. Despite
-          major events such as the Black Saturday and Black Summer bushfires, the Australian economy showed strong
-          resilience, with sectors like mining and construction often compensating for regional losses. Since the 2000s,
-          disaster frequency has become more variable, but national growth has stayed stable, suggesting that while
-          disasters cause short-term and local disruptions, they have limited long-term impact on Australia's overall
-          economic trajectory. In some cases, recovery and reconstruction efforts may even stimulate temporary economic
-          growth.</p>
+      <div>
+      <h2 style="text-align: center; font-size: 30px">GROSS STATE PRODUCT (GSP) <span style="color: rgb(0, 0, 0); font-weight: bold;">IMPACT</span>
+        </h2>
+        <p style=" text-align: center; font-style: italic;">Disaster counts spike and crash across states, yet GSP growth rarely falls below zero. Highlighting how <span style="color: black; font-weight: bold;">resilient</span> each economy remains even as extreme events intensify.</p>
+      <div id="bar_line_multiples"></div>
       </div>
-      <div id="bar_line_multiples" style="margin-top: 2cm;"></div>
-      <div id="bar_line_multiples2" style="margin-top: 2cm;"></div>
     </div>
 
     <div class="card2">
@@ -91,14 +78,6 @@
   </main>
 
   <script type="text/javascript">
-
-    var zoomValue = document.getElementById('myRange');
-    zoomValue.value = 1000; // Default zoom level
-    zoomValue.addEventListener('input', function () {
-      if (symbolMapView) {
-        symbolMapView.signal('Zoom', +zoomValue.value).runAsync();
-      }
-    });
 
     var stateButtons = document.querySelectorAll('#state-buttons .state-btn');
     var stateCenters = {

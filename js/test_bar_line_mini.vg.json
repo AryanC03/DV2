@@ -4,81 +4,195 @@
         "text": "Disasters and GSP Growth Over Time",
         "color": "white"
     },
-    "height": 215,
-    "width": 270,
     "background": "transparent",
     "data": {
-        "url": "data/gsp.csv",
+        "url": "data/state_gsp_disasters.json",
         "format": {
-            "type": "csv",
+            "type": "json",
             "parse": {
                 "State": "string",
                 "Year": "number",
-                "GSPGrowthPercent": "number"
+                "GSPGrowthPercent": "number",
+                "NumberOfDisasters": "number"
             }
         }
     },
     "transform": [
+        {
+            "filter": "datum.Year >= 1990 && datum.Year <= 2024"
+        },
+        {
+            "filter": {
+                "field": "State",
+                "oneOf": [
+                    "Australian Capital Territory",
+                    "New South Wales",
+                    "Northern Territory",
+                    "Queensland",
+                    "South Australia",
+                    "Tasmania",
+                    "Victoria",
+                    "Western Australia"
+                ]
+            }
+        }
+    ],
+    "columns": 4,
+    "facet": {
+        "field": "State",
+        "type": "nominal",
+        "header": {
+            "labelColor": "white",
+            "titleColor": "white"
+        }
+    },
+    "spec": {
+        "height": 200,
+        "width": 225,
+        "layer": [
             {
-                "filter": "datum.Year >= 1990 && datum.Year <= 2024"
+                "mark": {
+                    "type": "rule",
+                    "color": "white",
+                    "size": 1
+                },
+                "encoding": {
+                    "y": {
+                        "datum": 0
+                    }
+                }
             },
             {
-                "filter": {
-                    "field": "State",
-                    "oneOf": [
-                        "Australian Capital Territory",
-                        "New South Wales",
-                        "Northern Territory",
-                        "Queensland",
-                        "South Australia",
-                        "Tasmania",
-                        "Victoria",
-                        "Western Australia"
+                "mark": {
+                    "type": "line",
+                    "color": "#000000",
+                    "point": true
+                },
+                "encoding": {
+                    "x": {
+                        "field": "Year",
+                        "type": "ordinal",
+                        "axis": {
+                            "title": "Year",
+                            "labelColor": "white",
+                            "titleColor": "white",
+                            "tickMinStep": 5,
+                            "values": [
+                                1990,
+                                1995,
+                                2000,
+                                2005,
+                                2010,
+                                2015,
+                                2020,
+                                2025
+                            ]
+                        }
+                    },
+                    "y": {
+                        "field": "GSPGrowthPercent",
+                        "type": "quantitative",
+                        "scale": {
+                            "domain": [
+                                -5,
+                                15
+                            ],
+                            "nice": false
+                        },
+                        "axis": {
+                            "title": "GSP Growth (%)",
+                            "orient": "right",
+                            "labelColor": "white",
+                            "titleColor": "white"
+                        }
+                    },
+                    "tooltip": [
+                        {
+                            "field": "State",
+                            "type": "nominal",
+                            "title": "State"
+                        },
+                        {
+                            "field": "Year",
+                            "type": "ordinal",
+                            "title": "Year"
+                        },
+                        {
+                            "field": "GSPGrowthPercent",
+                            "type": "quantitative",
+                            "title": "GSP Growth (%)"
+                        }
+                    ]
+                }
+            },
+            {
+                "mark": {
+                    "type": "bar",
+                    "color": "#1f77b4",
+                    "opacity": 0.6
+                },
+                "encoding": {
+                    "x": {
+                        "field": "Year",
+                        "type": "ordinal",
+                        "axis": {
+                            "title": "Year",
+                            "labelColor": "white",
+                            "titleColor": "white",
+                            "tickMinStep": 5,
+                            "values": [
+                                1990,
+                                1995,
+                                2000,
+                                2005,
+                                2010,
+                                2015,
+                                2020,
+                                2025
+                            ]
+                        }
+                    },
+                    "y": {
+                        "field": "NumberOfDisasters",
+                        "type": "quantitative",
+                        "scale": {
+                            "domain": [
+                                -5,
+                                15
+                            ],
+                            "nice": false
+                        },
+                        "axis": {
+                            "title": "Number of Disasters",
+                            "labelColor": "white",
+                            "titleColor": "white",
+                            "orient": "left"
+                        }
+                    },
+                    "tooltip": [
+                        {
+                            "field": "State",
+                            "type": "nominal",
+                            "title": "State"
+                        },
+                        {
+                            "field": "Year",
+                            "type": "quantitative",
+                            "title": "Year"
+                        },
+                        {
+                            "field": "NumberOfDisasters",
+                            "type": "quantitative",
+                            "title": "Number of Disasters"
+                        }
                     ]
                 }
             }
-        ],
-    "mark": {
-        "type": "line",
-        "color": "black",
-        "point": true
-    },
-    "encoding": {
-        "facet": {
-            "field": "State",
-            "columns": 4,
-            "header": {
-                "labelColor": "white",
-                "titleColor": "white"
-            }
-        },
-        "x": {
-            "field": "Year",
-            "type": "ordinal",
-            "axis": {
-                "title": "Year",
-                "labelColor": "white",
-                "titleColor": "white",
-                "tickMinStep": 5,
-                "values": [1990, 1995, 2000, 2005, 2010, 2015, 2020, 2025]
-            }
-        },
-        "y": {
-            "field": "GSPGrowthPercent",
-            "type": "quantitative",
-            "axis": {
-                "title": "GSP Growth (%)",
-                "labelColor": "white",
-                "titleColor": "white"
-            }
-        },
-        "color": {
-            "value": "black"
-        },
-        "tooltip": [
-            {"field": "State", "type": "nominal", "title": "State"},
-            {"field": "Year", "type": "quantitative", "title": "Year"},
-            {"field": "GSPGrowthPercent", "type": "quantitative", "title": "GSP Growth (%)"}
         ]
+    },
+    "resolve": {
+        "scale": {
+            "y": "independent"
+        }
     }
 }
