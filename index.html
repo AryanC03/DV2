@@ -22,7 +22,7 @@
     <div class="card1">
       <h1 style="font-size: 80px;">MAJOR DISASTER EVENTS IN <span
           style="color: rgb(0, 0, 0); font-weight: bold; text-align: center;">AUSTRALIA</span></h1>
-      <p style="font-size: smaller; text-align: center; padding-bottom: 1cm">by Aryan Chordia</p>
+      <p style="font-size: smaller; text-align: center; margin-top: 4px;">by Aryan Chordia</p>
       <h2 style="text-align: center; font-size: 30px"> <span style="color: rgb(0, 0, 0); font-weight: bold;">NATURAL</span>
         DISASTERS</h2>
 
@@ -44,6 +44,7 @@
         <button type="button" data-state="Western Australia" class="state-btn">Western Australia</button>
       </div>
       <p style="font-size: x-small;">* Pick a state to see further information.</p>
+
       <div class="row70">
 
         <div id="symbol_map" class="column70"></div>
@@ -54,11 +55,17 @@
         <p style="font-size: xx-small;">* Note some states may not align with the states where they are positioned.</p>
       </div>
 
+      <div id="year-range">
+        <p><span style="color: #000; font-weight: bold;">Filter</span> by Year<p>
+        <div id="year_brush"></div>
+      </div>
+
       <div>
-      <h2 style="text-align: center; font-size: 30px">GROSS STATE PRODUCT (GSP) <span style="color: rgb(0, 0, 0); font-weight: bold;">IMPACT</span>
+        <h2 style="text-align: center; font-size: 30px">GROSS STATE PRODUCT (GSP) <span style="color: rgb(0, 0, 0); font-weight: bold;">IMPACT</span>
         </h2>
         <p style=" text-align: center; font-style: italic;">Disaster counts spike and crash across states, yet GSP growth rarely falls below zero. Highlighting how <span style="color: black; font-weight: bold;">resilient</span> each economy remains even as extreme events intensify.</p>
-      <div id="bar_line_multiples"></div>
+          <div id="bar_line_multiples"></div>
+        </div>
       </div>
     </div>
 
@@ -78,6 +85,7 @@
   </main>
 
   <script type="text/javascript">
+    var stateDescriptions = window.stateDescriptions || {};
 
     var stateButtons = document.querySelectorAll('#state-buttons .state-btn');
     var stateCenters = {
@@ -102,9 +110,13 @@
       "Western Australia"
     ];
     var currentState = 'Australia';
+    var yearStart = 1990;
+    var yearEnd = 2024;
     var symbolMapView = null;
     var treemapView = null;
     var barLineSingleView = null;
+    var barLineMultiplesView = null;
+    var timelineView = null;
     var stateTextElement = document.querySelector('.state-text p');
 
     function setActiveButton(value) {
@@ -112,6 +124,56 @@
         var isActive = btn.dataset.state === value;
         btn.classList.toggle('active', isActive);
       });
+    }
+
+    function applyYearRangeToViews() {
+      if (symbolMapView) {
+        symbolMapView.signal('YearStart', yearStart);
+        symbolMapView.signal('YearEnd', yearEnd);
+        symbolMapView.runAsync();
+      }
+      if (barLineSingleView) {
+        barLineSingleView.signal('YearStart', yearStart);
+        barLineSingleView.signal('YearEnd', yearEnd);
+        barLineSingleView.runAsync();
+      }
+      if (barLineMultiplesView) {
+        barLineMultiplesView.signal('YearStart', yearStart);
+        barLineMultiplesView.signal('YearEnd', yearEnd);
+        barLineMultiplesView.runAsync();
+      }
+    }
+
+    function setYearRangeFromBrush(value) {
+      var range = null;
+      if (value && value.Year) {
+        range = value.Year;
+      } else if (Array.isArray(value) && value.length > 0 && value[0].Year) {
+        range = value[0].Year;
+      }
+      if (!range) {
+        range = [1990, 2024];
+      }
+      var rangeCopy = Array.isArray(range) ? range.slice() : [range[0], range[1]];
+      var start = Math.round(rangeCopy[0]);
+      var end = Math.round(rangeCopy[1]);
+      if (isNaN(start) || isNaN(end)) {
+        start = 1990;
+        end = 2024;
+      }
+      if (start > end) {
+        var tmp = start;
+        start = end;
+        end = tmp;
+      }
+      start = Math.max(1990, start);
+      end = Math.min(2024, end);
+      if (start === yearStart && end === yearEnd) {
+        return;
+      }
+      yearStart = start;
+      yearEnd = end;
+      applyYearRangeToViews();
     }
 
     function applyStateToMap(value) {
@@ -122,6 +184,7 @@
       symbolMapView.signal('StateFilter', value);
       symbolMapView.signal('centre_to', centre);
       symbolMapView.runAsync();
+      applyYearRangeToViews();
     }
 
     function updateStateFromUI(value) {
@@ -135,7 +198,10 @@
       }
       applyStateToMap(value);
 
-      stateTextElement.textContent = stateDescriptions[value];
+      if (stateTextElement) {
+        stateTextElement.textContent = stateDescriptions[value];
+      }
+      applyYearRangeToViews();
     }
 
     setActiveButton(currentState);
@@ -147,10 +213,22 @@
     });
 
 
+    var specYear = 'js/year_brush.vg.json';
+    vegaEmbed('#year_brush', specYear).then(function (result) {
+      timelineView = result.view;
+      var initial = timelineView.signal('yearBrush');
+      setYearRangeFromBrush(initial);
+
+      timelineView.addSignalListener('yearBrush', function (name, value) {
+        setYearRangeFromBrush(value);
+      });
+    }).catch(console.error);
+
     var spec2 = "js/symbol_map.vg.json";
     vegaEmbed('#symbol_map', spec2).then(function (result) {
       symbolMapView = result.view;
       applyStateToMap(currentState);
+      applyYearRangeToViews();
     }).catch(console.error);
 
     var spec3 = "js/treemap.vg.json";
@@ -171,14 +249,11 @@
       applyStateToMap(currentState);
     }).catch(console.error);
 
-    var spec5 = 'js/bar_line_single.vg.json';
-    vegaEmbed('#bar_line_single', spec5).catch(console.error);
-
     var spec6 = 'js/test_bar_line_mini.vg.json';
-    vegaEmbed('#bar_line_multiples', spec6).catch(console.error);
-
-    var spec7 = 'js/bar_line_multiples.vg.json';
-    vegaEmbed('#bar_line_multiples2', spec7).catch(console.error);
+    vegaEmbed('#bar_line_multiples', spec6).then(function (result) {
+      barLineMultiplesView = result.view;
+      applyYearRangeToViews();
+    }).catch(console.error);
 
   </script>
 

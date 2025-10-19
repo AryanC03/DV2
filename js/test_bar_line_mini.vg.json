@@ -5,6 +5,16 @@
         "color": "white"
     },
     "background": "transparent",
+    "params": [
+        {
+            "name": "YearStart",
+            "value": 1990
+        },
+        {
+            "name": "YearEnd",
+            "value": 2024
+        }
+    ],
     "data": {
         "url": "data/state_gsp_disasters.json",
         "format": {
@@ -19,7 +29,7 @@
     },
     "transform": [
         {
-            "filter": "datum.Year >= 1990 && datum.Year <= 2024"
+            "filter": "datum.Year >= YearStart && datum.Year <= YearEnd"
         },
         {
             "filter": {

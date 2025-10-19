@@ -1,0 +1,86 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Brushable timeline to filter views by year range.",
+  "background": "transparent",
+  "width": 800,
+  "height": 120,
+  "data": {
+    "url": "data/state_gsp_disasters.json",
+    "format": {
+      "type": "json"
+    }
+  },
+  "transform": [
+    {
+      "aggregate": [
+        {
+          "op": "sum",
+          "field": "NumberOfDisasters",
+          "as": "TotalDisasters"
+        }
+      ],
+      "groupby": [
+        "Year"
+      ]
+    },
+    {
+      "sort": [
+        {
+          "field": "Year",
+          "order": "ascending"
+        }
+      ]
+    }
+  ],
+  "params": [
+    {
+      "name": "yearBrush",
+      "select": {
+        "type": "interval",
+        "encodings": [
+          "x"
+        ]
+      },
+      "value": [
+        {
+          "Year": [
+            1990,
+            2024
+          ]
+        }
+      ]
+    }
+  ],
+  "mark": {
+    "type": "area",
+    "color": "#1f77b4",
+    "opacity": 0.6
+  },
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          1990,
+          2024
+        ]
+      },
+      "axis": {
+        "title": null,
+        "labelColor": "white",
+        "tickCount": 7,
+        "tickMinStep": 5
+      }
+    },
+    "y": {
+      "field": "TotalDisasters",
+      "type": "quantitative",
+      "axis": {
+        "title": "Disasters",
+        "titleColor": "white",
+        "labelColor": "white"
+      }
+    }
+  }
+}

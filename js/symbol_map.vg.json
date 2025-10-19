@@ -50,6 +50,14 @@
     {
       "name": "StateFilter",
       "value": "Australia"
+    },
+    {
+      "name": "YearStart",
+      "value": 1990
+    },
+    {
+      "name": "YearEnd",
+      "value": 2024
     }
   ],
   "projection": {
@@ -126,6 +134,9 @@
         },
         {
           "filter": "StateFilter == 'Australia' || datum.State == StateFilter"
+        },
+        {
+          "filter": "datum.Year >= YearStart && datum.Year <= YearEnd"
         }
       ],
       "mark": {
