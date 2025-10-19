@@ -112,11 +112,7 @@
     var currentState = 'Australia';
     var yearStart = 1990;
     var yearEnd = 2024;
-    var symbolMapView = null;
-    var treemapView = null;
-    var barLineSingleView = null;
     var barLineMultiplesView = null;
-    var timelineView = null;
     var stateTextElement = document.querySelector('.state-text p');
 
     function setActiveButton(value) {
@@ -131,11 +127,6 @@
         symbolMapView.signal('YearStart', yearStart);
         symbolMapView.signal('YearEnd', yearEnd);
         symbolMapView.runAsync();
-      }
-      if (barLineSingleView) {
-        barLineSingleView.signal('YearStart', yearStart);
-        barLineSingleView.signal('YearEnd', yearEnd);
-        barLineSingleView.runAsync();
       }
       if (barLineMultiplesView) {
         barLineMultiplesView.signal('YearStart', yearStart);
@@ -160,11 +151,6 @@
       if (isNaN(start) || isNaN(end)) {
         start = 1990;
         end = 2024;
-      }
-      if (start > end) {
-        var tmp = start;
-        start = end;
-        end = tmp;
       }
       start = Math.max(1990, start);
       end = Math.min(2024, end);

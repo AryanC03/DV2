@@ -70,7 +70,8 @@
         "title": null,
         "labelColor": "white",
         "tickCount": 7,
-        "tickMinStep": 5
+        "tickMinStep": 5,
+        "format": "d"
       }
     },
     "y": {
