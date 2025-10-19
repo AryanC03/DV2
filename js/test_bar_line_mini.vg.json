@@ -1,0 +1,84 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "Disasters and GSP Growth Over Time",
+        "color": "white"
+    },
+    "height": 215,
+    "width": 270,
+    "background": "transparent",
+    "data": {
+        "url": "data/gsp.csv",
+        "format": {
+            "type": "csv",
+            "parse": {
+                "State": "string",
+                "Year": "number",
+                "GSPGrowthPercent": "number"
+            }
+        }
+    },
+    "transform": [
+            {
+                "filter": "datum.Year >= 1990 && datum.Year <= 2024"
+            },
+            {
+                "filter": {
+                    "field": "State",
+                    "oneOf": [
+                        "Australian Capital Territory",
+                        "New South Wales",
+                        "Northern Territory",
+                        "Queensland",
+                        "South Australia",
+                        "Tasmania",
+                        "Victoria",
+                        "Western Australia"
+                    ]
+                }
+            }
+        ],
+    "mark": {
+        "type": "line",
+        "color": "black",
+        "point": true
+    },
+    "encoding": {
+        "facet": {
+            "field": "State",
+            "columns": 4,
+            "header": {
+                "labelColor": "white",
+                "titleColor": "white"
+            }
+        },
+        "x": {
+            "field": "Year",
+            "type": "ordinal",
+            "axis": {
+                "title": "Year",
+                "labelColor": "white",
+                "titleColor": "white",
+                "tickMinStep": 5,
+                "values": [1990, 1995, 2000, 2005, 2010, 2015, 2020, 2025]
+            }
+        },
+        "y": {
+            "field": "GSPGrowthPercent",
+            "type": "quantitative",
+            "axis": {
+                "title": "GSP Growth (%)",
+                "labelColor": "white",
+                "titleColor": "white"
+            }
+        },
+        "color": {
+            "value": "black"
+        },
+        "tooltip": [
+            {"field": "State", "type": "nominal", "title": "State"},
+            {"field": "Year", "type": "quantitative", "title": "Year"},
+            {"field": "GSPGrowthPercent", "type": "quantitative", "title": "GSP Growth (%)"}
+        ]
+    }
+}

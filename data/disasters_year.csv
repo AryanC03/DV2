@@ -1,0 +1,195 @@
+State,Year,state_year,NumberOfDisasters
+Australian Capital Territory,1860,Australian Capital Territory_1860,3
+Australian Capital Territory,1893,Australian Capital Territory_1893,1
+Australian Capital Territory,1932,Australian Capital Territory_1932,1
+Australian Capital Territory,1937,Australian Capital Territory_1937,6
+Australian Capital Territory,1947,Australian Capital Territory_1947,2
+Australian Capital Territory,1950,Australian Capital Territory_1950,1
+Australian Capital Territory,1971,Australian Capital Territory_1971,1
+Australian Capital Territory,1974,Australian Capital Territory_1974,1
+Australian Capital Territory,1975,Australian Capital Territory_1975,3
+Australian Capital Territory,1976,Australian Capital Territory_1976,1
+Australian Capital Territory,1978,Australian Capital Territory_1978,2
+Australian Capital Territory,1979,Australian Capital Territory_1979,1
+Australian Capital Territory,1980,Australian Capital Territory_1980,1
+Australian Capital Territory,1983,Australian Capital Territory_1983,1
+Australian Capital Territory,1986,Australian Capital Territory_1986,2
+Australian Capital Territory,1989,Australian Capital Territory_1989,1
+Australian Capital Territory,1994,Australian Capital Territory_1994,1
+Australian Capital Territory,1996,Australian Capital Territory_1996,2
+Australian Capital Territory,1998,Australian Capital Territory_1998,2
+Australian Capital Territory,1999,Australian Capital Territory_1999,2
+Australian Capital Territory,2001,Australian Capital Territory_2001,2
+Australian Capital Territory,2002,Australian Capital Territory_2002,1
+Australian Capital Territory,2003,Australian Capital Territory_2003,1
+Australian Capital Territory,2015,Australian Capital Territory_2015,2
+Australian Capital Territory,2017,Australian Capital Territory_2017,1
+Australian Capital Territory,2018,Australian Capital Territory_2018,1
+New South Wales,1852,New South Wales_1852,1
+New South Wales,1863,New South Wales_1863,1
+New South Wales,1890,New South Wales_1890,1
+New South Wales,1893,New South Wales_1893,1
+New South Wales,1896,New South Wales_1896,1
+New South Wales,1926,New South Wales_1926,1
+New South Wales,1939,New South Wales_1939,1
+New South Wales,1950,New South Wales_1950,2
+New South Wales,1951,New South Wales_1951,1
+New South Wales,1954,New South Wales_1954,3
+New South Wales,1967,New South Wales_1967,1
+New South Wales,1974,New South Wales_1974,3
+New South Wales,1976,New South Wales_1976,1
+New South Wales,1980,New South Wales_1980,1
+New South Wales,1981,New South Wales_1981,1
+New South Wales,1984,New South Wales_1984,1
+New South Wales,1986,New South Wales_1986,1
+New South Wales,1987,New South Wales_1987,1
+New South Wales,1988,New South Wales_1988,1
+New South Wales,1989,New South Wales_1989,2
+New South Wales,1990,New South Wales_1990,1
+New South Wales,1991,New South Wales_1991,1
+New South Wales,1993,New South Wales_1993,1
+New South Wales,1994,New South Wales_1994,1
+New South Wales,1996,New South Wales_1996,2
+New South Wales,1998,New South Wales_1998,3
+New South Wales,1999,New South Wales_1999,1
+New South Wales,2000,New South Wales_2000,1
+New South Wales,2001,New South Wales_2001,5
+New South Wales,2002,New South Wales_2002,1
+New South Wales,2004,New South Wales_2004,1
+New South Wales,2005,New South Wales_2005,5
+New South Wales,2007,New South Wales_2007,3
+New South Wales,2008,New South Wales_2008,1
+New South Wales,2009,New South Wales_2009,1
+New South Wales,2011,New South Wales_2011,1
+New South Wales,2012,New South Wales_2012,1
+New South Wales,2013,New South Wales_2013,1
+New South Wales,2014,New South Wales_2014,1
+New South Wales,2019,New South Wales_2019,1
+Northern Territory,1887,Northern Territory_1887,1
+Northern Territory,1897,Northern Territory_1897,1
+Northern Territory,1903,Northern Territory_1903,1
+Northern Territory,1916,Northern Territory_1916,2
+Northern Territory,1955,Northern Territory_1955,1
+Northern Territory,1957,Northern Territory_1957,1
+Northern Territory,1958,Northern Territory_1958,1
+Northern Territory,1969,Northern Territory_1969,2
+Northern Territory,1974,Northern Territory_1974,1
+Northern Territory,1980,Northern Territory_1980,1
+Northern Territory,1983,Northern Territory_1983,1
+Northern Territory,1988,Northern Territory_1988,1
+Northern Territory,1990,Northern Territory_1990,1
+Northern Territory,1991,Northern Territory_1991,1
+Northern Territory,1994,Northern Territory_1994,2
+Northern Territory,1995,Northern Territory_1995,1
+Northern Territory,1996,Northern Territory_1996,1
+Northern Territory,1997,Northern Territory_1997,2
+Northern Territory,1998,Northern Territory_1998,3
+Northern Territory,2001,Northern Territory_2001,1
+Northern Territory,2008,Northern Territory_2008,1
+Northern Territory,2018,Northern Territory_2018,1
+Queensland,1899,Queensland_1899,1
+Queensland,1907,Queensland_1907,1
+Queensland,1917,Queensland_1917,1
+Queensland,1918,Queensland_1918,2
+Queensland,1927,Queensland_1927,2
+Queensland,1928,Queensland_1928,4
+Queensland,1929,Queensland_1929,1
+Queensland,1930,Queensland_1930,1
+Queensland,1934,Queensland_1934,1
+Queensland,1940,Queensland_1940,1
+Queensland,1949,Queensland_1949,1
+Queensland,1954,Queensland_1954,1
+Queensland,1956,Queensland_1956,1
+Queensland,1970,Queensland_1970,1
+Queensland,1971,Queensland_1971,1
+Queensland,1972,Queensland_1972,1
+Queensland,1973,Queensland_1973,1
+Queensland,1986,Queensland_1986,1
+Queensland,1990,Queensland_1990,1
+Queensland,1995,Queensland_1995,1
+Queensland,1997,Queensland_1997,1
+Queensland,1998,Queensland_1998,2
+Queensland,2000,Queensland_2000,3
+Queensland,2004,Queensland_2004,1
+Queensland,2006,Queensland_2006,1
+Queensland,2008,Queensland_2008,5
+Queensland,2009,Queensland_2009,2
+Queensland,2011,Queensland_2011,1
+Queensland,2017,Queensland_2017,1
+Queensland,2019,Queensland_2019,1
+Queensland,2020,Queensland_2020,2
+South Australia,1889,South Australia_1889,1
+South Australia,1918,South Australia_1918,1
+South Australia,1955,South Australia_1955,1
+South Australia,1958,South Australia_1958,1
+South Australia,1979,South Australia_1979,1
+South Australia,1991,South Australia_1991,1
+South Australia,2005,South Australia_2005,2
+South Australia,2007,South Australia_2007,1
+South Australia,2008,South Australia_2008,1
+South Australia,2015,South Australia_2015,2
+South Australia,2016,South Australia_2016,1
+South Australia,2019,South Australia_2019,1
+Tasmania,1929,Tasmania_1929,1
+Tasmania,1967,Tasmania_1967,1
+Tasmania,2013,Tasmania_2013,1
+Tasmania,2016,Tasmania_2016,1
+Tasmania,2018,Tasmania_2018,1
+Victoria,1851,Victoria_1851,1
+Victoria,1879,Victoria_1879,1
+Victoria,1898,Victoria_1898,1
+Victoria,1906,Victoria_1906,1
+Victoria,1926,Victoria_1926,1
+Victoria,1932,Victoria_1932,1
+Victoria,1934,Victoria_1934,2
+Victoria,1939,Victoria_1939,1
+Victoria,1952,Victoria_1952,1
+Victoria,1962,Victoria_1962,1
+Victoria,1965,Victoria_1965,1
+Victoria,1977,Victoria_1977,1
+Victoria,1985,Victoria_1985,1
+Victoria,1986,Victoria_1986,1
+Victoria,1989,Victoria_1989,1
+Victoria,1991,Victoria_1991,2
+Victoria,1993,Victoria_1993,1
+Victoria,1994,Victoria_1994,1
+Victoria,1999,Victoria_1999,1
+Victoria,2003,Victoria_2003,1
+Victoria,2005,Victoria_2005,2
+Victoria,2006,Victoria_2006,1
+Victoria,2007,Victoria_2007,1
+Victoria,2009,Victoria_2009,1
+Victoria,2010,Victoria_2010,2
+Victoria,2011,Victoria_2011,3
+Victoria,2014,Victoria_2014,1
+Victoria,2015,Victoria_2015,2
+Victoria,2016,Victoria_2016,1
+Victoria,2018,Victoria_2018,1
+Victoria,2019,Victoria_2019,2
+Victoria,2020,Victoria_2020,1
+Victoria,2021,Victoria_2021,1
+Western Australia,1857,Western Australia_1857,2
+Western Australia,1910,Western Australia_1910,1
+Western Australia,1912,Western Australia_1912,1
+Western Australia,1917,Western Australia_1917,1
+Western Australia,1935,Western Australia_1935,1
+Western Australia,1968,Western Australia_1968,2
+Western Australia,1975,Western Australia_1975,1
+Western Australia,1978,Western Australia_1978,1
+Western Australia,1979,Western Australia_1979,1
+Western Australia,1988,Western Australia_1988,1
+Western Australia,1993,Western Australia_1993,1
+Western Australia,1994,Western Australia_1994,1
+Western Australia,1995,Western Australia_1995,1
+Western Australia,1996,Western Australia_1996,1
+Western Australia,1999,Western Australia_1999,2
+Western Australia,2005,Western Australia_2005,2
+Western Australia,2007,Western Australia_2007,2
+Western Australia,2009,Western Australia_2009,1
+Western Australia,2010,Western Australia_2010,2
+Western Australia,2011,Western Australia_2011,4
+Western Australia,2013,Western Australia_2013,1
+Western Australia,2014,Western Australia_2014,1
+Western Australia,2015,Western Australia_2015,1
+Western Australia,2016,Western Australia_2016,1
+Western Australia,2019,Western Australia_2019,1

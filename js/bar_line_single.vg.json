@@ -7,7 +7,7 @@
   },
   "title": {
     "text": "Disasters and GSP Growth Over Time",
-    "color": "black"
+    "color": "white"
   },
   "padding": 5,
   "background": "transparent",
@@ -60,60 +60,31 @@
     },
     {
       "filter": "datum.State == selectedState"
-    },
-    {
-      "calculate": "datum.State + '_' + datum.Year",
-      "as": "state_year"
-    },
-    {
-      "lookup": "state_year",
-      "from": {
-        "data": {
-          "url": "data/disasters.csv",
-          "format": {
-            "type": "csv",
-            "parse": {
-              "State": "string",
-              "Year": "number"
-            }
-          }
-        },
-        "transform": [
-          {
-            "filter": "isValid(datum.State) && datum.State !== '' && isValid(datum.Year)"
-          },
-          {
-            "calculate": "datum.State + '_' + datum.Year",
-            "as": "state_year"
-          },
-          {
-            "aggregate": [
-              {
-                "op": "count",
-                "as": "DisasterCount"
-              }
-            ],
-            "groupby": [
-              "state_year"
-            ]
-          }
-        ],
-        "key": "state_year",
-        "fields": [
-          "DisasterCount"
-        ]
-      }
-    },
-    {
-      "calculate": "datum.DisasterCount == null ? 0 : datum.DisasterCount",
-      "as": "DisasterCount"
     }
   ],
   "layer": [
     {
+      "data": {
+        "url": "data/disasters.csv",
+        "format": {
+          "type": "csv",
+          "parse": {
+            "State": "string",
+            "Year": "number"
+          }
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.Year >= 1990 && datum.Year <= 2024"
+        },
+        {
+          "filter": "datum.State == selectedState"
+        }
+      ],
       "mark": {
         "type": "bar",
-        "color": "#787878"
+        "color": "#454545"
       },
       "encoding": {
         "x": {
@@ -123,19 +94,21 @@
           "axis": {
             "title": "Year",
             "labelAngle": -45,
-            "tickColor": "black",
-            "labelColor": "black",
-            "titleColor": "black"
+            "tickColor": "white",
+            "labelColor": "white",
+            "titleColor": "white"
           }
         },
         "y": {
-          "field": "DisasterCount",
+          "aggregate": "count",
           "type": "quantitative",
           "axis": {
             "title": "Disasters",
-            "tickColor": "black",
-            "labelColor": "black",
-            "titleColor": "black"
+            "tickColor": "white",
+            "labelColor": "white",
+            "titleColor": "white",
+            "tickCount": 5,
+            "tickMinStep": 1
           }
         },
         "tooltip": [
@@ -150,15 +123,9 @@
             "title": "Year"
           },
           {
-            "field": "DisasterCount",
+            "aggregate": "count",
             "type": "quantitative",
             "title": "Disasters"
-          },
-          {
-            "field": "GSPGrowthPercent",
-            "type": "quantitative",
-            "title": "GSP growth (%)",
-            "format": ".2f"
           }
         ]
       }
@@ -182,11 +149,19 @@
           "axis": {
             "title": "GSP growth (%)",
             "orient": "right",
-            "tickColor": "black",
-            "labelColor": "black",
-            "titleColor": "black"
+            "tickColor": "white",
+            "labelColor": "white",
+            "titleColor": "white"
           }
-        }
+        },
+        "tooltip": [
+          {
+          "field": "GSPGrowthPercent",
+          "type": "quantitative",
+          "title": "GSP Growth (%)",
+          "format": ".2f"
+          }
+        ]
       }
     }
   ],

@@ -19,11 +19,18 @@
 
 <body>
   <main>
-    <div class="header-card">
-      <h1 style="font-size: xx-large;">Major Disaster Events in Australia</h1>
-      <p style="font-size: smaller;">by Aryan Chordia</p>
-    </div>
-    <div class="card">
+    <div class="card1">
+      <h1 style="font-size: 80px;">MAJOR DISASTER EVENTS IN <span
+          style="color: rgb(0, 0, 0); font-weight: bold; text-align: center;">AUSTRALIA</span></h1>
+      <!-- <p style="font-size: smaller; text-align: center;">by Aryan Chordia</p> -->
+      <h2 style="text-align: center; font-size: 30px"> <span style="color: rgb(0, 0, 0); font-weight: bold;">NATURAL</span>
+        DISASTERS</h2>
+
+      <div>
+        <p style="font-style: italic; text-align: center;">The true <span style="color: rgb(0, 0, 0); font-weight: bold;">toll</span> of Australia's worst natural disasters. Bushfires,
+          floods, cyclones, storms, and earthquakes.
+        </p>
+      </div>
       <div id="state-buttons" class="state-button-bar">
         <button type="button" data-state="Australia" class="state-btn active">Australia</button>
         <button type="button" data-state="Australian Capital Territory" class="state-btn">Australian Capital
@@ -36,64 +43,24 @@
         <button type="button" data-state="Victoria" class="state-btn">Victoria</button>
         <button type="button" data-state="Western Australia" class="state-btn">Western Australia</button>
       </div>
+      <p style="font-size: x-small;">* Pick a state to see further information.</p>
       <div class="row70">
+
         <div id="symbol_map" class="column70"></div>
         <div id="treemap" class="column70" style="padding-right: 1cm;"></div>
       </div>
       <div id="zoom-disaster-buttons">
-        <input type="range" class="slider" min="900" max="4000" step="50" id="myRange">
+        <input type="range" class="slider" min="600" max="3000" step="50" id="myRange">
       </div>
-      <div class="state-text">
-        <p style="font-size: larger;"></p>
+      <div>
+        <p style="font-size: xx-small;">* Note some states may not align with the states where they are positioned.</p>
       </div>
 
-      <!-- <table class="disaster-gallery">
-        <tr>
-          <td>
-            <img src="images/bushfire.jpg">
-          </td>
-          <td>
-            <img src="images/flood.jpg">
-          </td>
-          <td>
-            <img src="images/cyclone.jpg">
-          </td>
-          <td>
-            <img src="images/storm.jpg">
-          </td>
-          <td>
-            <img src="images/earthquake.jpg">
-          </td>
-        </tr>
-        <tr>
-          <td class="img-subcaption">Bushfire</td>
-          <td class="img-subcaption">Flood</td>
-          <td class="img-subcaption">Cyclone</td>
-          <td class="img-subcaption">Storm</td>
-          <td class="img-subcaption">Earthquake</td>
-        </tr>
-        <tr>
-          <td class="img-caption">Frequent during hot, dry summers, Australian bushfires are among the most destructive
-            natural disasters, often devastating vast forests and communities.</td>
-          <td class="img-caption">Floods in Australia can result from heavy rainfall, cyclones, or river overflows,
-            leading to significant damage to homes, infrastructure, and agriculture.</td>
-          <td class="img-caption">Cyclones, particularly in northern Australia, bring strong winds and heavy rains,
-            causing widespread destruction and flooding.</td>
-          <td class="img-caption">Severe storms, including hailstorms and thunderstorms, can cause localized damage
-            through high winds, lightning, and heavy rainfall.</td>
-          <td class="img-caption">While less common, earthquakes do occur in Australia, particularly in regions like
-            South
-            Australia and Victoria, sometimes causing structural damage.</td>
-        </tr>
-      </table> -->
-    </div>
-
-    <div class="card">
-      <h2 style="text-align: center; font-weight: bold; font-size: x-large;">Impact on Gross State Product (GSP)</h2>
-
+      <h2 style="text-align: center; font-size: 30px">GROSS STATE PRODUCT <span style="color: rgb(0, 0, 0); font-weight: bold;">(GSP)</span>
+        IMPACT</h2>
       <div class="row50">
         <div id="bar_line_single" class="column50"></div>
-        <p style="padding-left:2cm; font-size: large;">From 1990 to 2021, Australia averaged around 4-5 major disasters each year, while
+        <p style="padding-left:2cm;">From 1990 to 2021, Australia averaged around 4-5 major disasters each year, while
           national Gross State Product (GSP) growth remained steady at approximately 3.1%. The weak positive correlation
           between disaster frequency and GSP growth (r ≈ 0.11) indicates little to no consistent relationship, meaning
           years with more disasters did not necessarily coincide with slower or faster economic performance. Despite
@@ -104,14 +71,20 @@
           economic trajectory. In some cases, recovery and reconstruction efforts may even stimulate temporary economic
           growth.</p>
       </div>
+      <div id="bar_line_multiples" style="margin-top: 2cm;"></div>
+      <!-- <div id="bar_line_multiples2" style="margin-top: 2cm;"></div> -->
     </div>
 
-    <div class="card">
+    <div class="card2">
       <h2 style="text-align: center;">Data Sources</h2>
       <p style="font-size: small;"><b>Disaster Data: Australian Disaster Resilience Knowledge Hub</b>
         (https://knowledge.aidr.org.au/resources/data-sources/)</p>
-      <p style="font-size: small;"><b>Economic Data: Australian Bureau of Statistics </b>(https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-state-accounts/latest-release#data-downloads)</p>
-      <p style="font-size: small;"><b>Employment and Unemployment Data: Australia Bureau of Statistics</b> (https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/latest-release#all-data-downloads)</p>
+      <p style="font-size: small;"><b>Economic Data: Australian Bureau of Statistics
+        </b>(https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-state-accounts/latest-release#data-downloads)
+      </p>
+      <p style="font-size: small;"><b>Employment and Unemployment Data: Australia Bureau of Statistics</b>
+        (https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/latest-release#all-data-downloads)
+      </p>
     </div>
 
 
@@ -126,13 +99,6 @@
         symbolMapView.signal('Zoom', +zoomValue.value).runAsync();
       }
     });
-
-    var stateDescriptions = {};
-    fetch('data/descriptions.json').then(response => response.json()).then(data => {
-      stateDescriptions = data;
-      stateTextElement.textContent = stateDescriptions[currentState];
-    })
-      .catch(error => console.error('Error loading state descriptions:', error));
 
     var stateButtons = document.querySelectorAll('#state-buttons .state-btn');
     var stateCenters = {
@@ -226,11 +192,15 @@
       applyStateToMap(currentState);
     }).catch(console.error);
 
-    // var spec4 = "js/bar_line_multiples.vg.json";
-    // vegaEmbed('#bar_line_multiples', spec4).catch(console.error);
-
     var spec5 = 'js/bar_line_single.vg.json';
     vegaEmbed('#bar_line_single', spec5).catch(console.error);
+
+    var spec6 = 'js/test_bar_line_mini.vg.json';
+    vegaEmbed('#bar_line_multiples', spec6).catch(console.error);
+
+    var spec7 = 'js/bar_line_multiples.vg.json';
+    vegaEmbed('#bar_line_multiples2', spec7).catch(console.error);
+
   </script>
 
 </body>

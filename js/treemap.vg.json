@@ -5,7 +5,8 @@
   "height": 500,
   "title": {
     "text": "Disaster Events by Type and State",
-    "color": "black"
+    "color": "white",
+    "font": "Montserrat, sans-serif"
   },
   "autosize": {
     "type": "fit-x",
@@ -190,10 +191,10 @@
       "encode": {
         "enter": {
           "stroke": {
-            "value": "#fff"
+            "value": "white"
           },
           "strokeWidth": {
-            "value": 1
+            "value": 0.5
           }
         },
         "update": {
@@ -221,12 +222,6 @@
           }
         },
         "hover": {
-          "stroke": {
-            "value": "#000"
-          },
-          "strokeWidth": {
-            "value": 2
-          },
           "fillOpacity": {
             "value": 1
           }
@@ -290,10 +285,10 @@
             "value": "middle"
           },
           "fill": {
-            "value": "#111"
+            "value": "white"
           },
           "font": {
-            "value": "Helvetica Neue, Arial"
+            "value": "Montserrat, sans-serif"
           }
         },
         "update": {

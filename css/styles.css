@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 html, body {
   height: 100%;
   margin: 0;
 }
 body {
   position: relative;
-  background-color: #ffffff;
+  background-color: #FEFFEC;
 }
 
-body::before {
+/* body::before {
   content: "";
   position: fixed;
   inset: 0;
@@ -18,36 +20,36 @@ body::before {
   filter: blur(14px);
   transform: scale(1.05);
   z-index: -1;
-}
+} */
 
 h1 {
-  font: 24px Lato, sans-serif;
+  font: 24px Montserrat, sans-serif;
   text-align: center;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 h2 {
-  font: 20px Lato, sans-serif;
-  color: black
+  font: 20px Montserrat, sans-serif;
+  color: rgb(255, 255, 255)
 }
 
 p {
-  font: 16px Lato, sans-serif;
+  font: 16px Montserrat, sans-serif;
   line-height: 1.5;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .img-subcaption {
-  font: 14px Lato, sans-serif;
+  font: 14px Montserrat, sans-serif;
   text-align: center;
-  color: #555555;
+  color: #ffffff;
   margin-top: 4px;
 }
 
 .img-caption {
-  font: 16px Lato, sans-serif;
+  font: 16px Montserrat, sans-serif;
   text-align: center;
-  color: #333333;
+  color: #ffffff;
   margin-top: 6px;
 }
 
@@ -81,7 +83,7 @@ main {
   border: 1px solid #c0c0c0;
   border-radius: 4px;
   background-color: #ffffff;
-  font: 14px Lato, sans-serif;
+  font: 14px Montserrat, sans-serif;
   cursor: pointer;
   transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
@@ -112,9 +114,14 @@ main {
 #state-controls input[type="radio"] { margin-right: 4px; }
 #state-controls label { margin-right: 10px; cursor: pointer; }
 
+.vega-bind-name {
+  color: #ffffff !important;  
+  font: 13px Montserrat, sans-serif !important;
+}
+
 .slider {
   -webkit-appearance: none;
-  width: 825px;
+  width: 800px;
   height: 15px;
   border-radius: 5px;  
   background: #d3d3d3;
@@ -188,35 +195,41 @@ main img {
 }
 
 .vega-tooltip {
-  background: rgba(255, 255, 255, 0.95) !important;
-  border-radius: 6px !important;
-  border: 1px solid rgba(0, 0, 0, 0.15) !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
-  color: #000000 !important;
-  font: 13px Lato, sans-serif !important;
-  max-width: 320px !important;
-  padding: 10px 12px !important;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  color: #000000;
+  font: 13px Montserrat, sans-serif;
+  max-width: 320px;
+  padding: 10px 12px;
 }
 
 .vega-tooltip table {
-  width: auto !important;
-  table-layout: auto !important;
+  width: auto;
+  table-layout: auto;
 }
 
 
-.card {
-  background: rgba(249, 229, 229, 0.85);
+.card1 {
+  background-image: linear-gradient(to bottom, red, orange);
   padding: 16px;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  margin-bottom: 24px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-bottom: 0px;
 }
 
-.header-card {
-  background: rgba(255, 255, 255, 0.85);
+.card2 {
+  background-image: linear-gradient(to bottom, orange, black);
+  padding: 16px;
+  
+  margin-bottom: 0px;
+}
+
+.card3 {
+  background: rgba(34, 46, 55, 0.85);
   padding: 16px;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  margin-bottom: 24px;
-  text-align: center;
+  
+  margin-bottom: 0px;
 }

@@ -10,7 +10,7 @@
   "height": 500,
   "title": {
     "text": "Major Disaster Events in Australia",
-    "color": "black"
+    "color": "white"
   },
   "params": [
     {
@@ -137,8 +137,8 @@
           "legend": {
             "orient": "bottom",
             "direction": "horizontal",
-            "labelColor": "black",
-            "titleColor": "black"
+            "labelColor": "white",
+            "titleColor": "white"
           }
         },
         "color": {
@@ -164,8 +164,8 @@
           "legend": {
             "orient": "bottom",
             "direction": "horizontal",
-            "labelColor": "black",
-            "titleColor": "black"
+            "labelColor": "white",
+            "titleColor": "white"
           }
         },
         "tooltip": [

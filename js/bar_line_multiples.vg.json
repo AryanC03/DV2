@@ -1,94 +1,136 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Disaster counts (bars) and GSP growth (line) per state and year.",
+  "description": "Small multiples comparing disaster counts and GSP growth by state.",
+  "title": {
+    "text": "Disasters and GSP Growth Over Time",
+    "color": "white"
+  },
+  "background": "transparent",
   "autosize": {
     "type": "fit-x",
     "contains": "padding"
   },
-  "padding": 5,
   "data": {
-    "url": "data/disasters.csv",
+    "url": "data/gsp.csv",
     "format": {
       "type": "csv",
       "parse": {
         "State": "string",
-        "Year": "number"
+        "Year": "number",
+        "GSPGrowthPercent": "number"
       }
     }
   },
   "transform": [
     {
-      "filter": "isValid(datum.State) && datum.State !== '' && isValid(datum.Year)"
+      "filter": "datum.Year >= 1990 && datum.Year <= 2024"
     },
     {
-      "aggregate": [
-        {
-          "op": "count",
-          "as": "DisasterCount"
-        }
-      ],
-      "groupby": [
-        "State",
-        "Year"
-      ]
-    },
-    {
-      "calculate": "datum.State + '_' + datum.Year",
-      "as": "state_year"
+      "filter": {
+        "field": "State",
+        "oneOf": [
+          "Australian Capital Territory",
+          "New South Wales",
+          "Northern Territory",
+          "Queensland",
+          "South Australia",
+          "Tasmania",
+          "Victoria",
+          "Western Australia"
+        ]
+      }
     },
     {
       "lookup": "state_year",
       "from": {
         "data": {
-          "url": "data/gsp.csv",
+          "url": "data/disasters_year.csv",
           "format": {
             "type": "csv",
             "parse": {
-              "state_year": "string",
-              "GSPGrowthPercent": "number"
+              "NumberOfDisasters": "number"
             }
           }
         },
         "key": "state_year",
         "fields": [
-          "GSPGrowthPercent"
+          "NumberOfDisasters"
         ]
-      }
+      },
+      "default": 0
+    },
+    {
+      "impute": "NumberOfDisasters",
+      "key": "Year",
+      "groupby": [
+        "State"
+      ],
+      "value": 0
     }
   ],
+  "columns": 4,
   "facet": {
     "field": "State",
     "type": "nominal",
-    "title": "Disasters vs GSP Growth by State"
-  },
-  "resolve": {
-    "scale": {
-      "y": "independent"
+    
+    "sort": [
+      "Australian Capital Territory",
+      "New South Wales",
+      "Northern Territory",
+      "Queensland",
+      "South Australia",
+      "Tasmania",
+      "Victoria",
+      "Western Australia"
+    ],
+    "title": null,
+    "header": {
+      "labelColor": "white",
+      "titleColor": "white"
     }
   },
   "spec": {
-    "width": 170,
-    "height": 140,
+    "width": 150,
+    "height": 150,
     "layer": [
       {
         "mark": {
           "type": "bar",
-          "color": "#1f77b4"
+          "color": "#454545",
+          "opacity": 0.7
         },
         "encoding": {
           "x": {
             "field": "Year",
             "type": "ordinal",
+            "sort": "ascending",
             "axis": {
-              "title": null,
-              "labelAngle": -45
+              "title": "Year",
+              "labelAngle": -45,
+              "labelColor": "white",
+              "titleColor": "white",
+              "tickMinStep": 5,
+              "values": [
+                1990,
+                1995,
+                2000,
+                2005,
+                2010,
+                2015,
+                2020,
+                2025
+              ]
             }
           },
           "y": {
-            "field": "DisasterCount",
+            "field": "NumberOfDisasters",
             "type": "quantitative",
             "axis": {
-              "title": "Disasters"
+              "title": "Disasters",
+              "labelColor": "white",
+              "titleColor": "white",
+              "tickCount": 5,
+              "tickMinStep": 1
             }
           },
           "tooltip": [
@@ -103,15 +145,9 @@
               "title": "Year"
             },
             {
-              "field": "DisasterCount",
+              "field": "NumberOfDisasters",
               "type": "quantitative",
               "title": "Disasters"
-            },
-            {
-              "field": "GSPGrowthPercent",
-              "type": "quantitative",
-              "title": "GSP growth (%)",
-              "format": ".2f"
             }
           ]
         }
@@ -119,25 +155,51 @@
       {
         "mark": {
           "type": "line",
-          "color": "#d62728",
+          "color": "#FFA500",
           "strokeWidth": 2,
           "point": true
         },
         "encoding": {
           "x": {
             "field": "Year",
-            "type": "ordinal"
+            "type": "ordinal",
+            "sort": "ascending"
           },
           "y": {
             "field": "GSPGrowthPercent",
             "type": "quantitative",
             "axis": {
               "title": "GSP growth (%)",
-              "orient": "right"
+              "orient": "right",
+              "labelColor": "white",
+              "titleColor": "white"
             }
-          }
+          },
+          "tooltip": [
+            {
+              "field": "State",
+              "type": "nominal",
+              "title": "State"
+            },
+            {
+              "field": "Year",
+              "type": "ordinal",
+              "title": "Year"
+            },
+            {
+              "field": "GSPGrowthPercent",
+              "type": "quantitative",
+              "title": "GSP Growth (%)",
+              "format": ".2f"
+            }
+          ]
         }
       }
     ]
+  },
+  "resolve": {
+    "scale": {
+      "y": "independent"
+    }
   }
 }
