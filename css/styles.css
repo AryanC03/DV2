@@ -214,7 +214,7 @@ main img {
 
 
 .card1 {
-  background-image: linear-gradient(to bottom, rgb(252, 82, 82), rgb(255, 186, 57));
+  background-image: linear-gradient(to bottom, rgb(252, 82, 82), rgb(255, 173, 49));
   padding: 16px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
@@ -222,7 +222,7 @@ main img {
 }
 
 .card2 {
-  background-image: linear-gradient(to bottom, rgb(255, 186, 57), black);
+  background-image: linear-gradient(to bottom, rgb(255, 173, 49), black);
   padding: 16px;
   
   margin-bottom: 0px;
