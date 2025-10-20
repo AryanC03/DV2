@@ -1,0 +1,243 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Heatmap showing unemployment rates by state and month, filtered by the shared year brush.",
+  "width": 700,
+  "height": 320,
+  "background": "transparent",
+  "config": {
+    "axis": {
+      "labelColor": "#333",
+      "titleColor": "#333"
+    },
+    "view": {
+      "stroke": "transparent"
+    }
+  },
+  "params": [
+    {
+      "name": "YearStart",
+      "value": 1990
+    },
+    {
+      "name": "YearEnd",
+      "value": 2024
+    }
+  ],
+  "data": {
+    "url": "data/unemploymentRate.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "Month": "date:%Y-%m",
+        "Unemployment Rate": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "calculate": "datum['Unemployment Rate']",
+      "as": "UnemploymentRate"
+    },
+    {
+      "calculate": "year(datum.Month)",
+      "as": "Year"
+    },
+    {
+      "calculate": "month(datum.Month)",
+      "as": "MonthIndex"
+    },
+    {
+      "calculate": "timeFormat(datum.Month, '%b')",
+      "as": "MonthName"
+    },
+    {
+      "filter": "datum.Year >= YearStart && datum.Year <= YearEnd"
+    },
+    {
+      "aggregate": [
+        {
+          "op": "mean",
+          "field": "UnemploymentRate",
+          "as": "MeanUnemployment"
+        }
+      ],
+      "groupby": [
+        "State",
+        "MonthIndex",
+        "MonthName"
+      ]
+    },
+    {
+      "calculate": "YearStart === YearEnd ? toString(YearStart) : YearStart + ' - ' + YearEnd",
+      "as": "YearRange"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "MonthName",
+      "type": "ordinal",
+      "title": "Month",
+      "sort": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ]
+    },
+    "y": {
+      "field": "State",
+      "type": "nominal",
+      "title": "State",
+      "sort": [
+        "New South Wales",
+        "Victoria",
+        "Queensland",
+        "South Australia",
+        "Western Australia",
+        "Tasmania",
+        "Northern Territory",
+        "Australian Capital Territory"
+      ]
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rect",
+        "stroke": "#fdfdfd",
+        "strokeWidth": 0.5
+      },
+      "encoding": {
+        "color": {
+          "field": "MeanUnemployment",
+          "type": "quantitative",
+          "scale": {
+            "scheme": "reds"
+          },
+          "title": "Unemployment Rate (%)"
+        },
+        "tooltip": [
+          {
+            "field": "State",
+            "type": "nominal",
+            "title": "State"
+          },
+          {
+            "field": "MonthName",
+            "type": "nominal",
+            "title": "Month"
+          },
+          {
+            "field": "MeanUnemployment",
+            "type": "quantitative",
+            "title": "Unemployment Rate (%)",
+            "format": ".1f"
+          },
+          {
+            "field": "YearRange",
+            "type": "nominal",
+            "title": "Years"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "name": "annotationPoints",
+        "values": [
+          {
+            "State": "Queensland",
+            "Year": 2011,
+            "MonthIndex": 0,
+            "MonthName": "Feb",
+            "Label": "2011 floods\npush jobless up",
+            "Rate": 6.1
+          },
+          {
+            "State": "Victoria",
+            "Year": 2020,
+            "MonthIndex": 0,
+            "MonthName": "Jan",
+            "Label": "Black Summer smoke\nstalls hiring",
+            "Rate": 5.8
+          },
+          {
+            "State": "New South Wales",
+            "Year": 2001,
+            "MonthIndex": 11,
+            "MonthName": "Aug",
+            "Label": "Five major disasters\nkeep growth weak",
+            "Rate": 6.0
+          },
+          {
+            "State": "Tasmania",
+            "Year": 2013,
+            "MonthIndex": 0,
+            "MonthName": "Apr",
+            "Label": "Summer fires\nnudge jobless higher",
+            "Rate": 8.2
+          }
+        ]
+      },
+      "transform": [
+        {
+          "filter": "datum.Year >= YearStart && datum.Year <= YearEnd"
+        }
+      ],
+      "layer": [
+        {
+          "mark": {
+            "type": "circle",
+            "color": "#000000",
+            "size": 140,
+            "opacity": 0.9
+          },
+          "encoding": {
+            "tooltip": [
+              {
+                "field": "Label",
+                "type": "nominal",
+                "title": "Disaster impact"
+              },
+              {
+                "field": "Rate",
+                "type": "quantitative",
+                "title": "Unemployment (%)",
+                "format": ".1f"
+              },
+              {
+                "field": "Year",
+                "type": "quantitative",
+                "title": "Year"
+              }
+            ]
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "middle",
+            "dx": 15,
+            "dy": 0,
+            "fontSize": 12,
+            "fill": "#000000"
+          },
+          "encoding": {
+            "text": {
+              "field": "Label"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

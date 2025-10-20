@@ -23,11 +23,14 @@
       <h1 style="font-size: 80px;">MAJOR DISASTER EVENTS IN <span
           style="color: rgb(0, 0, 0); font-weight: bold; text-align: center;">AUSTRALIA</span></h1>
       <p style="font-size: smaller; text-align: center; margin-top: 4px;">by Aryan Chordia</p>
-      <h2 style="text-align: center; font-size: 30px"> <span style="color: rgb(0, 0, 0); font-weight: bold;">NATURAL</span>
+      <h2 style="text-align: center; font-size: 30px"> <span
+          style="color: rgb(0, 0, 0); font-weight: bold;">NATURAL</span>
         DISASTERS</h2>
 
       <div>
-        <p style="font-style: italic; text-align: center;">The true <span style="color: rgb(0, 0, 0); font-weight: bold;">toll</span> of Australia's worst natural disasters. Bushfires,
+        <p style="font-style: italic; text-align: center;">The true <span
+            style="color: rgb(0, 0, 0); font-weight: bold;">toll</span> of Australia's worst natural disasters.
+          Bushfires,
           floods, cyclones, storms, and earthquakes.
         </p>
       </div>
@@ -56,17 +59,31 @@
       </div>
 
       <div id="year-range">
-        <p><span style="color: #000; font-weight: bold;">Filter</span> by Year<p>
+        <p><span style="color: #000; font-weight: bold;">Filter</span> by Year
+        <p>
         <div id="year_brush"></div>
       </div>
 
       <div>
-        <h2 style="text-align: center; font-size: 30px">GROSS STATE PRODUCT (GSP) <span style="color: rgb(0, 0, 0); font-weight: bold;">IMPACT</span>
+        <h2 style="text-align: center; font-size: 30px; padding-top: 1cm;">GROSS STATE PRODUCT (GSP) <span
+            style="color: rgb(0, 0, 0); font-weight: bold;">IMPACT</span>
         </h2>
-        <p style=" text-align: center; font-style: italic;">Disaster counts spike and crash across states, yet GSP growth rarely falls below zero. Highlighting how <span style="color: black; font-weight: bold;">resilient</span> each economy remains even as extreme events intensify.</p>
-          <div id="bar_line_multiples"></div>
-        </div>
+        <p style=" text-align: center; font-style: italic;">Disaster counts spike and crash across states, yet GSP
+          growth rarely falls below zero. Highlighting how <span
+            style="color: black; font-weight: bold;">resilient</span> each economy remains even as extreme events
+          intensify.</p>
+        <div id="bar_line_multiples"></div>
       </div>
+
+      <div>
+        <h2 style="text-align: center; font-size: 30px; padding-top: 1cm;">IMPACT ON <span
+            style="color: rgb(0, 0, 0); font-weight: bold;">UNEMPLOYMENT</span>
+          <p style="font-style: italic;">States facing repeated disaster seasons, Queensland in 2011's <span style="color: rgb(0, 0, 0); font-weight: bold;">floods</span> and Victoria after the 2019-20
+            <span style="color: rgb(0, 0, 0); font-weight: bold;">bushfires</span>, show darker unemployment bands in the ensuing months, hinting that recovery efforts lag where the
+            shocks hit hardest.</p>
+          <div id="heatmap"></div>
+      </div>
+
     </div>
 
     <div class="card2">
@@ -118,7 +135,7 @@
     var barLineSingleView = null;
     var barLineMultiplesView = null;
     var timelineView = null;
-    var stateTextElement = document.querySelector('.state-text p');
+    var heatmapView = null;
 
     function setActiveButton(value) {
       stateButtons.forEach(function (btn) {
@@ -137,6 +154,11 @@
         barLineMultiplesView.signal('YearStart', yearStart);
         barLineMultiplesView.signal('YearEnd', yearEnd);
         barLineMultiplesView.runAsync();
+      }
+      if (heatmapView) {
+        heatmapView.signal('YearStart', yearStart);
+        heatmapView.signal('YearEnd', yearEnd);
+        heatmapView.runAsync();
       }
     }
 
@@ -244,6 +266,12 @@
     var spec6 = 'js/test_bar_line_mini.vg.json';
     vegaEmbed('#bar_line_multiples', spec6).then(function (result) {
       barLineMultiplesView = result.view;
+      applyYearRangeToViews();
+    }).catch(console.error);
+
+    var specHeatmap = 'js/heatmap.vg.json';
+    vegaEmbed('#heatmap', specHeatmap).then(function (result) {
+      heatmapView = result.view;
       applyYearRangeToViews();
     }).catch(console.error);
 

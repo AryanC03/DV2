@@ -197,6 +197,215 @@
                         }
                     ]
                 }
+            },
+            {
+                "transform": [
+                    {
+                        "filter": "datum.State == 'Queensland' && datum.Year == 2020"
+                    }
+                ],
+                "layer": [
+                    {
+                        "mark": {
+                            "type": "point",
+                            "shape": "triangle-up",
+                            "size": 100,
+                            "color": "#ff0000",
+                            "fill": "#ff0000"
+                        },
+                        "encoding": {
+                            "x": {
+                                "field": "Year",
+                                "type": "ordinal"
+                            },
+                            "y": {
+                                "field": "GSPGrowthPercent",
+                                "type": "quantitative",
+                                "axis": null
+                            },
+                            "tooltip": [
+                                {
+                                    "field": "State",
+                                    "type": "nominal",
+                                    "title": "State"
+                                },
+                                {
+                                    "field": "Year",
+                                    "type": "ordinal",
+                                    "title": "Year"
+                                },
+                                {
+                                    "field": "GSPGrowthPercent",
+                                    "type": "quantitative",
+                                    "title": "GSP Growth (%)"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "mark": {
+                            "type": "text",
+                            "align": "left",
+                            "baseline": "middle",
+                            "dx": -100,
+                            "dy": 15,
+                            "fontSize": 11,
+                            "color": "#000000"
+                        },
+                        "encoding": {
+                            "x": {
+                                "field": "Year",
+                                "type": "ordinal"
+                            },
+                            "y": {
+                                "field": "GSPGrowthPercent",
+                                "type": "quantitative",
+                                "axis": null
+                            },
+                            "text": {
+                                "value": "2020: fires + COVID hit growth"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "transform": [
+                    {
+                        "filter": "datum.State == 'Victoria' && datum.Year == 1991"
+                    }
+                ],
+                "layer": [
+                    {"mark": {
+                            "type": "point",
+                            "shape": "triangle-up",
+                            "size": 100,
+                            "color": "#ff0000",
+                            "fill": "#ff0000"
+                        },
+                        "encoding": {
+                            "x": {
+                                "field": "Year",
+                                "type": "ordinal"
+                            },
+                            "y": {
+                                "field": "GSPGrowthPercent",
+                                "type": "quantitative",
+                                "axis": null
+                            },
+                            "tooltip": [
+                                {
+                                    "field": "State",
+                                    "type": "nominal",
+                                    "title": "State"
+                                },
+                                {
+                                    "field": "Year",
+                                    "type": "ordinal",
+                                    "title": "Year"
+                                },
+                                {
+                                    "field": "GSPGrowthPercent",
+                                    "type": "quantitative",
+                                    "title": "GSP Growth (%)"
+                                }
+                            ]
+                        }},
+                    {
+                        "mark": {
+                            "type": "text",
+                            "align": "right",
+                            "baseline": "top",
+                            "dx": 155,
+                            "dy": -5,
+                            "fontSize": 11,
+                            "color": "#000000"
+                        },
+                        "encoding": {
+                            "x": {
+                                "field": "Year",
+                                "type": "ordinal"
+                            },
+                            "y": {
+                                "field": "GSPGrowthPercent",
+                                "type": "quantitative",
+                                "axis": null
+                            },
+                            "text": {
+                                "value": "1991: recession + 2 disasters"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "transform": [
+                    {
+                        "filter": "datum.State == 'New South Wales' && datum.Year == 2001"
+                    }
+                ],
+                "layer": [
+                    {"mark": {
+                            "type": "point",
+                            "shape": "triangle-up",
+                            "size": 100,
+                            "color": "#ff0000",
+                            "fill": "#ff0000"
+                        },
+                        "encoding": {
+                            "x": {
+                                "field": "Year",
+                                "type": "ordinal"
+                            },
+                            "y": {
+                                "field": "GSPGrowthPercent",
+                                "type": "quantitative",
+                                "axis": null
+                            },
+                            "tooltip": [
+                                {
+                                    "field": "State",
+                                    "type": "nominal",
+                                    "title": "State"
+                                },
+                                {
+                                    "field": "Year",
+                                    "type": "ordinal",
+                                    "title": "Year"
+                                },
+                                {
+                                    "field": "GSPGrowthPercent",
+                                    "type": "quantitative",
+                                    "title": "GSP Growth (%)"
+                                }
+                            ]
+                        }},
+                    {
+                        "mark": {
+                            "type": "text",
+                            "align": "right",
+                            "baseline": "top",
+                            "dx": 100,
+                            "dy": 25,
+                            "fontSize": 11,
+                            "color": "#000000"
+                        },
+                        "encoding": {
+                            "x": {
+                                "field": "Year",
+                                "type": "ordinal"
+                            },
+                            "y": {
+                                "field": "GSPGrowthPercent",
+                                "type": "quantitative",
+                                "axis": null
+                            },
+                            "text": {
+                                "value": "2001: Black Christmas Bushfires"
+                            }
+                        }
+                    }
+                ]
             }
         ]
     },
