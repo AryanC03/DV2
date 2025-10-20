@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
         "text": "Disasters and GSP Growth Over Time",
-        "color": "white"
+        "color": "black"
     },
     "background": "transparent",
     "params": [
@@ -52,8 +52,8 @@
         "field": "State",
         "type": "nominal",
         "header": {
-            "labelColor": "white",
-            "titleColor": "white"
+            "labelColor": "black",
+            "titleColor": "black"
         }
     },
     "spec": {
@@ -63,7 +63,7 @@
             {
                 "mark": {
                     "type": "rule",
-                    "color": "white",
+                    "color": "black",
                     "size": 1
                 },
                 "encoding": {
@@ -101,8 +101,8 @@
                             "title": "Metric",
                             "orient": "bottom",
                             "direction": "horizontal",
-                            "labelColor": "white",
-                            "titleColor": "white"
+                            "labelColor": "black",
+                            "titleColor": "black"
                         }
                     },
                     "x": {
@@ -110,8 +110,14 @@
                         "type": "ordinal",
                         "axis": {
                             "title": "Year",
-                            "labelColor": "white",
-                            "titleColor": "white",
+                            "grid": true,
+                            "gridColor": "rgba(0, 0, 0, 0.2)",
+                            "gridDash": [
+                                2,
+                                2
+                            ],
+                            "labelColor": "black",
+                            "titleColor": "black",
                             "tickMinStep": 5,
                             "values": [
                                 1990,
@@ -138,8 +144,15 @@
                         "axis": {
                             "title": "GSP Growth (%)",
                             "orient": "right",
-                            "labelColor": "white",
-                            "titleColor": "white"
+                            "grid": true,
+                            "gridColor": "rgba(0, 0, 0, 0.2)",
+                            "gridDash": [
+                                2,
+                                2
+                            ],
+                            "gridWidth": 0.8,
+                            "labelColor": "black",
+                            "titleColor": "black"
                         }
                     },
                     "tooltip": [
@@ -195,8 +208,14 @@
                         "type": "ordinal",
                         "axis": {
                             "title": "Year",
-                            "labelColor": "white",
-                            "titleColor": "white",
+                            "grid": true,
+                            "gridColor": "rgba(255, 255, 255, 0.15)",
+                            "gridDash": [
+                                2,
+                                2
+                            ],
+                            "labelColor": "black",
+                            "titleColor": "black",
                             "tickMinStep": 5,
                             "values": [
                                 1990,
@@ -222,8 +241,15 @@
                         },
                         "axis": {
                             "title": "Number of Disasters",
-                            "labelColor": "white",
-                            "titleColor": "white",
+                            "grid": true,
+                            "gridColor": "rgba(255, 255, 255, 0.25)",
+                            "gridDash": [
+                                2,
+                                2
+                            ],
+                            "gridWidth": 0.8,
+                            "labelColor": "black",
+                            "titleColor": "black",
                             "orient": "left"
                         }
                     },

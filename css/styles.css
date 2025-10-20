@@ -6,38 +6,38 @@ html, body {
 }
 body {
   position: relative;
-  background-color: #ffffff;
+  background-color: #b3e5b3;
 }
 
 h1 {
   font: 24px Montserrat, sans-serif;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   margin-bottom: 4px;
 }
 
 h2 {
   font: 20px Montserrat, sans-serif;
-  color: rgb(255, 255, 255)
+  color: rgb(0, 0, 0)
 }
 
 p {
   font: 16px Montserrat, sans-serif;
   line-height: 1.5;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .img-subcaption {
   font: 14px Montserrat, sans-serif;
   text-align: center;
-  color: #ffffff;
+  color: #000000;
   margin-top: 4px;
 }
 
 .img-caption {
   font: 16px Montserrat, sans-serif;
   text-align: center;
-  color: #ffffff;
+  color: #000000;
   margin-top: 6px;
 }
 
@@ -71,13 +71,13 @@ main {
   border-radius: 8px;
   background: rgba(0, 0, 0, 0.55);
   backdrop-filter: blur(3px);
-  color: #ffffff;
+  color: #040404;
 }
 
 #symbol_map .vega-bindings label {
   margin: 0;
   font: 12px Montserrat, sans-serif;
-  color: #ffffff;
+  color: #000000;
 }
 
 #symbol_map .vega-bindings input[type="range"] {
@@ -126,7 +126,7 @@ main {
 #year-range h3 {
   margin: 0 0 8px;
   font: 18px Montserrat, sans-serif;
-  color: #ffffff;
+  color: #000000;
   letter-spacing: 0.5px;
 }
 
@@ -139,7 +139,7 @@ main {
 #state-controls.overlay {
   position: absolute; top: 12px; left: 12px; right: 12px;
   display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
-  background: rgba(255,255,255,0.85);
+  background: rgba(0, 0, 0, 0.85);
   padding: 6px 8px; border-radius: 6px; backdrop-filter: blur(2px);
   z-index: 10;
 }
@@ -147,7 +147,7 @@ main {
 #state-controls label { margin-right: 10px; cursor: pointer; }
 
 .vega-bind-name {
-  color: #ffffff !important;  
+  color: #000000 !important;  
   font: 13px Montserrat, sans-serif !important;
 }
 
@@ -214,15 +214,15 @@ main img {
 
 
 .card1 {
-  background-image: linear-gradient(to bottom, rgb(252, 82, 82), rgb(255, 173, 49));
+  background-color: #c2e9bf;
   padding: 16px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-radius: 8px;
   margin-bottom: 0px;
+  box-shadow: 0 10px 500px #000000;
 }
 
 .card2 {
-  background-image: linear-gradient(to bottom, rgb(255, 173, 49), black);
+  background-image: linear-gradient(to bottom, rgb(252, 82, 82), black);
   padding: 16px;
   
   margin-bottom: 0px;

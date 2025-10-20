@@ -68,7 +68,7 @@
       },
       "axis": {
         "title": null,
-        "labelColor": "white",
+        "labelColor": "black",
         "tickCount": 7,
         "tickMinStep": 5,
         "format": "d"
@@ -79,8 +79,8 @@
       "type": "quantitative",
       "axis": {
         "title": "Disasters",
-        "titleColor": "white",
-        "labelColor": "white"
+        "titleColor": "black",
+        "labelColor": "black"
       }
     }
   }

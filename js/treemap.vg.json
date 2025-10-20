@@ -1,11 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v6.json",
-  "description": "Treemap of Australian disaster events by type and state.",
+  "description": "Treemap of Australian disaster events by type.",
   "width": 384,
   "height": 500,
   "title": {
-    "text": "Disaster Events by Type and State",
-    "color": "white",
+    "text": "Disaster Events by Type",
+    "color": "black",
     "font": "Montserrat, sans-serif"
   },
   "autosize": {
@@ -151,6 +151,22 @@
       ]
     }
   ],
+  "legends": [
+    {
+      "fill": "color",
+      "title": "Disaster Type",
+      "orient": "bottom",
+      "direction": "horizontal",
+      "labelFont": "Montserrat, sans-serif",
+      "titleFont": "Montserrat, sans-serif",
+      "labelColor": "black",
+      "titleColor": "black",
+      "symbolType": "square",
+      "symbolSize": 120,
+      "symbolStrokeColor": "#4d4d4d",
+      "symbolStrokeWidth": 0.5
+    }
+  ],
   "marks": [
     {
       "type": "rect",
@@ -191,7 +207,7 @@
       "encode": {
         "enter": {
           "stroke": {
-            "value": "white"
+            "value": "black"
           },
           "strokeWidth": {
             "value": 0.5
@@ -285,7 +301,7 @@
             "value": "middle"
           },
           "fill": {
-            "value": "white"
+            "value": "black"
           },
           "font": {
             "value": "Montserrat, sans-serif"

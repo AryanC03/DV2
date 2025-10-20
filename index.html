@@ -20,9 +20,9 @@
 <body>
   <main>
     <div class="card1">
-      <h1 style="font-size: 80px;">MAJOR DISASTER EVENTS IN <span
-          style="color: rgb(0, 0, 0); font-weight: bold; text-align: center;">AUSTRALIA</span></h1>
-      
+      <h1 style="font-size: 60px;">MAJOR DISASTER EVENTS IMPACT ON <span
+          style="color: rgb(0, 0, 0); font-weight: bold; text-align: center;">AUSTRALIAN ECONOMY</span></h1>
+
       <h2 style="text-align: center; font-size: 30px"> <span
           style="color: rgb(0, 0, 0); font-weight: bold;">NATURAL</span>
         DISASTERS</h2>
@@ -34,6 +34,7 @@
           floods, cyclones, storms, and earthquakes.
         </p>
       </div>
+
       <div id="state-buttons" class="state-button-bar">
         <button type="button" data-state="Australia" class="state-btn active">Australia</button>
         <button type="button" data-state="Australian Capital Territory" class="state-btn">Australian Capital
@@ -48,6 +49,12 @@
       </div>
       <p style="font-size: x-small;">* Pick a state to see further information.</p>
 
+      <div id="year-range">
+        <p><span style="color: #000; font-weight: bold;">Filter</span> by Year
+        <p>
+        <div id="year_brush"></div>
+      </div>
+
       <div class="row70">
 
         <div id="symbol_map" class="column70"></div>
@@ -58,11 +65,9 @@
         <p style="font-size: xx-small;">* Note some states may not align with the states where they are positioned.</p>
       </div>
 
-      <div id="year-range">
-        <p><span style="color: #000; font-weight: bold;">Filter</span> by Year
-        <p>
-        <div id="year_brush"></div>
-      </div>
+      <p style="font-size: large;">
+        ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      </p>
 
       <div>
         <h2 style="text-align: center; font-size: 30px; padding-top: 1cm;">GROSS STATE PRODUCT (GSP) <span
@@ -74,19 +79,24 @@
           intensify.</p>
         <div id="bar_line_multiples"></div>
       </div>
-
+      <p style="font-size: large;">
+        ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      </p>
       <div>
         <h2 style="text-align: center; font-size: 30px; padding-top: 1cm;">IMPACT ON <span
             style="color: rgb(0, 0, 0); font-weight: bold;">UNEMPLOYMENT</span>
-          <p style="font-style: italic;">States facing repeated disaster seasons, Queensland in 2011's <span style="color: rgb(0, 0, 0); font-weight: bold;">floods</span> and Victoria after the 2019-20
-            <span style="color: rgb(0, 0, 0); font-weight: bold;">bushfires</span>, show darker unemployment bands in the ensuing months, hinting that recovery efforts lag where the
-            shocks hit hardest.</p>
+          <p style="font-style: italic;">States facing repeated disaster seasons, Queensland in 2011's <span
+              style="color: rgb(0, 0, 0); font-weight: bold;">floods</span> and Victoria after the 2019-20
+            <span style="color: rgb(0, 0, 0); font-weight: bold;">bushfires</span>, show darker unemployment bands in
+            the ensuing months, hinting that recovery efforts lag where the
+            shocks hit hardest.
+          </p>
           <div id="heatmap"></div>
       </div>
 
-    </div>
-
-    <div class="card2">
+      <p style="font-size: large;">
+        ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      </p>
       <h2 style="text-align: center;"><b>Metadata</b></h2>
       <p style="margin-top: 4px; font-size: small;"><span style="font-weight: bold;">Author: </span>Aryan Chordia</p>
       <p style="font-size: small;"><span style="font-weight: bold;">Date: </span> 20/10/2025</p>
@@ -99,9 +109,8 @@
       <p style="font-size: smaller;">Employment and Unemployment Data: Australia Bureau of Statistics
         (https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/latest-release#all-data-downloads)
       </p>
+
     </div>
-
-
   </main>
 
   <script type="text/javascript">
