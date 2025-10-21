@@ -27,7 +27,7 @@
     "State": "Australian Capital Territory",
     "Year": 1994,
     "GSPGrowthPercent": 4.33,
-    "NumberOfDisasters": 1
+    "NumberOfDisasters": 0
   },
   {
     "State": "Australian Capital Territory",
@@ -39,7 +39,7 @@
     "State": "Australian Capital Territory",
     "Year": 1996,
     "GSPGrowthPercent": -0.14,
-    "NumberOfDisasters": 2
+    "NumberOfDisasters": 0
   },
   {
     "State": "Australian Capital Territory",
@@ -51,13 +51,13 @@
     "State": "Australian Capital Territory",
     "Year": 1998,
     "GSPGrowthPercent": 3.78,
-    "NumberOfDisasters": 2
+    "NumberOfDisasters": 0
   },
   {
     "State": "Australian Capital Territory",
     "Year": 1999,
     "GSPGrowthPercent": 5.89,
-    "NumberOfDisasters": 2
+    "NumberOfDisasters": 0
   },
   {
     "State": "Australian Capital Territory",
@@ -69,13 +69,13 @@
     "State": "Australian Capital Territory",
     "Year": 2001,
     "GSPGrowthPercent": 5.21,
-    "NumberOfDisasters": 2
+    "NumberOfDisasters": 0
   },
   {
     "State": "Australian Capital Territory",
     "Year": 2002,
     "GSPGrowthPercent": 3.59,
-    "NumberOfDisasters": 1
+    "NumberOfDisasters": 0
   },
   {
     "State": "Australian Capital Territory",
@@ -153,7 +153,7 @@
     "State": "Australian Capital Territory",
     "Year": 2015,
     "GSPGrowthPercent": 2.95,
-    "NumberOfDisasters": 2
+    "NumberOfDisasters": 0
   },
   {
     "State": "Australian Capital Territory",
@@ -165,13 +165,13 @@
     "State": "Australian Capital Territory",
     "Year": 2017,
     "GSPGrowthPercent": 4.17,
-    "NumberOfDisasters": 1
+    "NumberOfDisasters": 0
   },
   {
     "State": "Australian Capital Territory",
     "Year": 2018,
     "GSPGrowthPercent": 4.11,
-    "NumberOfDisasters": 1
+    "NumberOfDisasters": 0
   },
   {
     "State": "Australian Capital Territory",
@@ -213,7 +213,7 @@
     "State": "New South Wales",
     "Year": 1990,
     "GSPGrowthPercent": null,
-    "NumberOfDisasters": 1
+    "NumberOfDisasters": 0
   },
   {
     "State": "New South Wales",
@@ -237,37 +237,37 @@
     "State": "New South Wales",
     "Year": 1994,
     "GSPGrowthPercent": 3.7,
-    "NumberOfDisasters": 1
+    "NumberOfDisasters": 4
   },
   {
     "State": "New South Wales",
     "Year": 1995,
     "GSPGrowthPercent": 3.67,
-    "NumberOfDisasters": 0
+    "NumberOfDisasters": 1
   },
   {
     "State": "New South Wales",
     "Year": 1996,
     "GSPGrowthPercent": 3.86,
-    "NumberOfDisasters": 2
+    "NumberOfDisasters": 5
   },
   {
     "State": "New South Wales",
     "Year": 1997,
     "GSPGrowthPercent": 3.28,
-    "NumberOfDisasters": 0
+    "NumberOfDisasters": 1
   },
   {
     "State": "New South Wales",
     "Year": 1998,
     "GSPGrowthPercent": 3.7,
-    "NumberOfDisasters": 3
+    "NumberOfDisasters": 4
   },
   {
     "State": "New South Wales",
     "Year": 1999,
     "GSPGrowthPercent": 4.82,
-    "NumberOfDisasters": 1
+    "NumberOfDisasters": 3
   },
   {
     "State": "New South Wales",
@@ -279,13 +279,13 @@
     "State": "New South Wales",
     "Year": 2001,
     "GSPGrowthPercent": 1.73,
-    "NumberOfDisasters": 5
+    "NumberOfDisasters": 7
   },
   {
     "State": "New South Wales",
     "Year": 2002,
     "GSPGrowthPercent": 1.86,
-    "NumberOfDisasters": 1
+    "NumberOfDisasters": 2
   },
   {
     "State": "New South Wales",
@@ -297,13 +297,13 @@
     "State": "New South Wales",
     "Year": 2004,
     "GSPGrowthPercent": 2.76,
-    "NumberOfDisasters": 1
+    "NumberOfDisasters": 0
   },
   {
     "State": "New South Wales",
     "Year": 2005,
     "GSPGrowthPercent": 1.34,
-    "NumberOfDisasters": 5
+    "NumberOfDisasters": 3
   },
   {
     "State": "New South Wales",
@@ -315,7 +315,7 @@
     "State": "New South Wales",
     "Year": 2007,
     "GSPGrowthPercent": 1.7,
-    "NumberOfDisasters": 3
+    "NumberOfDisasters": 2
   },
   {
     "State": "New South Wales",
@@ -357,13 +357,13 @@
     "State": "New South Wales",
     "Year": 2014,
     "GSPGrowthPercent": 2.33,
-    "NumberOfDisasters": 1
+    "NumberOfDisasters": 0
   },
   {
     "State": "New South Wales",
     "Year": 2015,
     "GSPGrowthPercent": 2.74,
-    "NumberOfDisasters": 0
+    "NumberOfDisasters": 2
   },
   {
     "State": "New South Wales",
@@ -375,13 +375,13 @@
     "State": "New South Wales",
     "Year": 2017,
     "GSPGrowthPercent": 2.52,
-    "NumberOfDisasters": 0
+    "NumberOfDisasters": 1
   },
   {
     "State": "New South Wales",
     "Year": 2018,
     "GSPGrowthPercent": 2.23,
-    "NumberOfDisasters": 0
+    "NumberOfDisasters": 1
   },
   {
     "State": "New South Wales",
@@ -423,13 +423,13 @@
     "State": "Northern Territory",
     "Year": 1990,
     "GSPGrowthPercent": null,
-    "NumberOfDisasters": 1
+    "NumberOfDisasters": 0
   },
   {
     "State": "Northern Territory",
     "Year": 1991,
     "GSPGrowthPercent": 2.73,
-    "NumberOfDisasters": 1
+    "NumberOfDisasters": 0
   },
   {
     "State": "Northern Territory",
@@ -447,31 +447,31 @@
     "State": "Northern Territory",
     "Year": 1994,
     "GSPGrowthPercent": -1.59,
-    "NumberOfDisasters": 2
+    "NumberOfDisasters": 0
   },
   {
     "State": "Northern Territory",
     "Year": 1995,
     "GSPGrowthPercent": 5.06,
-    "NumberOfDisasters": 1
+    "NumberOfDisasters": 0
   },
   {
     "State": "Northern Territory",
     "Year": 1996,
     "GSPGrowthPercent": 8.05,
-    "NumberOfDisasters": 1
+    "NumberOfDisasters": 0
   },
   {
     "State": "Northern Territory",
     "Year": 1997,
     "GSPGrowthPercent": 2.13,
-    "NumberOfDisasters": 2
+    "NumberOfDisasters": 0
   },
   {
     "State": "Northern Territory",
     "Year": 1998,
     "GSPGrowthPercent": 6.8,
-    "NumberOfDisasters": 3
+    "NumberOfDisasters": 1
   },
   {
     "State": "Northern Territory",
@@ -489,7 +489,7 @@
     "State": "Northern Territory",
     "Year": 2001,
     "GSPGrowthPercent": 4.27,
-    "NumberOfDisasters": 1
+    "NumberOfDisasters": 0
   },
   {
     "State": "Northern Territory",
@@ -531,7 +531,7 @@
     "State": "Northern Territory",
     "Year": 2008,
     "GSPGrowthPercent": 1.1,
-    "NumberOfDisasters": 1
+    "NumberOfDisasters": 0
   },
   {
     "State": "Northern Territory",
@@ -633,13 +633,13 @@
     "State": "Queensland",
     "Year": 1990,
     "GSPGrowthPercent": null,
-    "NumberOfDisasters": 1
+    "NumberOfDisasters": 2
   },
   {
     "State": "Queensland",
     "Year": 1991,
     "GSPGrowthPercent": 0.11,
-    "NumberOfDisasters": 0
+    "NumberOfDisasters": 1
   },
   {
     "State": "Queensland",
@@ -651,13 +651,13 @@
     "State": "Queensland",
     "Year": 1993,
     "GSPGrowthPercent": 6.27,
-    "NumberOfDisasters": 0
+    "NumberOfDisasters": 1
   },
   {
     "State": "Queensland",
     "Year": 1994,
     "GSPGrowthPercent": 4.99,
-    "NumberOfDisasters": 0
+    "NumberOfDisasters": 1
   },
   {
     "State": "Queensland",
@@ -669,7 +669,7 @@
     "State": "Queensland",
     "Year": 1996,
     "GSPGrowthPercent": 3.35,
-    "NumberOfDisasters": 0
+    "NumberOfDisasters": 1
   },
   {
     "State": "Queensland",
@@ -681,7 +681,7 @@
     "State": "Queensland",
     "Year": 1998,
     "GSPGrowthPercent": 4.03,
-    "NumberOfDisasters": 2
+    "NumberOfDisasters": 4
   },
   {
     "State": "Queensland",
@@ -699,7 +699,7 @@
     "State": "Queensland",
     "Year": 2001,
     "GSPGrowthPercent": 2.97,
-    "NumberOfDisasters": 0
+    "NumberOfDisasters": 1
   },
   {
     "State": "Queensland",
@@ -717,13 +717,13 @@
     "State": "Queensland",
     "Year": 2004,
     "GSPGrowthPercent": 6.67,
-    "NumberOfDisasters": 1
+    "NumberOfDisasters": 2
   },
   {
     "State": "Queensland",
     "Year": 2005,
     "GSPGrowthPercent": 5.33,
-    "NumberOfDisasters": 0
+    "NumberOfDisasters": 2
   },
   {
     "State": "Queensland",
@@ -735,13 +735,13 @@
     "State": "Queensland",
     "Year": 2007,
     "GSPGrowthPercent": 6.73,
-    "NumberOfDisasters": 0
+    "NumberOfDisasters": 1
   },
   {
     "State": "Queensland",
     "Year": 2008,
     "GSPGrowthPercent": 4.74,
-    "NumberOfDisasters": 5
+    "NumberOfDisasters": 6
   },
   {
     "State": "Queensland",
@@ -771,19 +771,19 @@
     "State": "Queensland",
     "Year": 2013,
     "GSPGrowthPercent": 2.85,
-    "NumberOfDisasters": 0
+    "NumberOfDisasters": 1
   },
   {
     "State": "Queensland",
     "Year": 2014,
     "GSPGrowthPercent": 1.98,
-    "NumberOfDisasters": 0
+    "NumberOfDisasters": 1
   },
   {
     "State": "Queensland",
     "Year": 2015,
     "GSPGrowthPercent": 0.84,
-    "NumberOfDisasters": 0
+    "NumberOfDisasters": 1
   },
   {
     "State": "Queensland",
@@ -999,7 +999,7 @@
     "State": "South Australia",
     "Year": 2016,
     "GSPGrowthPercent": 0.55,
-    "NumberOfDisasters": 1
+    "NumberOfDisasters": 0
   },
   {
     "State": "South Australia",
@@ -1287,7 +1287,7 @@
     "State": "Victoria",
     "Year": 1994,
     "GSPGrowthPercent": 3.38,
-    "NumberOfDisasters": 1
+    "NumberOfDisasters": 0
   },
   {
     "State": "Victoria",
@@ -1305,13 +1305,13 @@
     "State": "Victoria",
     "Year": 1997,
     "GSPGrowthPercent": 4.39,
-    "NumberOfDisasters": 0
+    "NumberOfDisasters": 1
   },
   {
     "State": "Victoria",
     "Year": 1998,
     "GSPGrowthPercent": 5.92,
-    "NumberOfDisasters": 0
+    "NumberOfDisasters": 1
   },
   {
     "State": "Victoria",
@@ -1491,7 +1491,7 @@
     "State": "Western Australia",
     "Year": 1993,
     "GSPGrowthPercent": 4.62,
-    "NumberOfDisasters": 1
+    "NumberOfDisasters": 0
   },
   {
     "State": "Western Australia",
@@ -1509,7 +1509,7 @@
     "State": "Western Australia",
     "Year": 1996,
     "GSPGrowthPercent": 5.9,
-    "NumberOfDisasters": 1
+    "NumberOfDisasters": 0
   },
   {
     "State": "Western Australia",
@@ -1527,7 +1527,7 @@
     "State": "Western Australia",
     "Year": 1999,
     "GSPGrowthPercent": 3.03,
-    "NumberOfDisasters": 2
+    "NumberOfDisasters": 1
   },
   {
     "State": "Western Australia",
@@ -1587,7 +1587,7 @@
     "State": "Western Australia",
     "Year": 2009,
     "GSPGrowthPercent": 2.37,
-    "NumberOfDisasters": 1
+    "NumberOfDisasters": 0
   },
   {
     "State": "Western Australia",
@@ -1599,7 +1599,7 @@
     "State": "Western Australia",
     "Year": 2011,
     "GSPGrowthPercent": 4.68,
-    "NumberOfDisasters": 4
+    "NumberOfDisasters": 3
   },
   {
     "State": "Western Australia",
@@ -1611,7 +1611,7 @@
     "State": "Western Australia",
     "Year": 2013,
     "GSPGrowthPercent": 6.03,
-    "NumberOfDisasters": 1
+    "NumberOfDisasters": 0
   },
   {
     "State": "Western Australia",
@@ -1623,7 +1623,7 @@
     "State": "Western Australia",
     "Year": 2015,
     "GSPGrowthPercent": 2.27,
-    "NumberOfDisasters": 1
+    "NumberOfDisasters": 0
   },
   {
     "State": "Western Australia",

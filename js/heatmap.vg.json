@@ -43,10 +43,6 @@
       "as": "Year"
     },
     {
-      "calculate": "month(datum.Month)",
-      "as": "MonthIndex"
-    },
-    {
       "calculate": "timeFormat(datum.Month, '%b')",
       "as": "MonthName"
     },
@@ -63,7 +59,6 @@
       ],
       "groupby": [
         "State",
-        "MonthIndex",
         "MonthName"
       ]
     },
@@ -156,7 +151,6 @@
           {
             "State": "Queensland",
             "Year": 2011,
-            "MonthIndex": 0,
             "MonthName": "Feb",
             "Label": "2011 floods\npush jobless up",
             "Rate": 6.1
@@ -164,7 +158,6 @@
           {
             "State": "Victoria",
             "Year": 2020,
-            "MonthIndex": 0,
             "MonthName": "Jan",
             "Label": "Black Summer smoke\nstalls hiring",
             "Rate": 5.8
@@ -172,7 +165,6 @@
           {
             "State": "New South Wales",
             "Year": 2001,
-            "MonthIndex": 11,
             "MonthName": "Aug",
             "Label": "Five major disasters\nkeep growth weak",
             "Rate": 6.0
@@ -180,7 +172,6 @@
           {
             "State": "Tasmania",
             "Year": 2013,
-            "MonthIndex": 0,
             "MonthName": "Apr",
             "Label": "Summer fires\nnudge jobless higher",
             "Rate": 8.2
